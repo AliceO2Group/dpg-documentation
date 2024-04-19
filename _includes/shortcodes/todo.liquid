@@ -4,6 +4,6 @@
         {{ __.todo | default: "Todo" }}
     </div>
     <div class="content px-2 py-3">
-        {{ codes | markdownify }}
+        {{ codes | markdownify | strip_newlines -}}
     </div>
 </div>
