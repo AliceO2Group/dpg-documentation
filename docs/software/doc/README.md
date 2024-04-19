@@ -5,9 +5,9 @@ The names of branches and tags used throughout this page are drafts and subject 
 ```
 
 ```note
-From now on, requests have to be made by labelling the corresponding PRs with the respective labels.
-Opening additional MRs in this repository is obsolete.
-For dedicated information, please see [below](#mark-prs-to-be-cherry-picked-with-labels).
+From now on, requests have to be made by labelling the corresponding PRs with the respective labels.  
+Opening additional MRs in this repository is obsolete.  
+For dedicated information, please see [below](#mark-prs-to-be-cherry-picked-with-labels).  
 ```
 
 ## Branch, cherry-pick, tag, release
@@ -57,10 +57,10 @@ To request your PR to be included in production software, please add the corresp
 
 This will add `<label1>` and `<label2>` and removes `<label3>`.
 
-**The following labels are available**
-async-2022-pp-apass4
-async-2023-pbpb-apass3
-async-2023-pp-apass4
+**The following labels are available**  
+async-2022-pp-apass4  
+async-2023-pbpb-apass3  
+async-2023-pp-apass4  
 async-2022-pp-apass6-2023-PbPb-apass2
 ```
 
