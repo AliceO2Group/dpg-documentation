@@ -42,9 +42,9 @@ Packages that will be tagged in the same way (for consistency and transparency) 
 Whenever a bug fix or required feature needs to be contained in certain branch, the PR with those development must be annotated with the label that corresponds to the branch of the desired reconstruction campaign.
 Adding such a label means to **request** that this PR should be ported into the release branches to end up in the next software tag.
 
-!!! info ""
-
-    Labels can be added anytime but only PRs that have been **merged** into the default branches can be ported.
+```note
+Labels can be added anytime but only PRs that have been **merged** into the default branches can be ported.
+```
 
 If the author of a PR has the possibility, labels can be added directly to a PR. However, if the role of the author does not allow to add labels, a comment can be issued in the PR that will trigger adding the labels.
 As of now, whenever a PR is (re)opened (so far functional in O2 and O2DPG), there will be an automatic message at as the first comment to that PR:
