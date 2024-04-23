@@ -29,6 +29,8 @@ jobs:
       - name: Get PRs
         id: get_prs
         uses: octokit/graphql-action@v2.x
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           query: |
             query {
