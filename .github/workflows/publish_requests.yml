@@ -4,9 +4,9 @@ on:
   # schedule:
   #   - cron: '17 1 * * *'  # 01:17 every night
 jobs:
-  datamodel-doc:
+  pr-requests:
     runs-on: ubuntu-latest
-    if: github.repository == 'AliceO2Group/AliceO2'
+    if: github.repository == 'AliceO2Group/dpg-documentation'
     steps:
 
       - name: Checkout documentation
@@ -28,59 +28,63 @@ jobs:
 
       - name: Get PRs
         id: get_prs
-        query: |
-          AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
-            pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
-              nodes {
-                number
-                title
-                createdAt
-                updatedAt
-                mergedAt
-                repository {
-                  name
-                }
-                labels {
-                  edges{
-                    node {
+        uses: octokit/graphql-action@v2.x
+        with:
+          query: |
+            query {
+              repository(owner: "AliceO2Group", name: "AliceO2") {
+                pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
+                  nodes {
+                    number
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    repository {
                       name
+                    }
+                    labels {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
                     }
                   }
                 }
-                state
-                url
-                author {
-                  login
-                }
               }
-            }
-          }
-          O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
-            pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
-              nodes {
-                number
-                title
-                createdAt
-                updatedAt
-                mergedAt
-                repository {
-                  name
-                }
-                labels {
-                  edges{
-                    node {
+              repository(owner: "AliceO2Group", name: "O2DPG") {
+                pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
+                  nodes {
+                    number
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    repository {
                       name
+                    }
+                    labels {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
                     }
                   }
                 }
-                state
-                url
-                author {
-                  login
-                }
               }
             }
-          }
 
       - name: Store PRs
         path: store-json
