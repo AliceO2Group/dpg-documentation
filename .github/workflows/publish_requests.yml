@@ -202,7 +202,7 @@ jobs:
           git commit -m 'Automatic update of PR requests'
           git remote set-url origin "https://alibuild:$GITHUB_TOKEN@github.com/AliceO2Group/dpg-documentation"
           git push -f origin auto-update-requests
-          repo_id=${jq -r '.doc.id' prs.json}
+          repo_id=$(jq -r '.doc.id' prs.json)
           echo "::set-output name=REPO_ID::${repo_id}"
 
       - name: Open PR
