@@ -103,21 +103,13 @@ jobs:
 
               for pr in prs:
 
-                  merged_at = pr['mergedAt']
-                  state = pr['state']
+                  flag = pr['state']
 
-                  if merged_at:
-                      flag = 'MERGED'
-                  elif state == 'open':
-                      flag = 'OPEN'
-                  else:
-                      flag = 'CLOSED (not merged)'
-
-                  if flag not in prs:
+                  if flag not in prs_dict:
                       prs_dict[flag] = {}
 
                   label_edges = pr.get('labels', {}).get('edges', None)
-                  if not labels:
+                  if not label_edges:
                       continue
 
                   label_names = []
@@ -154,13 +146,14 @@ jobs:
                   # nothing found
                   return
 
+              prs_dict = get_prs(prs)
+
               with open(outfile, 'w') as f:
 
                   f.write(f'# List PRs for {repo_name} (from oldest to recent)\n')
 
                   # first put the merged PRs
                   for state, prs_per_label in prs_dict.items():
-                      print(state)
 
                       f.write(f'\n\n## PRs in state {state}')
 
