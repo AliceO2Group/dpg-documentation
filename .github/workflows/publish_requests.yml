@@ -37,14 +37,10 @@ jobs:
               AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
                 pullRequests(first: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
                   nodes {
-                    number
                     title
                     createdAt
                     updatedAt
                     mergedAt
-                    repository {
-                      name
-                    }
                     labels(first:10) {
                       edges{
                         node {
@@ -63,14 +59,10 @@ jobs:
               O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
                 pullRequests(first: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
                   nodes {
-                    number
                     title
                     createdAt
                     updatedAt
                     mergedAt
-                    repository {
-                      name
-                    }
                     labels(first:10) {
                       edges{
                         node {
@@ -102,7 +94,7 @@ jobs:
         run: |
           import json
 
-          def get_prs(prs, repo_name):
+          def get_prs(prs):
               # Need to sort by
               # - MERGED or OPEN
               #   - async-labels
@@ -110,8 +102,6 @@ jobs:
               prs_dict = {}
 
               for pr in prs:
-                  if pr['repository']['name'] != repo_name:
-                      continue
 
                   merged_at = pr['mergedAt']
                   state = pr['state']
@@ -126,15 +116,26 @@ jobs:
                   if flag not in prs:
                       prs_dict[flag] = {}
 
-                  label_names = [label['name'] for label in pr['labels']]
+                  label_edges = pr.get('labels', {}).get('edges', None)
+                  if not labels:
+                      continue
+
+                  label_names = []
+                  for edge in label_edges:
+                      label_name = edge.get('node', {}).get('name', None)
+                      if not label_name:
+                          continue
+                      if not label_name.startswith('async-'):
+                          continue
+                      label_names.append(label_name)
 
                   for label_name in label_names:
 
-                      # only take the labels of interest
-                      if not label_name.startswith('async-') or label_name.endswith('-accepted'):
+                      if label_name.endswith('-accepted'):
+                          # only go ahead if not yet accepted
                           continue
 
-                      # don't list accepted again
+                      # check if the accepted label is already there
                       accepted_label_name = f'{label_name}-accepted'
                       if accepted_label_name in label_names:
                           continue
@@ -147,13 +148,11 @@ jobs:
               return prs_dict
 
 
-          def make_report(prs_json, repo_name, outfile):
-
-              prs = None
-              with open(prs_json, 'r') as f:
-                  prs = json.load(f)
-
-              prs_dict = get_prs(prs, repo_name)
+          def make_report(prs, repo_name, outfile):
+              prs = prs.get('pullRequests', {}).get('nodes', None)
+              if not prs:
+                  # nothing found
+                  return
 
               with open(outfile, 'w') as f:
 
@@ -179,11 +178,19 @@ jobs:
                           f.write(common_header)
 
                           for s, pr in sorted(zip(sort_by, pr_list)):
-                              f.write(f'| {pr["user"]["login"]} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
+                              f.write(f'| {pr['author']['login']} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
 
 
-          make_report('prs.json', 'O2DPG', 'dpg_pr_report_O2DPG.md')
-          make_report('prs.json', 'AliceO2', 'dpg_pr_report_AliceO2.md')
+          def make_markdowns(prs_json):
+              prs = None
+              with open(prs_json, 'r') as f:
+                  prs = json.load(f)
+
+              for repo_name, prs_repo in prs.items():
+                  make_report(prs_repo, repo_name, f'dpg_pr_report_{repo_name}.md')
+
+          make_markdowns('prs.json')
+
 
       - name: Add and push changes
         env:
