@@ -178,7 +178,7 @@ jobs:
                           f.write(common_header)
 
                           for s, pr in sorted(zip(sort_by, pr_list)):
-                              f.write(f'| {pr['author']['login']} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
+                              f.write(f'| {pr["author"]["login"]} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
 
 
           def make_markdowns(prs_json):
