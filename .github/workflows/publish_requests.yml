@@ -1,0 +1,180 @@
+name: Update with requested PRs
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '17 1 * * *'  # 01:17 every night
+jobs:
+  datamodel-doc:
+    runs-on: ubuntu-latest
+    if: github.repository == 'AliceO2Group/AliceO2'
+    steps:
+
+      - name: Checkout documentation
+        uses: actions/checkout@v4
+        with:
+          repository: AliceO2Group/dpg-documentation
+          path: dpg-documentation
+          persist-credentials: false
+          # To push the updated branch, we need a non-shallow clone.
+          fetch-depth: 0
+
+      - name: Create PR branch in docs
+        working-directory: dpg-documentation
+        run: |
+          git config --global user.email 'alibuild@cern.ch'
+          git config --global user.name 'ALICE Action Bot'
+          # Overwrite branch, creating a new one based on HEAD
+          git checkout -B auto-update-requests
+
+      - name: Get PRs
+        id: get_prs
+        query: |
+          AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
+            pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
+              nodes {
+                number
+                title
+                createdAt
+                updatedAt
+                mergedAt
+                repository {
+                  name
+                }
+                labels {
+                  edges{
+                    node {
+                      name
+                    }
+                  }
+                }
+                state
+                url
+                author {
+                  login
+                }
+              }
+            }
+          }
+          O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
+            pullRequests(last: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
+              nodes {
+                number
+                title
+                createdAt
+                updatedAt
+                mergedAt
+                repository {
+                  name
+                }
+                labels {
+                  edges{
+                    node {
+                      name
+                    }
+                  }
+                }
+                state
+                url
+                author {
+                  login
+                }
+              }
+            }
+          }
+
+      - name: Store PRs
+        path: store-json
+        run: |
+          cat <<\EOF > prs.json
+          ${{ steps.get_prs.outputs.data }}
+          EOF
+          cat prs.json
+
+      - name: Make the request pages
+        path: store-json
+        shell: python
+        run: |
+          import json
+
+          def get_prs(prs, repo_name):
+              # Need to sort by
+              # - MERGED or OPEN
+              #   - async-labels
+              #     - mergedAt or updatedAt
+              prs_dict = {}
+
+              for pr in prs:
+                  if pr['repository']['name'] != repo_name:
+                      continue
+
+                  merged_at = pr['mergedAt']
+                  state = pr['state']
+
+                  if merged_at:
+                      flag = 'MERGED'
+                  elif state == 'open':
+                      flag = 'OPEN'
+                  else:
+                      flag = 'CLOSED (not merged)'
+
+                  if flag not in prs:
+                      prs_dict[flag] = {}
+
+                  label_names = [label['name'] for label in pr['labels']]
+
+                  for label_name in label_names:
+
+                      # only take the labels of interest
+                      if not label_name.startswith('async-') or label_name.endswith('-accepted'):
+                          continue
+
+                      # don't list accepted again
+                      accepted_label_name = f'{label_name}-accepted'
+                      if accepted_label_name in label_names:
+                          continue
+
+                      if label_name not in prs_dict[flag]:
+                          prs_dict[flag][label_name] = []
+
+                      prs_dict[flag][label_name].append(pr)
+
+              return prs_dict
+
+
+          def make_report(prs_json, repo_name, outfile):
+
+              prs = None
+              with open(prs_json, 'r') as f:
+                  prs = json.load(f)
+
+              prs_dict = get_prs(prs, repo_name)
+
+              with open(outfile, 'w') as f:
+
+                  f.write(f'# List PRs for {repo_name} (from oldest to recent)\n')
+
+                  # first put the merged PRs
+                  for state, prs_per_label in prs_dict.items():
+                  print(state)
+
+                      f.write(f'\n\n## PRs in state {state}')
+
+                      for label_name, pr_list in prs_per_label.items():
+
+                          f.write(f'\n\n### For label {label_name}\n\n')
+
+                          sort_by = [pr['mergedAt'] for pr in pr_list]
+                          common_header = '| Author | Package | PR | PR title | State | Merged at |\n| --- | --- | --- | --- | --- | --- |\n'
+
+                          if None in sort_by:
+                              sort_by = [pr['updatedAt'] for pr in pr_list]
+                              common_header = '| Author | Package | PR | PR title | State | Updated at |\n| --- | --- | --- | --- | --- | --- |\n'
+
+                          f.write(common_header)
+
+                          for s, pr in sorted(zip(sort_by, pr_list)):
+                              f.write(f'| {pr["user"]["login"]} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
+
+
+          make_report('prs.json', 'O2DPG', 'dpg_pr_report_O2DPG.md')
+          make_report('prs.json', 'AliceO2', 'dpg_pr_report_AliceO2.md')
