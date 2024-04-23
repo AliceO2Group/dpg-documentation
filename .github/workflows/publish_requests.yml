@@ -161,7 +161,7 @@ jobs:
 
                   # first put the merged PRs
                   for state, prs_per_label in prs_dict.items():
-                  print(state)
+                      print(state)
 
                       f.write(f'\n\n## PRs in state {state}')
 
