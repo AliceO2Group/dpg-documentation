@@ -87,7 +87,7 @@ jobs:
             }
 
       - name: Store PRs
-        path: store-json
+        working-directory: store-json
         run: |
           cat <<\EOF > prs.json
           ${{ steps.get_prs.outputs.data }}
@@ -95,7 +95,7 @@ jobs:
           cat prs.json
 
       - name: Make the request pages
-        path: store-json
+        working-directory: store-json
         shell: python
         run: |
           import json
