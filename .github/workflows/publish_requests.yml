@@ -45,7 +45,7 @@ jobs:
                     repository {
                       name
                     }
-                    labels {
+                    labels(first:10) {
                       edges{
                         node {
                           name
@@ -71,7 +71,7 @@ jobs:
                     repository {
                       name
                     }
-                    labels {
+                    labels(first:10) {
                       edges{
                         node {
                           name
