@@ -34,6 +34,9 @@ jobs:
         with:
           query: |
             query {
+              dpg-documentation: repository(owner: "AliceO2Group", name: "dpg-documentation") {
+                id
+              }
               AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
                 pullRequests(first: 100, states: [OPEN, MERGED], orderBy: { field: CREATED_AT, direction: DESC }) {
                   nodes {
@@ -81,7 +84,6 @@ jobs:
             }
 
       - name: Store PRs
-        working-directory: dpg-documentation/docs/software/requests_automatic
         run: |
           cat <<\EOF > prs.json
           ${{ steps.get_prs.outputs.data }}
@@ -89,7 +91,6 @@ jobs:
           cat prs.json
 
       - name: Make the request pages
-        working-directory: dpg-documentation/docs/software/requests_automatic
         shell: python
         run: |
           import json
@@ -173,23 +174,26 @@ jobs:
                           for s, pr in sorted(zip(sort_by, pr_list)):
                               f.write(f'| {pr["author"]["login"]} | {repo_name} | [PR]({pr["url"]}) | {pr["title"]} | {state} | {s} |\n')
 
-
           def make_markdowns(prs_json):
               prs = None
               with open(prs_json, 'r') as f:
                   prs = json.load(f)
 
               for repo_name, prs_repo in prs.items():
+                  if repo_name not in ['AliceO2', 'O2DPG']:
+                      continue
                   make_report(prs_repo, repo_name, f'dpg_pr_report_{repo_name}.md')
 
           make_markdowns('prs.json')
 
 
-      - name: Add and push changes
+      - name: Add and push changes, get repo ID
+        id: add_push_repo_id
         env:
           GITHUB_TOKEN: ${{ secrets.ALIBUILD_GITHUB_TOKEN }}
-        working-directory: dpg-documentation/docs/software/requests_automatic
+        working-directory: dpg-documentation/
         run: |
+          cp ../*.md docs/software/requests_automatic
           # if git diff --quiet; then
           #   exit 0 # Nothing has changed, so no need to send a PR.
           # fi
@@ -198,6 +202,8 @@ jobs:
           git commit -m 'Automatic update of PR requests'
           git remote set-url origin "https://alibuild:$GITHUB_TOKEN@github.com/AliceO2Group/dpg-documentation"
           git push -f origin auto-update-requests
+          repo_id=${jq -r '.dpg-documentation.id' prs.json}
+          echo "::set-output name=REPO_ID::${repo_id}"
 
       - name: Open PR
         id: open_pr
@@ -223,6 +229,5 @@ jobs:
             }
           variables: |
             {
-              "repoId": "${{ env.repo_id }}"
+              "repoId": "${{ steps.add_push_repo_id.outputs.REPO_ID }}"
             }
-
