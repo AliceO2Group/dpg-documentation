@@ -89,7 +89,7 @@ jobs:
             }
 
       - name: Store PRs
-        working-directory: store-json
+        working-directory: dpg-documentation/docs/software/requests_automatic
         run: |
           cat <<\EOF > prs.json
           ${{ steps.get_prs.outputs.data }}
@@ -97,7 +97,7 @@ jobs:
           cat prs.json
 
       - name: Make the request pages
-        working-directory: store-json
+        working-directory: dpg-documentation/docs/software/requests_automatic
         shell: python
         run: |
           import json
@@ -184,3 +184,17 @@ jobs:
 
           make_report('prs.json', 'O2DPG', 'dpg_pr_report_O2DPG.md')
           make_report('prs.json', 'AliceO2', 'dpg_pr_report_AliceO2.md')
+
+      - name: Add and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.ALIBUILD_GITHUB_TOKEN }}
+        working-directory: dpg-documentation/docs/software/requests_automatic
+        run: |
+          # if git diff --quiet; then
+          #   exit 0 # Nothing has changed, so no need to send a PR.
+          # fi
+          # Add the markdown files here
+          git add *.md
+          git commit -m 'Automatic update of PR requests'
+          git remote set-url origin "https://alibuild:$GITHUB_TOKEN@github.com/AliceO2Group/dpg-documentation"
+          git push -f origin auto-update-requests
