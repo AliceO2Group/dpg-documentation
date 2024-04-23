@@ -198,3 +198,33 @@ jobs:
           git commit -m 'Automatic update of PR requests'
           git remote set-url origin "https://alibuild:$GITHUB_TOKEN@github.com/AliceO2Group/dpg-documentation"
           git push -f origin auto-update-requests
+
+      - name: Open PR
+        id: open_pr
+        uses: octokit/graphql-action@v2.x
+        env:
+          GITHUB_TOKEN: ${{ secrets.ALIBUILD_GITHUB_TOKEN }}
+          repo_id: ${{ github.repository_id }}
+        with:
+          query: |
+            mutation {
+              createPullRequest(input: {
+                repositoryId: $repoId,
+                baseRefName: "main",
+                headRefName: "auto-update-requests",
+                title: "Update requests",
+                body: ""
+              }) {
+                pullRequest {
+                  id
+                  number
+                  url
+                  mergeable
+                }
+              }
+            }
+          variables: |
+            {
+              "repoId": "${{ env.repo_id }}"
+            }
+
