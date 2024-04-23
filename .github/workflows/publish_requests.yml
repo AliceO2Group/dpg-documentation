@@ -34,7 +34,7 @@ jobs:
         with:
           query: |
             query {
-              dpg-documentation: repository(owner: "AliceO2Group", name: "dpg-documentation") {
+              "dpg-documentation": repository(owner: "AliceO2Group", name: "dpg-documentation") {
                 id
               }
               AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
