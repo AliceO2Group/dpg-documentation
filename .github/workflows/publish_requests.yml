@@ -34,7 +34,7 @@ jobs:
         with:
           query: |
             query {
-              "dpg-documentation": repository(owner: "AliceO2Group", name: "dpg-documentation") {
+              doc: repository(owner: "AliceO2Group", name: "dpg-documentation") {
                 id
               }
               AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
@@ -202,7 +202,7 @@ jobs:
           git commit -m 'Automatic update of PR requests'
           git remote set-url origin "https://alibuild:$GITHUB_TOKEN@github.com/AliceO2Group/dpg-documentation"
           git push -f origin auto-update-requests
-          repo_id=${jq -r '.dpg-documentation.id' prs.json}
+          repo_id=${jq -r '.doc.id' prs.json}
           echo "::set-output name=REPO_ID::${repo_id}"
 
       - name: Open PR
