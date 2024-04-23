@@ -207,7 +207,7 @@ jobs:
           repo_id: ${{ github.repository_id }}
         with:
           query: |
-            mutation {
+            mutation CreatePullRequest($repoId: ID!) {
               createPullRequest(input: {
                 repositoryId: $repoId,
                 baseRefName: "main",
@@ -216,10 +216,8 @@ jobs:
                 body: ""
               }) {
                 pullRequest {
-                  id
                   number
                   url
-                  mergeable
                 }
               }
             }
