@@ -3,6 +3,37 @@
 
 ## PRs in state MERGED
 
+### For label async-2023-pbpb-apass3
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1402) | Always take field for sim from CCDB | MERGED | 2024-01-10T20:31:30Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1329) | [WFRunner] Estimate resources dynamically | MERGED | 2024-01-11T15:52:33Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1413) | [WF Runner] Fix when initial resources exceed boundaries | MERGED | 2024-01-19T11:18:30Z |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1426) | Clean possibly leaked CCDB semaphores at workflow start | MERGED | 2024-02-01T09:00:13Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1476) | [SimWF] Small fixes | MERGED | 2024-02-20T09:16:39Z |
+| mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1487) | Change eta cut for TPC tracks in GLO QC. | MERGED | 2024-02-21T19:07:14Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1511) | [Anchor] Add some more help messages | MERGED | 2024-02-29T16:49:32Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1514) | [AnalysisQC] Make common args better adjustable | MERGED | 2024-03-01T11:20:05Z |
+| jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | MERGED | 2024-03-02T09:11:31Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1518) | [SimWF] Use __global_init_task__ more consistently | MERGED | 2024-03-04T11:13:49Z |
+| lmassacr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1531) | porting of MID aQC workflow to MC | MERGED | 2024-03-14T08:33:00Z |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1536) | TPC reco needs CTP digits | MERGED | 2024-03-15T14:52:55Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1532) | [WFRunner] Handle resource limits and CPU better | MERGED | 2024-03-18T14:07:10Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1543) | [SimWF] Recompute number of workers used in TFs | MERGED | 2024-03-22T14:46:53Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1551) | [SimWF] Protect the -e argument | MERGED | 2024-03-23T10:33:03Z |
+| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1540) | PWG-LF: Update the resonance injection table | MERGED | 2024-03-23T15:19:43Z |
+| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1567) | Use inelastic XS for nuclei | MERGED | 2024-04-02T17:37:08Z |
+| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1570) | Use proper hadronic process for the different nuclear species | MERGED | 2024-04-03T13:23:53Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1556) | [SimWF] Set MCANCHOR to value of LPMANCHORPASSNAME | MERGED | 2024-04-03T13:24:27Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1590) | [AnalysisQC] Change configuration logic | MERGED | 2024-04-10T15:21:47Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | MERGED | 2024-04-15T09:48:09Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | MERGED | 2024-04-19T06:50:25Z |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | MERGED | 2024-04-19T11:18:11Z |
+| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1604) | PWGLF: Disable generator for the injection script | MERGED | 2024-04-23T19:05:06Z |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1507) | TPC: Add possibility to simulate distortions | MERGED | 2024-04-24T08:43:43Z |
+
+
 ### For label async-2022-pp-apass4
 
 | Author | Package | PR | PR title | State | Merged at |
@@ -26,34 +57,6 @@
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | MERGED | 2024-04-15T09:48:09Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | MERGED | 2024-04-19T06:50:25Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | MERGED | 2024-04-19T11:18:11Z |
-
-
-### For label async-2023-pbpb-apass3
-
-| Author | Package | PR | PR title | State | Merged at |
-| --- | --- | --- | --- | --- | --- |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1329) | [WFRunner] Estimate resources dynamically | MERGED | 2024-01-11T15:52:33Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1413) | [WF Runner] Fix when initial resources exceed boundaries | MERGED | 2024-01-19T11:18:30Z |
-| mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1487) | Change eta cut for TPC tracks in GLO QC. | MERGED | 2024-02-21T19:07:14Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1511) | [Anchor] Add some more help messages | MERGED | 2024-02-29T16:49:32Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1514) | [AnalysisQC] Make common args better adjustable | MERGED | 2024-03-01T11:20:05Z |
-| jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | MERGED | 2024-03-02T09:11:31Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1518) | [SimWF] Use __global_init_task__ more consistently | MERGED | 2024-03-04T11:13:49Z |
-| lmassacr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1531) | porting of MID aQC workflow to MC | MERGED | 2024-03-14T08:33:00Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1536) | TPC reco needs CTP digits | MERGED | 2024-03-15T14:52:55Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1532) | [WFRunner] Handle resource limits and CPU better | MERGED | 2024-03-18T14:07:10Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1543) | [SimWF] Recompute number of workers used in TFs | MERGED | 2024-03-22T14:46:53Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1551) | [SimWF] Protect the -e argument | MERGED | 2024-03-23T10:33:03Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1540) | PWG-LF: Update the resonance injection table | MERGED | 2024-03-23T15:19:43Z |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1567) | Use inelastic XS for nuclei | MERGED | 2024-04-02T17:37:08Z |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1570) | Use proper hadronic process for the different nuclear species | MERGED | 2024-04-03T13:23:53Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1556) | [SimWF] Set MCANCHOR to value of LPMANCHORPASSNAME | MERGED | 2024-04-03T13:24:27Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1590) | [AnalysisQC] Change configuration logic | MERGED | 2024-04-10T15:21:47Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | MERGED | 2024-04-15T09:48:09Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | MERGED | 2024-04-19T06:50:25Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | MERGED | 2024-04-19T11:18:11Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1604) | PWGLF: Disable generator for the injection script | MERGED | 2024-04-23T19:05:06Z |
-| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1507) | TPC: Add possibility to simulate distortions | MERGED | 2024-04-24T08:43:43Z |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
