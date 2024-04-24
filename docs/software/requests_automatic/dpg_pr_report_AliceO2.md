@@ -19,7 +19,6 @@
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12767) | GPU TPC: Fix parallel linking of global tracks to local tracks | MERGED | 2024-02-27T09:31:09Z |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12783) | Set mFirstOrbitTF before updateTimeDependentParams | MERGED | 2024-02-29T12:22:46Z |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12792) | Discard afterburner tracks | MERGED | 2024-03-01T22:07:02Z |
 | martenole | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12505) | TRD shift tracklet position by one pad | MERGED | 2024-03-07T10:09:24Z |
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12866) | GPU TPC: Add extra cluster errors for CSide Sector 1/2 | MERGED | 2024-03-14T15:47:54Z |
