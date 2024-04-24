@@ -330,7 +330,7 @@ jobs:
               for repo_name, prs_repo in prs.items():
                   if 'AliceO2' not in repo_name and 'O2DPG' not in repo_name:
                       continue
-                  repo_name = repo_name.split('_').[0]
+                  repo_name = repo_name.split('_')[0]
                   prs_all[repo_name]['pullRequests']['nodes'].extend(prs_repo['pullRequests']['nodes'])
 
               for repo_name, prs_repo in prs_all.items():
