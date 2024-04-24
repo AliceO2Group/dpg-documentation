@@ -32,24 +32,8 @@
 
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1325) | Change --require-tpc-lumi option to --lumi-type <type> | MERGED | 2023-11-14T13:20:28Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1379) | Seed digitizers to TF seeds for reproducible operation | MERGED | 2023-12-11T17:14:16Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1395) | Adjust mem estimates for sgnsim and tpcdigi | MERGED | 2024-01-10T14:03:43Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1329) | [WFRunner] Estimate resources dynamically | MERGED | 2024-01-11T15:52:33Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1413) | [WF Runner] Fix when initial resources exceed boundaries | MERGED | 2024-01-19T11:18:30Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1416) | [SimWF] Always set a process for Pythia8 | MERGED | 2024-01-22T15:30:54Z |
-| catalinristea | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1340) | new anchoredMC.sh for nowadays productions | MERGED | 2024-01-22T16:35:45Z |
-| njacazio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1419) | Update hadronic cross section in injected MC  | MERGED | 2024-01-25T10:37:06Z |
-| catalinristea | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1420) | Update anchorMC.sh - removing the use of ideal MFT/ITS alignments | MERGED | 2024-01-31T15:22:40Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1432) | Possibility to take external config for Pythia8 | MERGED | 2024-02-01T08:59:58Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1437) | [SimWF] Comments for anchored WF script | MERGED | 2024-02-05T11:24:44Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1452) | Anchoring: Ability to get detector list from GRPECS | MERGED | 2024-02-12T13:12:11Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1441) |  [SimWF] Update reco and sources | MERGED | 2024-02-13T15:04:17Z |
-| catalinristea | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1462) | Update anchorMC.sh - added proc arg | MERGED | 2024-02-15T07:09:12Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1466) | Revert "Update anchorMC.sh - added proc arg" | MERGED | 2024-02-16T09:40:18Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1443) | Fix type error in pipeline runner | MERGED | 2024-02-19T08:03:22Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1471) | pipeline_runner: Fix script creation | MERGED | 2024-02-19T08:25:48Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1463) | [AnchorMC] Allow for any additional option for sim WF | MERGED | 2024-02-19T09:15:06Z |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1487) | Change eta cut for TPC tracks in GLO QC. | MERGED | 2024-02-21T19:07:14Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1511) | [Anchor] Add some more help messages | MERGED | 2024-02-29T16:49:32Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1514) | [AnalysisQC] Make common args better adjustable | MERGED | 2024-03-01T11:20:05Z |
@@ -95,10 +79,6 @@
 
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1325) | Change --require-tpc-lumi option to --lumi-type <type> | MERGED | 2023-11-14T13:20:28Z |
-| jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | MERGED | 2024-03-02T09:11:31Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1518) | [SimWF] Use __global_init_task__ more consistently | MERGED | 2024-03-04T11:13:49Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1536) | TPC reco needs CTP digits | MERGED | 2024-03-15T14:52:55Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1543) | [SimWF] Recompute number of workers used in TFs | MERGED | 2024-03-22T14:46:53Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1551) | [SimWF] Protect the -e argument | MERGED | 2024-03-23T10:33:03Z |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1540) | PWG-LF: Update the resonance injection table | MERGED | 2024-03-23T15:19:43Z |
