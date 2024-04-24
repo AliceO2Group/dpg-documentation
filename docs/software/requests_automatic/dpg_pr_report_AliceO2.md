@@ -40,7 +40,6 @@
 
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
-| martenole | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/11661) | TRD new structure for Tracklet64 | MERGED | 2023-07-19T12:26:23Z |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12891) | MCTrack: Calculate energy in double | MERGED | 2024-03-19T19:48:56Z |
 | BongHwi | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12896) | ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 | MERGED | 2024-03-22T15:05:04Z |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12924) | Workflow to update RCT with ts of 1st/last TFs seen | MERGED | 2024-03-25T17:59:45Z |
