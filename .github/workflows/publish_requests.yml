@@ -39,7 +39,7 @@ jobs:
                 id
               }
               AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
-                pullRequests(first: 100, states: [OPEN, MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                pullRequests(first: 100, states: [MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
                     title
                     createdAt
@@ -62,7 +62,7 @@ jobs:
                 }
               }
               O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
-                pullRequests(first: 100, states: [OPEN, MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                pullRequests(first: 100, states: [MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
                     title
                     createdAt
