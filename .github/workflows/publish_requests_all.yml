@@ -1,9 +1,6 @@
 name: Update with requested PRs
 on:
   workflow_dispatch:
-  schedule: # run Tuesdays and Wednesdays at 12:00
-    - cron: '0 12 * * 2'
-    - cron: '0 12 * * 3'
 jobs:
   pr-requests:
     runs-on: ubuntu-latest
@@ -38,8 +35,8 @@ jobs:
               doc: repository(owner: "AliceO2Group", name: "dpg-documentation") {
                 id
               }
-              AliceO2: repository(owner: "AliceO2Group", name: "AliceO2") {
-                pullRequests(first: 100, states: [MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
+              AliceO2_1: repository(owner: "AliceO2Group", name: "AliceO2") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2023-pbpb-apass3"], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
                     title
                     createdAt
@@ -61,8 +58,146 @@ jobs:
                   }
                 }
               }
-              O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
-                pullRequests(first: 100, states: [MERGED], orderBy: { field: UPDATED_AT, direction: DESC }) {
+              AliceO2_2: repository(owner: "AliceO2Group", name: "AliceO2") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2023-pbpb-apass4"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              AliceO2_3: repository(owner: "AliceO2Group", name: "AliceO2") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2022-pp-apass6-2023-PbPb-apass2"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              AliceO2_4: repository(owner: "AliceO2Group", name: "AliceO2") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2022-pp-apass4"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              O2DPG_1: repository(owner: "AliceO2Group", name: "O2DPG") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2023-pbpb-apass3"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              O2DPG_2: repository(owner: "AliceO2Group", name: "O2DPG") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2023-pbpb-apass4"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              O2DPG_3: repository(owner: "AliceO2Group", name: "O2DPG") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2022-pp-apass6-2023-PbPb-apass2"], orderBy: { field: UPDATED_AT, direction: DESC }) {
+                  nodes {
+                    title
+                    createdAt
+                    updatedAt
+                    mergedAt
+                    number
+                    labels(first:10) {
+                      edges{
+                        node {
+                          name
+                        }
+                      }
+                    }
+                    state
+                    url
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+              O2DPG_4: repository(owner: "AliceO2Group", name: "O2DPG") {
+                pullRequests(first: 100, states: [MERGED, OPEN], labels: ["async-2022-pp-apass4"], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
                     title
                     createdAt
@@ -191,9 +326,14 @@ jobs:
               with open(prs_json, 'r') as f:
                   prs = json.load(f)
 
+              prs_all = {'AliceO2': {'pullRequests': {'nodes': []}}, 'O2DPG': {'pullRequests': {'nodes': []}}}
               for repo_name, prs_repo in prs.items():
-                  if repo_name not in ['AliceO2', 'O2DPG']:
+                  if 'AliceO2' not in repo_name and 'O2DPG' not in repo_name:
                       continue
+                  repo_name = repo_name.split('_').[0]
+                  prs_all[repo_name]['pullRequests']['nodes'].extend(prs_repo)
+
+              for repo_name, prs_repo in prs_all.items():
                   make_report(prs_repo, repo_name, f'dpg_pr_report_{repo_name}.md')
 
           make_markdowns('prs.json')
