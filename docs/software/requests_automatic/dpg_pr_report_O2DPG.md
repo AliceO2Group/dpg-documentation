@@ -65,6 +65,7 @@
 
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
+| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1514) | [AnalysisQC] Make common args better adjustable | MERGED | 2024-03-01T11:20:05Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1518) | [SimWF] Use __global_init_task__ more consistently | MERGED | 2024-03-04T11:13:49Z |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1536) | TPC reco needs CTP digits | MERGED | 2024-03-15T14:52:55Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1551) | [SimWF] Protect the -e argument | MERGED | 2024-03-23T10:33:03Z |
