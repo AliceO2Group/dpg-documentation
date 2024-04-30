@@ -1,6 +1,40 @@
 # List PRs for O2DPG (from oldest to recent)
 
 
+## PRs in state OPEN
+
+### For label async-2022-pp-apass4
+
+| Author | Package | PR | PR title | State | Updated at |
+| --- | --- | --- | --- | --- | --- |
+| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
+
+
+### For label async-2023-pbpb-apass3
+
+| Author | Package | PR | PR title | State | Updated at |
+| --- | --- | --- | --- | --- | --- |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
+| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
+
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | State | Updated at |
+| --- | --- | --- | --- | --- | --- |
+| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1520) | Add configuration pbpb, update configuration pp | OPEN | 2024-04-18T11:47:19Z |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
+| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
+
+
+### For label async-2022-pp-apass6-2023-PbPb-apass2
+
+| Author | Package | PR | PR title | State | Updated at |
+| --- | --- | --- | --- | --- | --- |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
+| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
+
+
 ## PRs in state MERGED
 
 ### For label async-2023-pbpb-apass4
@@ -71,37 +105,3 @@
 | --- | --- | --- | --- | --- | --- |
 | jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | MERGED | 2024-03-02T09:11:31Z |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1608) | PWGLF: Update the number of injected particle for PbPb | MERGED | 2024-04-25T12:14:06Z |
-
-
-## PRs in state OPEN
-
-### For label async-2022-pp-apass4
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
-
-
-### For label async-2023-pbpb-apass3
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
-| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
-
-
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1520) | Add configuration pbpb, update configuration pp | OPEN | 2024-04-18T11:47:19Z |
-| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
-| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
-
-
-### For label async-2022-pp-apass6-2023-PbPb-apass2
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
-| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-04-26T08:49:39Z |
