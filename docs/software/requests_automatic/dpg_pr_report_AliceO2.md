@@ -14,6 +14,7 @@
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12891) | MCTrack: Calculate energy in double | MERGED | 2024-03-19T19:48:56Z |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12920) | More flexibel use of event setup from collisioncontext | MERGED | 2024-04-02T20:03:02Z |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13062) | Account ITS/MFT ROF start shift in AOD ITS/MFT standalone tracks time | MERGED | 2024-04-22T21:02:20Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13100) | V0: Fix wrong V0 Photon TPConly cut | MERGED | 2024-04-30T23:11:52Z |
 
 
 ### For label async-2022-pp-apass4
