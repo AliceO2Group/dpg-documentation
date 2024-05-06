@@ -18,6 +18,7 @@
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1604) | PWGLF: Disable generator for the injection script | MERGED | 2024-04-23T19:05:06Z |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1507) | TPC: Add possibility to simulate distortions | MERGED | 2024-04-24T08:43:43Z |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1608) | PWGLF: Update the number of injected particle for PbPb | MERGED | 2024-04-25T12:14:06Z |
+| grundd | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1615) | MFT json files: revert to 2ce7d32 | MERGED | 2024-05-03T12:21:15Z |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
