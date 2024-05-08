@@ -1,7 +1,16 @@
 # List PRs for AliceO2 (from oldest to recent)
 
 
+## PRs in state OPEN
+
 ## PRs in state MERGED
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+
 
 ### For label async-2022-pp-apass4
 
@@ -29,12 +38,3 @@
 | BongHwi | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12896) | ParticleDatabase: Update Lambda(1520) info according to the latest Pythia8 | MERGED | 2024-03-22T15:05:04Z |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/12924) | Workflow to update RCT with ts of 1st/last TFs seen | MERGED | 2024-03-25T17:59:45Z |
 | ktf | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13061) | CCDBApi: avoid leaking curl handle. | MERGED | 2024-04-23T13:44:47Z |
-
-
-## PRs in state OPEN
-
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | OPEN | 2024-05-07T13:39:31Z |
