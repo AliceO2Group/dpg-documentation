@@ -81,6 +81,7 @@
 | mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
 | hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-05-06T09:25:36Z |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1621) | ITS: add deltaRof=1 in async settings | OPEN | 2024-05-10T13:28:06Z |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | OPEN | 2024-05-14T09:24:20Z |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
