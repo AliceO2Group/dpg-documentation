@@ -3,34 +3,6 @@
 
 ## PRs in state MERGED
 
-### For label async-2022-pp-apass6-2023-PbPb-apass2
-
-| Author | Package | PR | PR title | State | Merged at |
-| --- | --- | --- | --- | --- | --- |
-| njacazio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1417) | TOF: align analysis QC | MERGED | 2024-01-23T11:21:31Z |
-| andreasmolander | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1423) | Add FT0 QA to analysis QC | MERGED | 2024-01-31T11:34:57Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1426) | Clean possibly leaked CCDB semaphores at workflow start | MERGED | 2024-02-01T09:00:13Z |
-| njacazio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1425) | TOF: add good match in anQC | MERGED | 2024-02-06T08:54:04Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1476) | [SimWF] Small fixes | MERGED | 2024-02-20T09:16:39Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1514) | [AnalysisQC] Make common args better adjustable | MERGED | 2024-03-01T11:20:05Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1518) | [SimWF] Use __global_init_task__ more consistently | MERGED | 2024-03-04T11:13:49Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1534) | Update Lambda1520 pdg code | MERGED | 2024-03-15T09:37:51Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1536) | TPC reco needs CTP digits | MERGED | 2024-03-15T14:52:55Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1551) | [SimWF] Protect the -e argument | MERGED | 2024-03-23T10:33:03Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1540) | PWG-LF: Update the resonance injection table | MERGED | 2024-03-23T15:19:43Z |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1567) | Use inelastic XS for nuclei | MERGED | 2024-04-02T17:37:08Z |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1570) | Use proper hadronic process for the different nuclear species | MERGED | 2024-04-03T13:23:53Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1556) | [SimWF] Set MCANCHOR to value of LPMANCHORPASSNAME | MERGED | 2024-04-03T13:24:27Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1580) | Update Resonance injection scripts | MERGED | 2024-04-08T09:44:52Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1590) | [AnalysisQC] Change configuration logic | MERGED | 2024-04-10T15:21:47Z |
-| dsekihat | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1583) | MC/config/PWGEM: add Generator.C and ini for LF->ee/gamma in PWGEM | MERGED | 2024-04-13T09:06:55Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | MERGED | 2024-04-15T09:48:09Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | MERGED | 2024-04-19T06:50:25Z |
-| benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | MERGED | 2024-04-19T11:18:11Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1604) | PWGLF: Disable generator for the injection script | MERGED | 2024-04-23T19:05:06Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1608) | PWGLF: Update the number of injected particle for PbPb | MERGED | 2024-04-25T12:14:06Z |
-
-
 ### For label async-2022-pp-apass4
 
 | Author | Package | PR | PR title | State | Merged at |
@@ -62,6 +34,29 @@
 | --- | --- | --- | --- | --- | --- |
 | jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | MERGED | 2024-03-02T09:11:31Z |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1608) | PWGLF: Update the number of injected particle for PbPb | MERGED | 2024-04-25T12:14:06Z |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
+
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
+
+
+### For label async-2022-pp-apass6-2023-PbPb-apass2
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| dsekihat | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1583) | MC/config/PWGEM: add Generator.C and ini for LF->ee/gamma in PWGEM | MERGED | 2024-04-13T09:06:55Z |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
+
+
+### For label async-2023-pp-apass4
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
 
 
 ### For label async-2024-pp-apass1
@@ -69,6 +64,14 @@
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1622) | By default use ans-version 1.0 for skimmed CTF output | MERGED | 2024-05-14T10:02:24Z |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | MERGED | 2024-05-14T16:18:50Z |
 
 
 ## PRs in state OPEN
