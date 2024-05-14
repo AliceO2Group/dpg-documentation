@@ -36,3 +36,6 @@
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+
+
+## PRs in state OPEN
