@@ -1,8 +1,6 @@
 # List PRs for QualityControl (from oldest to recent)
 
 
-## PRs in state OPEN
-
 ## PRs in state MERGED
 
 ### For label async-2023-pbpb-apass4
@@ -10,3 +8,27 @@
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
 | shahor02 | QualityControl | [PR](https://github.com/AliceO2Group/QualityControl/pull/2283) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-08T08:40:38Z |
+
+
+### For label async-2024-pp-cpass0
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | QualityControl | [PR](https://github.com/AliceO2Group/QualityControl/pull/2283) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-08T08:40:38Z |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | QualityControl | [PR](https://github.com/AliceO2Group/QualityControl/pull/2283) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-08T08:40:38Z |
+
+
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | QualityControl | [PR](https://github.com/AliceO2Group/QualityControl/pull/2283) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-08T08:40:38Z |
+
+
+## PRs in state OPEN

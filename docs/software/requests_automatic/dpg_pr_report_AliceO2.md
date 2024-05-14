@@ -36,6 +36,31 @@
 | Author | Package | PR | PR title | State | Merged at |
 | --- | --- | --- | --- | --- | --- |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13120) | Data: Change default compression mode to recommended settings | MERGED | 2024-05-09T14:05:52Z |
+
+
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13120) | Data: Change default compression mode to recommended settings | MERGED | 2024-05-09T14:05:52Z |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13120) | Data: Change default compression mode to recommended settings | MERGED | 2024-05-09T14:05:52Z |
+
+
+### For label async-2024-pp-cpass0
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13119) | Do not const_cast/modify sh.mem. objetcs from upstream procsesses | MERGED | 2024-05-07T18:03:07Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13120) | Data: Change default compression mode to recommended settings | MERGED | 2024-05-09T14:05:52Z |
 
 
 ## PRs in state OPEN
