@@ -3,6 +3,13 @@
 
 ## PRs in state MERGED
 
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1622) | By default use ans-version 1.0 for skimmed CTF output | MERGED | 2024-05-14T10:02:24Z |
+
+
 ### For label async-2023-pbpb-apass3
 
 | Author | Package | PR | PR title | State | Merged at |
@@ -23,7 +30,6 @@
 | fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1570) | Use proper hadronic process for the different nuclear species | MERGED | 2024-04-03T13:23:53Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1556) | [SimWF] Set MCANCHOR to value of LPMANCHORPASSNAME | MERGED | 2024-04-03T13:24:27Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1590) | [AnalysisQC] Change configuration logic | MERGED | 2024-04-10T15:21:47Z |
-| dsekihat | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1583) | MC/config/PWGEM: add Generator.C and ini for LF->ee/gamma in PWGEM | MERGED | 2024-04-13T09:06:55Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | MERGED | 2024-04-15T09:48:09Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | MERGED | 2024-04-19T06:50:25Z |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | MERGED | 2024-04-19T11:18:11Z |
@@ -58,6 +64,17 @@
 
 ## PRs in state OPEN
 
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | State | Updated at |
+| --- | --- | --- | --- | --- | --- |
+| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1520) | Add configuration pbpb, update configuration pp | OPEN | 2024-04-18T11:47:19Z |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
+| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-05-06T09:25:36Z |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1621) | ITS: add deltaRof=1 in async settings | OPEN | 2024-05-10T13:28:06Z |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | OPEN | 2024-05-14T09:24:20Z |
+
+
 ### For label async-2022-pp-apass4
 
 | Author | Package | PR | PR title | State | Updated at |
@@ -71,17 +88,6 @@
 | --- | --- | --- | --- | --- | --- |
 | mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
 | hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-05-06T09:25:36Z |
-
-
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | State | Updated at |
-| --- | --- | --- | --- | --- | --- |
-| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1520) | Add configuration pbpb, update configuration pp | OPEN | 2024-04-18T11:47:19Z |
-| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | [WIP] Remove option ctp-readout-create | OPEN | 2024-04-24T15:06:00Z |
-| hkoley | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1610) | Fix for trigger function | OPEN | 2024-05-06T09:25:36Z |
-| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1621) | ITS: add deltaRof=1 in async settings | OPEN | 2024-05-10T13:28:06Z |
-| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | OPEN | 2024-05-14T09:24:20Z |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
