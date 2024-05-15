@@ -3,6 +3,13 @@
 
 ## PRs in state MERGED
 
+### For label async-2022-pp-apass6-2023-PbPb-apass2
+
+| Author | Package | PR | PR title | State | Merged at |
+| --- | --- | --- | --- | --- | --- |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13000) | Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… | MERGED | 2024-04-09T18:58:03Z |
+
+
 ### For label async-2022-pp-apass4
 
 | Author | Package | PR | PR title | State | Merged at |
