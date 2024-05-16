@@ -1,18 +1,6 @@
 # List PRs in state MERGED (from oldest to recent)
 
 
-### For label async-2022-pp-apass6-2023-PbPb-apass2
-
-| Author | Package | PR | PR title | Merged at |
-| --- | --- | --- | --- | --- |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1488) | Update hypernuclei gun for pp | 2024-02-23T07:29:34Z |
-| fmazzasc | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1484) | Add gun for (hyper)nuclei in PbPb | 2024-02-23T07:30:12Z |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13000) | Digitization: Fix timestamps for querying CCDB when using BasicCCDBMa… | 2024-04-09T18:58:03Z |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1587) | Fix options for collision context creation in (old) embedding path | 2024-04-12T08:37:51Z |
-| dsekihat | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1583) | MC/config/PWGEM: add Generator.C and ini for LF->ee/gamma in PWGEM | 2024-04-13T09:06:55Z |
-| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
-
-
 ### For label async-2022-pp-apass4
 
 | Author | Package | PR | PR title | Merged at |
@@ -42,23 +30,7 @@
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | 2024-04-19T11:18:11Z |
 
 
-### For label async-2023-pbpb-apass3
-
-| Author | Package | PR | PR title | Merged at |
-| --- | --- | --- | --- | --- |
-| jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | 2024-03-02T09:11:31Z |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1608) | PWGLF: Update the number of injected particle for PbPb | 2024-04-25T12:14:06Z |
-| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
-
-
 ### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | Merged at |
-| --- | --- | --- | --- | --- |
-| miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
-
-
-### For label async-2023-pp-apass4
 
 | Author | Package | PR | PR title | Merged at |
 | --- | --- | --- | --- | --- |
@@ -79,6 +51,13 @@
 | --- | --- | --- | --- | --- |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z |
+
+
+### For label async-2023-pbpb-apass3
+
+| Author | Package | PR | PR title | Merged at |
+| --- | --- | --- | --- | --- |
+| jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | 2024-03-02T09:11:31Z |
 
 
 ### For label async-2024-pp-cpass0
