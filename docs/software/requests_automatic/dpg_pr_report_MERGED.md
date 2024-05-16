@@ -78,3 +78,11 @@
 | Author | Package | PR | PR title | Merged at |
 | --- | --- | --- | --- | --- |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z |
+
+
+### For label async-2024-pp-cpass0
+
+| Author | Package | PR | PR title | Merged at |
+| --- | --- | --- | --- | --- |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z |
