@@ -10,7 +10,7 @@
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1621) | ITS: add deltaRof=1 in async settings | 2024-05-10T13:28:06Z |
 | mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | Remove option ctp-readout-create | 2024-05-15T13:46:41Z |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | 2024-05-16T11:42:42Z |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13058) | add trk res in TOF match chi2 | 2024-05-17T07:52:15Z |
+| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13058) | add trk res in TOF match chi2 | 2024-05-17T07:57:53Z |
 
 
 ### For label async-2023-pbpb-apass3
