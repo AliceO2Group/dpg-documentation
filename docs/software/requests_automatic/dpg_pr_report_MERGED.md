@@ -35,6 +35,7 @@
 | Author | Package | PR | PR title | Merged at |
 | --- | --- | --- | --- | --- |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13131) | AOD: Add TPC time0 option B | 2024-05-16T12:08:56Z |
 
 
 ### For label async-2024-pp-apass1
@@ -43,6 +44,7 @@
 | --- | --- | --- | --- | --- |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1622) | By default use ans-version 1.0 for skimmed CTF output | 2024-05-14T10:02:24Z |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13131) | AOD: Add TPC time0 option B | 2024-05-16T12:08:56Z |
 
 
 ### For label async-2022-pp-apass7
