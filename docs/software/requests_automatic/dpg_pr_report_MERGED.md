@@ -28,6 +28,7 @@
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1594) | [AnalysisQC] Align some depending code | 2024-04-15T09:48:09Z | 1 | 281b243753602da1d3c1cb6f8fc4d563fd250ca6 |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | 2024-04-19T06:50:25Z | 2 | 629736159a2ccdb9a7c95b782548d1bf9f133ade |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | 2024-04-19T11:18:11Z | 2 | 51b6c24ac3755246bf7b8e877cea523ecadbee00 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 
 
 ### For label async-2023-pbpb-apass4
@@ -35,7 +36,9 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13131) | AOD: Add TPC time0 option B | 2024-05-16T12:08:56Z | 4 | 08d9479cb3a7e75c10789da8b01430bf6fcfce53 |
+| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13058) | add trk res in TOF match chi2 | 2024-05-19T19:45:41Z | 2 | e95263359963f96ce97c35f0e9fbc6c8276983a4 |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z | 2 | 62f23cbab5b5f205d1f484644ae18420e359a261 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 
 
 ### For label async-2024-pp-apass1
@@ -43,6 +46,7 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13131) | AOD: Add TPC time0 option B | 2024-05-16T12:08:56Z | 4 | 08d9479cb3a7e75c10789da8b01430bf6fcfce53 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13147) | mch-digit-reader uses --mch-digit-infile and not --infile | 2024-05-18T19:38:47Z | 1 | b518797699ab5f113be52093a5a5209358a43ff3 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1622) | By default use ans-version 1.0 for skimmed CTF output | 2024-05-14T10:02:24Z | 1 | ef6431c857d59a030923b13977c20a13a228dd94 |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z | 2 | 62f23cbab5b5f205d1f484644ae18420e359a261 |
 
@@ -51,8 +55,19 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13147) | mch-digit-reader uses --mch-digit-infile and not --infile | 2024-05-18T19:38:47Z | 1 | b518797699ab5f113be52093a5a5209358a43ff3 |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z | 2 | 62f23cbab5b5f205d1f484644ae18420e359a261 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z | 2 | d97ef42db4a5ed26ef22317269a3d032a92c0af7 |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1634) | Restore space in the var. expansion and add default ALIEN_PROC_ID | 2024-05-17T14:18:47Z | 1 | 01833dc2d26e076b7f3165e2be9a7fd363f18f58 |
+
+
+### For label async-2024-pp-cpass0
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13147) | mch-digit-reader uses --mch-digit-infile and not --infile | 2024-05-18T19:38:47Z | 1 | b518797699ab5f113be52093a5a5209358a43ff3 |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z | 2 | d97ef42db4a5ed26ef22317269a3d032a92c0af7 |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1634) | Restore space in the var. expansion and add default ALIEN_PROC_ID | 2024-05-17T14:18:47Z | 1 | 01833dc2d26e076b7f3165e2be9a7fd363f18f58 |
 
 
 ### For label async-2023-pbpb-apass3
@@ -60,10 +75,11 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | 2024-03-02T09:11:31Z | 3 | c95a0484615cc6970332498d1d437f40ca84c173 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 
 
-### For label async-2024-pp-cpass0
+### For label async-2022-pp-apass6-2023-PbPb-apass2
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1629) | Fixes for workflow-multiplicities and setVarsFromALIEN_PROC_ID scripts | 2024-05-15T15:44:53Z | 2 | d97ef42db4a5ed26ef22317269a3d032a92c0af7 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
