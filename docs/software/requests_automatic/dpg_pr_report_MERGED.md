@@ -42,6 +42,7 @@
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | 2024-05-21T13:55:15Z | 1 | 721e4c7271583215e04025729b67d9553b9c9f31 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | Remove option ctp-readout-create | 2024-05-22T13:47:32Z | 1 | 6b4452c9b7f16c2c62376d23d3a1f258085f8d23 |
 
 
 ### For label async-2024-pp-apass1
@@ -80,6 +81,7 @@
 | jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | 2024-03-02T09:11:31Z | 3 | c95a0484615cc6970332498d1d437f40ca84c173 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | Remove option ctp-readout-create | 2024-05-22T13:47:32Z | 1 | 6b4452c9b7f16c2c62376d23d3a1f258085f8d23 |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
@@ -88,3 +90,4 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
+| mfasDa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1607) | Remove option ctp-readout-create | 2024-05-22T13:47:32Z | 1 | 6b4452c9b7f16c2c62376d23d3a1f258085f8d23 |
