@@ -29,6 +29,7 @@
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1600) | [AnalysisQC] Small fix, add comments | 2024-04-19T06:50:25Z | 2 | 629736159a2ccdb9a7c95b782548d1bf9f133ade |
 | benedikt-voelkel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1597) | [Anchor] Use STF and ETF | 2024-04-19T11:18:11Z | 2 | 51b6c24ac3755246bf7b8e877cea523ecadbee00 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
 
 
 ### For label async-2023-pbpb-apass4
@@ -39,6 +40,8 @@
 | noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13058) | add trk res in TOF match chi2 | 2024-05-19T19:45:41Z | 2 | e95263359963f96ce97c35f0e9fbc6c8276983a4 |
 | miranov25 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1627) | MC skimmed data reducing sampling from 0.1 to 0.01 | 2024-05-14T16:18:50Z | 2 | 62f23cbab5b5f205d1f484644ae18420e359a261 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1624) | TPC: Update stochastic cluster and systematic track errors | 2024-05-21T13:55:15Z | 1 | 721e4c7271583215e04025729b67d9553b9c9f31 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
 
 
 ### For label async-2024-pp-apass1
@@ -76,6 +79,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | jezwilkinson | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1493) | Fix converter logic for o2-analysis-v0converter in test workflow | 2024-03-02T09:11:31Z | 3 | c95a0484615cc6970332498d1d437f40ca84c173 |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
 
 
 ### For label async-2022-pp-apass6-2023-PbPb-apass2
@@ -83,3 +87,4 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1638) | Pythia8 events with pt>ptLeading and PDG of interest | 2024-05-20T10:50:27Z | 1 | 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8 |
+| alcaliva | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1639) | pythia8 events with (anti)deuterons and high pt | 2024-05-21T20:29:03Z | 1 | 9fcc96dabf5a73cf35b2f8b75ad471a70291e519 |
