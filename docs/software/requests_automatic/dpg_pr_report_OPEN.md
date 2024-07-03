@@ -1,4 +1,32 @@
-# List PRs in state OPEN (from oldest to recent per package), last update: 2024-07-03 12:18 
+# List PRs in state OPEN (from oldest to recent per package), last update: 2024-07-03 15:04 
+
+
+### For label async-2023-pp-apass4
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1685) | [async ITS]: Remove deltaRof=1 in pp | 2024-07-03T12:41:08Z | 1 | - |
+
+
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1685) | [async ITS]: Remove deltaRof=1 in pp | 2024-07-03T12:41:08Z | 1 | - |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1685) | [async ITS]: Remove deltaRof=1 in pp | 2024-07-03T12:41:08Z | 1 | - |
+
+
+### For label async-2024-pp-cpass0
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1685) | [async ITS]: Remove deltaRof=1 in pp | 2024-07-03T12:41:08Z | 1 | - |
 
 
 ### For label async-2023-pbpb-apass3
