@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-07 11:08 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-07 11:52 
 
 
 ### For label async-2023-pbpb-apass4
@@ -6,13 +6,10 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | pbuehler | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13286) | Improved treatment of recursive defines | 2024-07-15 13:06:32 | at least 2 | 8df6e89544d1f39fc86835a39d0e427f78544aca |
-| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13306) | ITS: Add second iteration for the seeding vertexer | 2024-07-18 23:46:57 | at least 2 | 710d1c80fe70f6c689b85d07a2153b47a2eb99aa |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13339) | GLO: Revert changes on CMakeLists | 2024-07-29 08:25:47 | 1 | 175e6acf280bcc5d1eaedfea6f19c8bd20829447 |
 | fmazzasc | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13347) | [StrangenessTracking] Pass ITS cluster information to AO2Ds | 2024-08-02 21:37:57 | 1 | 8234357cb2e2fa2bf8aa53629a4b7fe5cc6732b1 |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1709) | PWGHF: restore SigmaC0 decays in MC config. | 2024-07-22 18:36:53 | 1 | 9a5a25405614cde2838d50565beaf000b4853c5e |
 | Luca610 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1710) | PWGHF: add ini for D resonances MCs for pp collisions | 2024-07-23 09:45:58 | at least 2 | 945d7f24b50ffef39771704ce3cd2c920504ec6a |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1705) | [PWGDQ] Adding scripts to run DQ simulations in Pb-Pb collisions | 2024-07-23 14:03:24 | at least 2 | d13558d48fe5e975d7d00b08638a77294be2500e |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1713) | Activate non-invasive UPC settings for pbpb reconstruction | 2024-07-25 15:49:19 | 1 | 591af0c90ed65635a5dee241cbb71b789d34f46f |
 | stefanopolitano | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1715) | PWGHF: adjust mother-daughter indexing in generator | 2024-07-30 17:32:14 | 1 | dc9979282846641ea56c0d78fbe2851886cfa9f9 |
 | DelloStritto | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1718) | Add D0 decay in K pi pi0 | 2024-08-01 21:40:25 | at least 2 | 0626bc60f75ac63869a39a49043d8f2b3fa3902e |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1716) | PWGHF: development to embed in Pb-Pb bkg event only HF particles from pp events | 2024-08-06 21:27:20 | at least 2 | f919a5180f3216e88e48d8f91995af5f971df9e5 |
