@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-07 14:19 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-07 15:48 
 
 
 ### For label async-2023-pbpb-apass3
@@ -30,6 +30,7 @@
 | stefanopolitano | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1715) | PWGHF: adjust mother-daughter indexing in generator | 2024-07-30 17:32:14 | 1 | dc9979282846641ea56c0d78fbe2851886cfa9f9 |
 | DelloStritto | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1718) | Add D0 decay in K pi pi0 | 2024-08-01 21:40:25 | at least 2 | 0626bc60f75ac63869a39a49043d8f2b3fa3902e |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1716) | PWGHF: development to embed in Pb-Pb bkg event only HF particles from pp events | 2024-08-06 21:27:20 | at least 2 | f919a5180f3216e88e48d8f91995af5f971df9e5 |
+| ddobrigk | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1721) | Synthetic flow generator added | 2024-08-07 15:43:35 | at least 2 | c2b733fb8771acbf2867cb39259e851422fea6f6 |
 
 
 ### For label async-2023-pp-apass4
@@ -66,6 +67,7 @@
 | stefanopolitano | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1715) | PWGHF: adjust mother-daughter indexing in generator | 2024-07-30 17:32:14 | 1 | dc9979282846641ea56c0d78fbe2851886cfa9f9 |
 | DelloStritto | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1718) | Add D0 decay in K pi pi0 | 2024-08-01 21:40:25 | at least 2 | 0626bc60f75ac63869a39a49043d8f2b3fa3902e |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1716) | PWGHF: development to embed in Pb-Pb bkg event only HF particles from pp events | 2024-08-06 21:27:20 | at least 2 | f919a5180f3216e88e48d8f91995af5f971df9e5 |
+| ddobrigk | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1721) | Synthetic flow generator added | 2024-08-07 15:43:35 | at least 2 | c2b733fb8771acbf2867cb39259e851422fea6f6 |
 
 
 ### For label async-2022-pp-apass7
@@ -86,6 +88,7 @@
 | stefanopolitano | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1715) | PWGHF: adjust mother-daughter indexing in generator | 2024-07-30 17:32:14 | 1 | dc9979282846641ea56c0d78fbe2851886cfa9f9 |
 | DelloStritto | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1718) | Add D0 decay in K pi pi0 | 2024-08-01 21:40:25 | at least 2 | 0626bc60f75ac63869a39a49043d8f2b3fa3902e |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1716) | PWGHF: development to embed in Pb-Pb bkg event only HF particles from pp events | 2024-08-06 21:27:20 | at least 2 | f919a5180f3216e88e48d8f91995af5f971df9e5 |
+| ddobrigk | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1721) | Synthetic flow generator added | 2024-08-07 15:43:35 | at least 2 | c2b733fb8771acbf2867cb39259e851422fea6f6 |
 
 
 ### For label async-2024-pp-cpass0
@@ -101,3 +104,4 @@
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1680) | Skimming needs to know NHBPERTF, extract from ALIEN_JDL_LPMRUNNUMBER | 2024-06-28 09:48:29 | 1 | 8279d4b6f43552b8e0849ec53aa29e0d84d84ccb |
 | chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1698) | Doing the check on unmerged and then merged AODs in the parallelized … | 2024-07-15 14:27:02 | 1 | a0e472acb1032a758c0e6048263f424b3018329d |
 | mfaggin | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1716) | PWGHF: development to embed in Pb-Pb bkg event only HF particles from pp events | 2024-08-06 21:27:20 | at least 2 | f919a5180f3216e88e48d8f91995af5f971df9e5 |
+| ddobrigk | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1721) | Synthetic flow generator added | 2024-08-07 15:43:35 | at least 2 | c2b733fb8771acbf2867cb39259e851422fea6f6 |
