@@ -1,18 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-29 20:15 
-
-
-### For label async-2024-pp-apass1
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1736) | Apply custom askMinTPCRow with IROC11 exception for unprocessed runs | 2024-08-28 11:38:41 | 1 | fd832bd3c2073561b2e2f6865aac0a0defcef03f |
-
-
-### For label async-2024-pp-cpass0
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1736) | Apply custom askMinTPCRow with IROC11 exception for unprocessed runs | 2024-08-28 11:38:41 | 1 | fd832bd3c2073561b2e2f6865aac0a0defcef03f |
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-08-30 11:28 
 
 
 ### For label async-2023-pbpb-apass3
