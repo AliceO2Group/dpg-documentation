@@ -90,9 +90,6 @@ jobs:
         with:
           query: |
             query {
-              doc: repository(owner: "AliceO2Group", name: "dpg-documentation") {
-                id
-              }
               O2DPG: repository(owner: "AliceO2Group", name: "O2DPG") {
                 pullRequests(first: 100, states: [MERGED, OPEN], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
@@ -136,9 +133,6 @@ jobs:
         with:
           query: |
             query {
-              doc: repository(owner: "AliceO2Group", name: "dpg-documentation") {
-                id
-              }
               QualityControl: repository(owner: "AliceO2Group", name: "QualityControl") {
                 pullRequests(first: 100, states: [MERGED, OPEN], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
@@ -182,9 +176,6 @@ jobs:
         with:
           query: |
             query {
-              doc: repository(owner: "AliceO2Group", name: "dpg-documentation") {
-                id
-              }
               O2Physics: repository(owner: "AliceO2Group", name: "O2Physics") {
                 pullRequests(first: 100, states: [MERGED, OPEN], orderBy: { field: UPDATED_AT, direction: DESC }) {
                   nodes {
