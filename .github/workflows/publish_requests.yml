@@ -211,20 +211,22 @@ jobs:
               }
             }
 
-      - name: Combine PRs
+      - name: Combine and store PRs
         id: combine_prs
         run: |
-          echo "${{ steps.get_prs_o2.outputs.data }}" > prs_o2.json
-          echo "${{ steps.get_prs_o2dpg.outputs.data }}" > prs_o2dpg.json
-          echo "${{ steps.get_prs_qc.outputs.data }}" > prs_qc.json
-          echo "${{ steps.get_prs_o2physics.outputs.data }}" > prs_o2physics.json
-          jq -s '.[0] * .[1] * .[2] * .[3]' prs_o2.json prs_o2dpg.json prs_qc.json prs_o2physics.json > prs.json
-
-      - name: Store PRs
-        run: |
-          cat <<\EOF > prs.json
-          ${{ steps.get_prs.outputs.data }}
+          cat <<\EOF > prs_o2.json
+          ${{ steps.get_prs_o2.outputs.data }}
           EOF
+          cat <<\EOF > prs_o2dpg.json
+          ${{ steps.get_prs_o2dpg.outputs.data }}
+          EOF
+          cat <<\EOF > prs_qc.json
+          ${{ steps.get_prs_qc.outputs.data }}
+          EOF
+          cat <<\EOF > prs_o2physics.json
+          ${{ steps.get_prs_o2physics.outputs.data }}
+          EOF
+          jq -s '.[0] * .[1] * .[2] * .[3]' prs_o2.json prs_o2dpg.json prs_qc.json prs_o2physics.json > prs.json
 
       - name: Make the request pages
         shell: python
