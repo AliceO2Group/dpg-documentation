@@ -2267,6 +2267,14 @@ O2DPG:
     - '1724674076'
     - '1724674076'
     - '1724674076'
+  8e68f09c3823560997c4b2c8cf218d38bda8ba2a:
+  - '1728391889'
+  - 8e68f09c3823560997c4b2c8cf218d38bda8ba2a
+  - '[AOT] Fix TPC PID and event selection configurations for analysisQC. (#1750)'
+  - - async-v1-01-20
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1728391889'
   903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8:
   - '1716477123'
   - 903362d8d80b9a287b7d70b6d2e0ccd8021dc0a8
@@ -2680,6 +2688,15 @@ O2DPG:
   - - '1727428245'
     - '1727430069'
     - '1727430069'
+  c219b9a5c9ee9194351a70660429e4c3cad2085c:
+  - '1728391889'
+  - c219b9a5c9ee9194351a70660429e4c3cad2085c
+  - Creating the tar from root files only if there is a JDL env var that tells to
+    do so (#1758)
+  - - async-v1-01-20
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1728391889'
   c2b733fb8771acbf2867cb39259e851422fea6f6:
   - '1723040300'
   - c2b733fb8771acbf2867cb39259e851422fea6f6
