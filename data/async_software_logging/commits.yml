@@ -100,9 +100,17 @@ AliceO2:
   - 1561ebbc868b0ad50ffbb4968d936c460c6376f5
   - 'DPL Analysis: make sure VLAs use only one basket'
   - - async-v1-01-20
+    - async-v1-01-12c
+    - async-v1-01-12c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
+    - async-2024-pp-cpass0
   - - Alberto Caliva
+    - Alberto Caliva
+    - Alberto Caliva
   - - '1728391885'
+    - '1728394101'
+    - '1728394101'
   175e6acf280bcc5d1eaedfea6f19c8bd20829447:
   - '1722269586'
   - 175e6acf280bcc5d1eaedfea6f19c8bd20829447
@@ -273,9 +281,17 @@ AliceO2:
   - Make sure that the string 'using' in a text is NOT interpreted as the using keyword.
     (#13546)
   - - async-v1-01-20
+    - async-v1-01-12c
+    - async-v1-01-12c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
+    - async-2024-pp-cpass0
   - - Alberto Caliva
+    - Alberto Caliva
+    - Alberto Caliva
   - - '1728391885'
+    - '1728394101'
+    - '1728394101'
   370030351d03068ff0336394443934d13c1ff50a:
   - '1715850198'
   - 370030351d03068ff0336394443934d13c1ff50a
