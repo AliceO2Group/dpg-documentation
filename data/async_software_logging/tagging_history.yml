@@ -2065,6 +2065,12 @@ QualityControl:
   - async-v1-01-02d
   - - async-2022-pp-apass7
   - Alberto Caliva
+  async-v1-01-02e:
+  - '1729191143'
+  - async-v1-01-02d
+  - async-v1-01-02e
+  - - async-2022-pp-apass7
+  - Alberto Caliva
   async-v1-01-03:
   - '1715681304'
   - UNKNOWN START
