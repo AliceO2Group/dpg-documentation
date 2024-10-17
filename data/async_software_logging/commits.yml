@@ -102,15 +102,19 @@ AliceO2:
   - - async-v1-01-20
     - async-v1-01-12c
     - async-v1-01-12c
+    - async-v1-01-02e
   - - async-2023-pbpb-apass4
     - async-2024-pp-apass1
     - async-2024-pp-cpass0
+    - async-2022-pp-apass7
   - - Alberto Caliva
+    - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
   - - '1728391885'
     - '1728394101'
     - '1728394101'
+    - '1729191135'
   175e6acf280bcc5d1eaedfea6f19c8bd20829447:
   - '1722269586'
   - 175e6acf280bcc5d1eaedfea6f19c8bd20829447
@@ -283,15 +287,19 @@ AliceO2:
   - - async-v1-01-20
     - async-v1-01-12c
     - async-v1-01-12c
+    - async-v1-01-02e
   - - async-2023-pbpb-apass4
     - async-2024-pp-apass1
     - async-2024-pp-cpass0
+    - async-2022-pp-apass7
   - - Alberto Caliva
+    - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
   - - '1728391885'
     - '1728394101'
     - '1728394101'
+    - '1729191135'
   370030351d03068ff0336394443934d13c1ff50a:
   - '1715850198'
   - 370030351d03068ff0336394443934d13c1ff50a
