@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-10-09 14:20 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-10-17 19:33 
 
 
 ### For label async-2023-pp-apass4
@@ -31,6 +31,7 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| ddobrigk | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1748) | LF: add multi-strange enriched generator | 2024-09-17 14:28:09 | 1 | 3339878dca26af1e7893ecbb59262953e7ec4510 |
 | pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
 | mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1764) | Mother particle transport off | 2024-10-09 13:02:17 | at least 2 | 390ee70bf3619d008f25badbbaa35b1ff939f3dd |
 
