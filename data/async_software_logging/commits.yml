@@ -1241,6 +1241,14 @@ O2DPG:
     - Alberto Caliva
   - - '1724855772'
     - '1724921825'
+  185db664556e0b9f3a9b9c514340b6ee2e9db2db:
+  - '1730533915'
+  - 185db664556e0b9f3a9b9c514340b6ee2e9db2db
+  - Produce MonaLisa stat file in O2DPG workflows
+  - - async-20240229.pp.2h
+  - - async-2023-pp-apass4
+  - - Alberto Caliva
+  - - '1730533915'
   1af58ff3f15f1b000e101af40403a99494632562:
   - '1720782526'
   - 1af58ff3f15f1b000e101af40403a99494632562
