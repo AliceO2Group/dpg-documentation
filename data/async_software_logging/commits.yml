@@ -1649,6 +1649,14 @@ O2DPG:
     - '1719323950'
     - '1722007796'
     - '1724332828'
+  390ee70bf3619d008f25badbbaa35b1ff939f3dd:
+  - '1730534822'
+  - 390ee70bf3619d008f25badbbaa35b1ff939f3dd
+  - Mother particle transport off (#1764)
+  - - async-v1-01-21
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1730534822'
   3b0d1fdb9fcfee163a600dd8226a47eb9fb86cd4:
   - '1723040300'
   - 3b0d1fdb9fcfee163a600dd8226a47eb9fb86cd4
@@ -1909,6 +1917,14 @@ O2DPG:
   - - async-2023-pp-apass4
   - - Chiara Zampolli
   - - '1723181605'
+  5c07c413fe6d55ce2f1db877b836dd4299873dc2:
+  - '1730534822'
+  - 5c07c413fe6d55ce2f1db877b836dd4299873dc2
+  - Add the exotic injection script for resonances
+  - - async-v1-01-21
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1730534822'
   5e94376c9b1d193071b9a360568d3ec30d0f0baa:
   - '1715849744'
   - 5e94376c9b1d193071b9a360568d3ec30d0f0baa
@@ -3105,6 +3121,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  e11820a582ca2b957183fba2e97602387e2b95b3:
+  - '1730534822'
+  - e11820a582ca2b957183fba2e97602387e2b95b3
+  - More resilient logic in determining MC events from AO2D file (#1776)
+  - - async-v1-01-21
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1730534822'
   eab175696e7dde819c8ef783e7c4001debbcc552:
   - '1723181605'
   - eab175696e7dde819c8ef783e7c4001debbcc552
@@ -3233,6 +3257,14 @@ O2DPG:
   - - async-2023-pbpb-apass4
   - - Chiara Zampolli
   - - '1725625044'
+  f26dfd23f877214d3d8052ad8d431a9f4100d453:
+  - '1730534822'
+  - f26dfd23f877214d3d8052ad8d431a9f4100d453
+  - Yet more resilience in o2dpg_determine_eventstat (#1777)
+  - - async-v1-01-21
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1730534822'
   f79426f195d72ee2f3fe45227fb7150758f5dbcf:
   - '1725625044'
   - f79426f195d72ee2f3fe45227fb7150758f5dbcf
