@@ -3574,18 +3574,22 @@ QualityControl:
     - async-v1-01-05
     - async-v1-01-05
     - async-v1-01-05
+    - async-v1-01-12d
   - - NO LABEL
     - async-2023-pbpb-apass4
     - async-2024-pp-apass1
     - async-2022-pp-apass7
     - async-2024-pp-cpass0
+    - async-2024-PbPb-cpass0
   - - UNKNOWN OPERATOR
     - Benedikt Volkel
     - Benedikt Volkel
     - Benedikt Volkel
     - Benedikt Volkel
+    - Alberto Caliva
   - - '1716995841'
     - '1717667967'
     - '1717667967'
     - '1717667967'
     - '1717667967'
+    - '1730651202'
