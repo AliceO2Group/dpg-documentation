@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-01-12c](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12c) | [async-v1-01-12d](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12d) | Alberto Caliva | async-2024-PbPb-cpass0 | 2024-11-03 17:26 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-branch) | [async-v1-01-21](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-21) | Alberto Caliva | async-2023-pbpb-apass4 | 2024-11-02 09:07 |
 | [async-20240229.pp.2g](https://github.com/AliceO2Group/O2DPG/tree/async-20240229.pp.2g) | [async-20240229.pp.2h](https://github.com/AliceO2Group/O2DPG/tree/async-20240229.pp.2h) | Alberto Caliva | async-2023-pp-apass4 | 2024-11-02 08:51 |
 | [async-20240229.pp.2f](https://github.com/AliceO2Group/O2DPG/tree/async-20240229.pp.2f) | [async-20240229.pp.2g](https://github.com/AliceO2Group/O2DPG/tree/async-20240229.pp.2g) | Alberto Caliva | async-2023-pp-apass4 | 2024-10-18 12:02 |

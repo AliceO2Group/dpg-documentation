@@ -1684,6 +1684,12 @@ O2DPG:
   - - async-2024-pp-apass1
     - async-2024-pp-cpass0
   - Alberto Caliva
+  async-v1-01-12d:
+  - '1730651200'
+  - async-v1-01-12c
+  - async-v1-01-12d
+  - - async-2024-PbPb-cpass0
+  - Alberto Caliva
   async-v1-01-13:
   - '1722007796'
   - UNKNOWN REVISION
