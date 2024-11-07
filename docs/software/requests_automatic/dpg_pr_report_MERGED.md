@@ -1,4 +1,26 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-11-06 13:21 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-11-07 14:58 
+
+
+### For label async-2024-PbPb-cpass0
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| ktf | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13519) | DPL Analysis: make sure VLAs use only one basket | 2024-09-20 13:35:25 | 1 | 1561ebbc868b0ad50ffbb4968d936c460c6376f5 |
+| pbuehler | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13546) | Make sure that the string 'using' in a text is NOT interpreted as the using keyword. | 2024-10-04 12:51:35 | 1 | 362c300e363cc0fc67897c0c4eca870e0c26a74a |
+| fgrosa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1742) | PWGHF: remove obsolete generator to avoid confusion | 2024-09-10 17:35:44 | at least 2 | 9337da9b67910061f3139cf0659ae5b50c695f5b |
+| chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1758) | Creating the tar from root files only if there is a JDL env var that … | 2024-10-03 14:59:58 | 1 | c219b9a5c9ee9194351a70660429e4c3cad2085c |
+| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
+| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
+| davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1775) | Fix Typo | 2024-10-28 12:53:19 | 1 | 1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6 |
+
+
+### For label async-2024-PbPb-apass1
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13660) | Update TPC scaling when MeanLumiRef changed | 2024-11-06 23:39:11 | 1 | 7df15eb7a082aedc353d85852cdf8a113c02cd55 |
+| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
+| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
 
 
 ### For label async-2023-pbpb-apass4
@@ -6,14 +28,6 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
-| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
-
-
-### For label async-2024-PbPb-apass1
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
 
 
