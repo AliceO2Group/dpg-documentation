@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Protect LT-int.calculation in TRD refit from bad TPC correction](https://github.com/AliceO2Group/AliceO2/commit/4b9ede8b97d5941c353cd4769deb68409e0163be) | [async-v1-01-23](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-23) (async-2023-pbpb-apass4, 2024-11-20 18:22, Chiara Zampolli) |
 | [Exclude electrons created between vessels and field strips](https://github.com/AliceO2Group/AliceO2/commit/a4f9b969f67db1439354c54ca98d01b5b07fbc1b) | [async-v1-01-22](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-22) (async-2023-pbpb-apass4, 2024-11-20 16:44, Chiara Zampolli) |
 | [Update TPC scaling when MeanLumiRef changed](https://github.com/AliceO2Group/AliceO2/commit/7df15eb7a082aedc353d85852cdf8a113c02cd55) | [async-v1-01-22](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-22) (async-2023-pbpb-apass4, 2024-11-20 16:44, Chiara Zampolli) |
 | [Flow mapper tool: improve handling of input objects (#13320)](https://github.com/AliceO2Group/AliceO2/commit/6d6ac031defbaa0142f9aff841bda38f35aa4836) | [async-v1-01-22](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-22) (async-2023-pbpb-apass4, 2024-11-20 16:44, Chiara Zampolli) |

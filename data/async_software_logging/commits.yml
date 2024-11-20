@@ -516,6 +516,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  4b9ede8b97d5941c353cd4769deb68409e0163be:
+  - '1732123341'
+  - 4b9ede8b97d5941c353cd4769deb68409e0163be
+  - Protect LT-int.calculation in TRD refit from bad TPC correction
+  - - async-v1-01-23
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732123341'
   54663de160e824b4a17f77a028a73966b4572e63:
   - '1715850198'
   - 54663de160e824b4a17f77a028a73966b4572e63
