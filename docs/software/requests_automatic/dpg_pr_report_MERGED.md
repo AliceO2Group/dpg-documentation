@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-11-19 13:25 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-11-20 13:22 
 
 
 ### For label async-2023-pbpb-apass4
@@ -8,6 +8,7 @@
 | ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13288) | Add Flow Mapper for synthetic v2 addition | 2024-07-12 09:07:49 | at least 2 | 1511172757c7d19785496cbd099c9655ebb09ae3 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13660) | Update TPC scaling when MeanLumiRef changed | 2024-11-06 23:39:11 | 1 | 7df15eb7a082aedc353d85852cdf8a113c02cd55 |
 | sawankumawat | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13688) | ParticleDatabase: Added particle a2(1320) in the O2Database accroding to latest PDG | 2024-11-15 13:24:40 | 1 | 6b8ca303d7107dc76fcd6492dd3f8da612ae4a69 |
+| wiechula | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13710) | TPC: Exclude electrons created between vessels and field strips | 2024-11-19 13:38:13 | 1 | a4f9b969f67db1439354c54ca98d01b5b07fbc1b |
 | pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
 | cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
