@@ -3104,6 +3104,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  a8e801aae61b055cd959c6695224cab8ac830c98:
+  - '1732117475'
+  - a8e801aae61b055cd959c6695224cab8ac830c98
+  - Add a2(1230) exotic resonance candidate (#1803)
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117475'
   aa264e9e976a367c7466f6c115ddc726d8835ce1:
   - '1723040300'
   - aa264e9e976a367c7466f6c115ddc726d8835ce1

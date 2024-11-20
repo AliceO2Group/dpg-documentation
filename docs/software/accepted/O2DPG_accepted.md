@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Add a2(1230) exotic resonance candidate (#1803)](https://github.com/AliceO2Group/O2DPG/commit/a8e801aae61b055cd959c6695224cab8ac830c98) | [async-v1-01-22](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-22) (async-2023-pbpb-apass4, 2024-11-20 16:44, Chiara Zampolli) |
 | [Fix Typo](https://github.com/AliceO2Group/O2DPG/commit/1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6) | [async-v1-01-12e](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12e) (async-2024-pbpb-cpass0, 2024-11-07 15:07, Alberto Caliva) |
 | [Added parameters for PbPb](https://github.com/AliceO2Group/O2DPG/commit/ca3d4ce3ee86900393f55e5676fdadc7ec10b89a) | [async-v1-01-12d](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12d) (async-2024-PbPb-cpass0, 2024-11-03 17:26, Alberto Caliva)<br>[async-v1-01-12e](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12e) (async-2024-pbpb-cpass0, 2024-11-07 15:07, Alberto Caliva) |
 | [Add moving window for TOF objects (#1759)](https://github.com/AliceO2Group/O2DPG/commit/8a53dfefad39919f0e4c59535b315762dc123ed6) | [async-v1-01-12d](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12d) (async-2024-PbPb-cpass0, 2024-11-03 17:26, Alberto Caliva)<br>[async-v1-01-12e](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12e) (async-2024-pbpb-cpass0, 2024-11-07 15:07, Alberto Caliva) |
