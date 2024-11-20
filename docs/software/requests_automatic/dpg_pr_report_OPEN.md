@@ -1,12 +1,33 @@
-# List PRs in state OPEN (from oldest to recent per package), last update: 2024-11-20 13:22 
+# List PRs in state OPEN (from oldest to recent per package), last update: 2024-11-20 18:05 
 
 
 ### For label async-2023-pbpb-apass4
 
 | Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13700) | TPC: adding MC ccdb objects for simulation and reconstruction | 2024-11-20 09:15:23 | 1 | - |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-20 17:57:30 | 1 | - |
 | andreasmolander | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1741) | FIT: add MC aQC for FV0 and FDD | 2024-09-26 09:58:32 | 1 | - |
+
+
+### For label async-2024-PbPb-cpass0
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-20 17:57:30 | 1 | - |
+
+
+### For label async-2024-PbPb-apass1
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-20 17:57:30 | 1 | - |
+
+
+### For label async-2024-ppRef-apass1
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-20 17:57:30 | 1 | - |
 
 
 ### For label async-2023-pp-apass4
