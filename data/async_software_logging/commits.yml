@@ -119,6 +119,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  1511172757c7d19785496cbd099c9655ebb09ae3:
+  - '1732117472'
+  - 1511172757c7d19785496cbd099c9655ebb09ae3
+  - Add Flow Mapper for synthetic v2 addition (#13288)
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117472'
   1561ebbc868b0ad50ffbb4968d936c460c6376f5:
   - '1728391885'
   - 1561ebbc868b0ad50ffbb4968d936c460c6376f5
@@ -576,6 +584,22 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  6b8ca303d7107dc76fcd6492dd3f8da612ae4a69:
+  - '1732117472'
+  - 6b8ca303d7107dc76fcd6492dd3f8da612ae4a69
+  - added particle a2(1320) in the O2Database for the study of glueball
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117472'
+  6d6ac031defbaa0142f9aff841bda38f35aa4836:
+  - '1732117472'
+  - 6d6ac031defbaa0142f9aff841bda38f35aa4836
+  - 'Flow mapper tool: improve handling of input objects (#13320)'
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117472'
   710d1c80fe70f6c689b85d07a2153b47a2eb99aa:
   - '1722152007'
   - 710d1c80fe70f6c689b85d07a2153b47a2eb99aa
@@ -692,6 +716,14 @@ AliceO2:
   - - '1724674066'
     - '1724674066'
     - '1724674066'
+  7df15eb7a082aedc353d85852cdf8a113c02cd55:
+  - '1732117472'
+  - 7df15eb7a082aedc353d85852cdf8a113c02cd55
+  - Update TPC scaling when MeanLumiRef changed
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117472'
   81d66fb0518097a706c233c88cd0e989b205f4ce:
   - '1715850198'
   - 81d66fb0518097a706c233c88cd0e989b205f4ce
@@ -864,6 +896,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  a4f9b969f67db1439354c54ca98d01b5b07fbc1b:
+  - '1732117472'
+  - a4f9b969f67db1439354c54ca98d01b5b07fbc1b
+  - Exclude electrons created between vessels and field strips
+  - - async-v1-01-22
+  - - async-2023-pbpb-apass4
+  - - Chiara Zampolli
+  - - '1732117472'
   a70c90fcfec848c7e8789350a5f313167f38f37d:
   - '1715850198'
   - a70c90fcfec848c7e8789350a5f313167f38f37d
