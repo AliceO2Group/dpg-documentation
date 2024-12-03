@@ -1,4 +1,19 @@
-# List PRs in state OPEN (from oldest to recent per package), last update: 2024-11-27 13:23 
+# List PRs in state OPEN (from oldest to recent per package), last update: 2024-12-03 13:26 
+
+
+### For label async-2024-PbPb-apass1
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1827) | ITS tracking: update PbPb params for apass1 | 2024-12-03 11:56:45 | 1 | - |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-03 13:06:52 | 1 | - |
+
+
+### For label async-2024-ppRef-apass1
+
+| Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-03 13:06:52 | 1 | - |
 
 
 ### For label async-2023-pbpb-apass4
