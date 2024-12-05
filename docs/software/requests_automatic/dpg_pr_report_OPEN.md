@@ -1,10 +1,11 @@
-# List PRs in state OPEN (from oldest to recent per package), last update: 2024-12-05 10:03 
+# List PRs in state OPEN (from oldest to recent per package), last update: 2024-12-05 18:52 
 
 
 ### For label async-2024-PbPb-apass1
 
 | Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-05 18:05:54 | 1 | - |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-03 14:22:04 | 1 | - |
 
 
@@ -12,6 +13,7 @@
 
 | Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-05 18:05:54 | 1 | - |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-03 14:22:04 | 1 | - |
 
 
