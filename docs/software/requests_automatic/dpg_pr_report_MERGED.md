@@ -1,4 +1,15 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-04 13:22 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-05 10:03 
+
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
+| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13321) | Data Model change: bump McCollisions to 001 | 2024-08-05 10:42:35 | at least 2 | 9ad8facf43055c6674f1e7e7bea87a1e172dce3a |
+| davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
 
 
 ### For label async-2024-PbPb-apass1
@@ -45,18 +56,6 @@
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 
 
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
-| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13321) | Data Model change: bump McCollisions to 001 | 2024-08-05 10:42:35 | at least 2 | 9ad8facf43055c6674f1e7e7bea87a1e172dce3a |
-| davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
-| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13700) | TPC: adding MC ccdb objects for simulation and reconstruction | 2024-11-20 13:32:18 | 1 | 2de9c5cc217f4c693be87a4ad444bb8dc8616ac6 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
-| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
-
-
 ### For label async-2024-pp-apass1
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
@@ -74,24 +73,6 @@
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1773) | PWGLF: Add exotic resonance injection scripts | 2024-11-01 16:04:53 | at least 2 | 5c07c413fe6d55ce2f1db877b836dd4299873dc2 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
-
-
-### For label async-2024-PbPb-cpass0
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
-| davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| fgrosa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1742) | PWGHF: remove obsolete generator to avoid confusion | 2024-09-10 17:35:44 | at least 2 | 9337da9b67910061f3139cf0659ae5b50c695f5b |
-| chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1758) | Creating the tar from root files only if there is a JDL env var that … | 2024-10-03 14:59:58 | 1 | c219b9a5c9ee9194351a70660429e4c3cad2085c |
-| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
-| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
-| davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1775) | Fix Typo | 2024-10-28 12:53:19 | 1 | 1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 
 
