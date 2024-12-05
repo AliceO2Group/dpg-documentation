@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-01-02e](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02e) | [async-v1-01-02f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02f) | Chiara Zampolli | async-2022-pp-apass7 | 2024-12-05 16:17 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-branch) | [async-v1-01-23](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-23) | Chiara Zampolli | async-2023-pbpb-apass4 | 2024-11-20 18:22 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-branch) | [async-v1-01-22](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-22) | Chiara Zampolli | async-2023-pbpb-apass4 | 2024-11-20 16:44 |
 | [async-v1-01-12b](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12b) | [async-v1-01-12e](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12e) | Alberto Caliva | async-2024-pbpb-cpass0 | 2024-11-07 15:07 |

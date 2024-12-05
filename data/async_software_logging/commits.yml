@@ -1437,6 +1437,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  06628bc13a865049991ab005cdc7745909433f57:
+  - '1733411863'
+  - 06628bc13a865049991ab005cdc7745909433f57
+  - '[PWGDQ] Adding Upsilon Injected Generator (#1787)'
+  - - async-v1-01-02f
+  - - async-2022-pp-apass7
+  - - Chiara Zampolli
+  - - '1733411863'
   0ba029f9a8df5a09a5dc3051358871c4683ad075:
   - '1715849744'
   - 0ba029f9a8df5a09a5dc3051358871c4683ad075
@@ -2258,9 +2266,13 @@ O2DPG:
   - 5c07c413fe6d55ce2f1db877b836dd4299873dc2
   - Add the exotic injection script for resonances
   - - async-v1-01-21
+    - async-v1-01-02f
   - - async-2023-pbpb-apass4
+    - async-2022-pp-apass7
   - - Alberto Caliva
+    - Chiara Zampolli
   - - '1730534822'
+    - '1733411863'
   5e94376c9b1d193071b9a360568d3ec30d0f0baa:
   - '1715849744'
   - 5e94376c9b1d193071b9a360568d3ec30d0f0baa
@@ -3117,9 +3129,13 @@ O2DPG:
   - a8e801aae61b055cd959c6695224cab8ac830c98
   - Add a2(1230) exotic resonance candidate (#1803)
   - - async-v1-01-22
+    - async-v1-01-02f
   - - async-2023-pbpb-apass4
+    - async-2022-pp-apass7
   - - Chiara Zampolli
+    - Chiara Zampolli
   - - '1732117475'
+    - '1733411863'
   aa264e9e976a367c7466f6c115ddc726d8835ce1:
   - '1723040300'
   - aa264e9e976a367c7466f6c115ddc726d8835ce1
@@ -3218,24 +3234,28 @@ O2DPG:
     - async-20240229.pp.2g
     - async-v1-01-12d
     - async-v1-01-12e
+    - async-v1-01-02f
   - - async-2023-pbpb-apass4
     - async-2024-pp-apass1
     - async-2024-pp-cpass0
     - async-2023-pp-apass4
     - async-2024-PbPb-cpass0
     - async-2024-pbpb-cpass0
+    - async-2022-pp-apass7
   - - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
     - Alberto Caliva
+    - Chiara Zampolli
   - - '1727428245'
     - '1727430069'
     - '1727430069'
     - '1729245724'
     - '1730651200'
     - '1730988449'
+    - '1733411863'
   c219b9a5c9ee9194351a70660429e4c3cad2085c:
   - '1728391889'
   - c219b9a5c9ee9194351a70660429e4c3cad2085c
@@ -3561,6 +3581,14 @@ O2DPG:
     - '1717667967'
     - '1730651200'
     - '1730988449'
+  db61ef154ace8a5303f88f5bb2ce1f5c5083ffc8:
+  - '1733411863'
+  - db61ef154ace8a5303f88f5bb2ce1f5c5083ffc8
+  - Add General injection script for resonances
+  - - async-v1-01-02f
+  - - async-2022-pp-apass7
+  - - Chiara Zampolli
+  - - '1733411863'
   dbd0e2e83519bc33f8f243663113e0dc56f9dff9:
   - '1723040300'
   - dbd0e2e83519bc33f8f243663113e0dc56f9dff9
@@ -3622,9 +3650,13 @@ O2DPG:
   - e11820a582ca2b957183fba2e97602387e2b95b3
   - More resilient logic in determining MC events from AO2D file (#1776)
   - - async-v1-01-21
+    - async-v1-01-02f
   - - async-2023-pbpb-apass4
+    - async-2022-pp-apass7
   - - Alberto Caliva
+    - Chiara Zampolli
   - - '1730534822'
+    - '1733411863'
   eab175696e7dde819c8ef783e7c4001debbcc552:
   - '1723181605'
   - eab175696e7dde819c8ef783e7c4001debbcc552
@@ -3774,9 +3806,21 @@ O2DPG:
   - f26dfd23f877214d3d8052ad8d431a9f4100d453
   - Yet more resilience in o2dpg_determine_eventstat (#1777)
   - - async-v1-01-21
+    - async-v1-01-02f
   - - async-2023-pbpb-apass4
+    - async-2022-pp-apass7
   - - Alberto Caliva
+    - Chiara Zampolli
   - - '1730534822'
+    - '1733411863'
+  f55a23a99a577f636ce9c6a9267d4b5f49782202:
+  - '1733411863'
+  - f55a23a99a577f636ce9c6a9267d4b5f49782202
+  - remove lines which inhibit transport at large eta (#1797)
+  - - async-v1-01-02f
+  - - async-2022-pp-apass7
+  - - Chiara Zampolli
+  - - '1733411863'
   f79426f195d72ee2f3fe45227fb7150758f5dbcf:
   - '1725625044'
   - f79426f195d72ee2f3fe45227fb7150758f5dbcf
