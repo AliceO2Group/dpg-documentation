@@ -1442,9 +1442,13 @@ O2DPG:
   - 06628bc13a865049991ab005cdc7745909433f57
   - '[PWGDQ] Adding Upsilon Injected Generator (#1787)'
   - - async-v1-01-02f
+    - async-v1-01-12f
   - - async-2022-pp-apass7
+    - async-2024-pp-apass1
   - - Chiara Zampolli
+    - Alberto Caliva
   - - '1733411863'
+    - '1733993969'
   0ba029f9a8df5a09a5dc3051358871c4683ad075:
   - '1715849744'
   - 0ba029f9a8df5a09a5dc3051358871c4683ad075
@@ -1542,9 +1546,13 @@ O2DPG:
   - 1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6
   - Fix Typo
   - - async-v1-01-12e
+    - async-v1-01-12f
   - - async-2024-pbpb-cpass0
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1730988449'
+    - '1733993969'
   1df34c066f1be7a182724c696ec55437d81fa6b9:
   - '1715849744'
   - 1df34c066f1be7a182724c696ec55437d81fa6b9
@@ -2181,6 +2189,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  52135f58380b5554ce018f1d10849eda3b320eac:
+  - '1733993969'
+  - 52135f58380b5554ce018f1d10849eda3b320eac
+  - ccdb-run-dependent metadata should be int
+  - - async-v1-01-12f
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1733993969'
   538c0b1c01352cb8f0640dfb74d7af13cee250f4:
   - '1718975658'
   - 538c0b1c01352cb8f0640dfb74d7af13cee250f4
@@ -2267,12 +2283,16 @@ O2DPG:
   - Add the exotic injection script for resonances
   - - async-v1-01-21
     - async-v1-01-02f
+    - async-v1-01-12f
   - - async-2023-pbpb-apass4
     - async-2022-pp-apass7
+    - async-2024-pp-apass1
   - - Alberto Caliva
     - Chiara Zampolli
+    - Alberto Caliva
   - - '1730534822'
     - '1733411863'
+    - '1733993969'
   5e94376c9b1d193071b9a360568d3ec30d0f0baa:
   - '1715849744'
   - 5e94376c9b1d193071b9a360568d3ec30d0f0baa
@@ -2605,12 +2625,16 @@ O2DPG:
   - Update qc-workflow.sh
   - - async-v1-01-12d
     - async-v1-01-12e
+    - async-v1-01-12f
   - - async-2024-PbPb-cpass0
     - async-2024-pbpb-cpass0
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
     - Alberto Caliva
   - - '1730651200'
     - '1730988449'
+    - '1733993969'
   706946e78cd3359896402df6a88d1de80001e609:
   - '1720782526'
   - 706946e78cd3359896402df6a88d1de80001e609
@@ -2745,12 +2769,16 @@ O2DPG:
   - Add moving window for TOF objects (#1759)
   - - async-v1-01-12d
     - async-v1-01-12e
+    - async-v1-01-12f
   - - async-2024-PbPb-cpass0
     - async-2024-pbpb-cpass0
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
     - Alberto Caliva
   - - '1730651200'
     - '1730988449'
+    - '1733993969'
   8e68f09c3823560997c4b2c8cf218d38bda8ba2a:
   - '1728391889'
   - 8e68f09c3823560997c4b2c8cf218d38bda8ba2a
@@ -3130,12 +3158,16 @@ O2DPG:
   - Add a2(1230) exotic resonance candidate (#1803)
   - - async-v1-01-22
     - async-v1-01-02f
+    - async-v1-01-12f
   - - async-2023-pbpb-apass4
     - async-2022-pp-apass7
+    - async-2024-pp-apass1
   - - Chiara Zampolli
     - Chiara Zampolli
+    - Alberto Caliva
   - - '1732117475'
     - '1733411863'
+    - '1733993969'
   aa264e9e976a367c7466f6c115ddc726d8835ce1:
   - '1723040300'
   - aa264e9e976a367c7466f6c115ddc726d8835ce1
@@ -3363,12 +3395,16 @@ O2DPG:
   - Added parameters for PbPb
   - - async-v1-01-12d
     - async-v1-01-12e
+    - async-v1-01-12f
   - - async-2024-PbPb-cpass0
     - async-2024-pbpb-cpass0
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
     - Alberto Caliva
   - - '1730651200'
     - '1730988449'
+    - '1733993969'
   cd07a5c91c559d20481093d7769ec82478a639c3:
   - '1715849744'
   - cd07a5c91c559d20481093d7769ec82478a639c3
@@ -3651,12 +3687,16 @@ O2DPG:
   - More resilient logic in determining MC events from AO2D file (#1776)
   - - async-v1-01-21
     - async-v1-01-02f
+    - async-v1-01-12f
   - - async-2023-pbpb-apass4
     - async-2022-pp-apass7
+    - async-2024-pp-apass1
   - - Alberto Caliva
     - Chiara Zampolli
+    - Alberto Caliva
   - - '1730534822'
     - '1733411863'
+    - '1733993969'
   eab175696e7dde819c8ef783e7c4001debbcc552:
   - '1723181605'
   - eab175696e7dde819c8ef783e7c4001debbcc552
@@ -3807,12 +3847,16 @@ O2DPG:
   - Yet more resilience in o2dpg_determine_eventstat (#1777)
   - - async-v1-01-21
     - async-v1-01-02f
+    - async-v1-01-12f
   - - async-2023-pbpb-apass4
     - async-2022-pp-apass7
+    - async-2024-pp-apass1
   - - Alberto Caliva
     - Chiara Zampolli
+    - Alberto Caliva
   - - '1730534822'
     - '1733411863'
+    - '1733993969'
   f55a23a99a577f636ce9c6a9267d4b5f49782202:
   - '1733411863'
   - f55a23a99a577f636ce9c6a9267d4b5f49782202
