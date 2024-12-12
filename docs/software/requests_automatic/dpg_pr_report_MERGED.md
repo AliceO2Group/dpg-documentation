@@ -1,4 +1,15 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-12 09:16 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-12 10:10 
+
+
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
+| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1404) | Dynamic determination of MC event counts | 2024-01-11 15:57:37 | at least 2 | 185db664556e0b9f3a9b9c514340b6ee2e9db2db |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
 
 
 ### For label async-2024-PbPb-apass1
@@ -53,26 +64,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
-
-
-### For label async-2024-pp-apass1
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13727) | Fix another typo in AltroSyncSignal::timebin default value | 2024-11-24 18:02:07 | 1 | 567d25ac1880faac811dcbaa6b30246f28e2d176 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13729) | Add AltroSyncSignal to TPC CDBTypeMap | 2024-11-25 15:30:39 | 1 | 83049afbb3b006fa19be960363f66b53485a3bec |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1404) | Dynamic determination of MC event counts | 2024-01-11 15:57:37 | at least 2 | 185db664556e0b9f3a9b9c514340b6ee2e9db2db |
-| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1773) | PWGLF: Add exotic resonance injection scripts | 2024-11-01 16:04:53 | at least 2 | 5c07c413fe6d55ce2f1db877b836dd4299873dc2 |
-| lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 
 
 ### For label async-2023-pbpb-apass4
