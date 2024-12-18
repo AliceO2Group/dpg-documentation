@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-17 13:27 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-18 13:22 
 
 
 ### For label async-2023-pbpb-apass4
@@ -43,6 +43,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
+| NicoleBastid | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1804) | PWGHF: add semimuonic process with acceptance -4.3 to  -2.2 | 2024-11-26 08:41:54 | at least 2 | e09b9ba093df508da3addbe39769ef51325c971a |
 | NicoleBastid | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1831) | PWGHF: for prod. of muons from b/c with different acceptance at quark level and w/ & w/o triggering on muons  | 2024-12-12 14:46:29 | at least 2 | 447f54dc63d91c9c1542b674544db948a08c8bed |
 
 
