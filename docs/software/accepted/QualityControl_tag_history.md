@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-01-12f](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-12f) | [async-v1-01-12g](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-12g) | Alberto Caliva | async-2024-pp-apass1 | 2024-12-20 15:02 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-branch) | [async-v1-01-24](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-24) | Alberto Caliva | async-2023-pbpb-apass4 | 2024-12-20 12:55 |
 | [async-v1-01-12e](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-12e) | [async-v1-01-12f](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-12f) | Alberto Caliva | async-2024-pp-apass1 | 2024-12-12 09:59 |
 | [async-v1-01-02e](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-02e) | [async-v1-01-02f](https://github.com/AliceO2Group/QualityControl/tree/async-v1-01-02f) | Chiara Zampolli | async-2022-pp-apass7 | 2024-12-05 16:17 |
