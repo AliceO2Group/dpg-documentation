@@ -753,9 +753,13 @@ AliceO2:
   - 7e245782330f9e5bec8fb624a061edad04a7356d
   - fix in track propagation to TOF for MC (#13784)
   - - async-v1-01-24
+    - async-v1-01-12g
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1734695728'
+    - '1734703363'
   81d66fb0518097a706c233c88cd0e989b205f4ce:
   - '1715850198'
   - 81d66fb0518097a706c233c88cd0e989b205f4ce
@@ -1148,6 +1152,14 @@ AliceO2:
     - '1724332826'
     - '1724332826'
     - '1724674066'
+  c7c9f5464919fe5890a96cfff985ce66ccabbc75:
+  - '1734703363'
+  - c7c9f5464919fe5890a96cfff985ce66ccabbc75
+  - Fix in the parsing of ccdb-run-dependent options
+  - - async-v1-01-12g
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1734703363'
   caeba373dbe0b4281f7b9fcba73176ef82211662:
   - '1715850198'
   - caeba373dbe0b4281f7b9fcba73176ef82211662
