@@ -2149,6 +2149,12 @@ O2Physics:
   - async-v1-01-12f
   - - async-2024-pp-apass1
   - Alberto Caliva
+  async-v1-01-12g:
+  - '1734703370'
+  - async-v1-01-12f
+  - async-v1-01-12g
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-13:
   - '1714777991'
   - UNKNOWN REVISION
