@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-01-12f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12f) | [async-v1-01-12g](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12g) | Alberto Caliva | async-2024-pp-apass1 | 2024-12-20 15:02 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-branch) | [async-v1-01-24](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-24) | Alberto Caliva | async-2023-pbpb-apass4 | 2024-12-20 12:55 |
 | [UNKNOWN REVISION](https://github.com/AliceO2Group/O2DPG/tree/UNKNOWN REVISION) | [async-v1-02-02](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-02) | UNKNOWN OPERATOR | NO LABEL | 2024-12-19 10:16 |
 | [UNKNOWN REVISION](https://github.com/AliceO2Group/O2DPG/tree/UNKNOWN REVISION) | [async-v1-02-01](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-01) | UNKNOWN OPERATOR | NO LABEL | 2024-12-19 10:16 |
