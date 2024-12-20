@@ -1,4 +1,20 @@
 AliceO2:
+  001ae07c3d1011c74480aef6b44b6ed07fd58cc1:
+  - '1734620545'
+  - 001ae07c3d1011c74480aef6b44b6ed07fd58cc1
+  - Revert "fix in track propagation to TOF for MC (#13784)"
+  - - async-v1-02-02
+  - - NO LABEL
+  - - UNKNOWN OPERATOR
+  - - '1734620545'
+  07818bf63363dd40607d16d4a0a3e7277da9f077:
+  - '1734695728'
+  - 07818bf63363dd40607d16d4a0a3e7277da9f077
+  - Add EP angle to McCollisions for debugging (#13287)
+  - - async-v1-01-24
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1734695728'
   08d9479cb3a7e75c10789da8b01430bf6fcfce53:
   - '1716489639'
   - 08d9479cb3a7e75c10789da8b01430bf6fcfce53
@@ -732,6 +748,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Chiara Zampolli
   - - '1732117472'
+  7e245782330f9e5bec8fb624a061edad04a7356d:
+  - '1734695728'
+  - 7e245782330f9e5bec8fb624a061edad04a7356d
+  - fix in track propagation to TOF for MC (#13784)
+  - - async-v1-01-24
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1734695728'
   81d66fb0518097a706c233c88cd0e989b205f4ce:
   - '1715850198'
   - 81d66fb0518097a706c233c88cd0e989b205f4ce
@@ -852,6 +876,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  9ad8facf43055c6674f1e7e7bea87a1e172dce3a:
+  - '1734695728'
+  - 9ad8facf43055c6674f1e7e7bea87a1e172dce3a
+  - 'Data Model change: bump McCollisions to 001 (#13321)'
+  - - async-v1-01-24
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1734695728'
   a0c7d5a0ec82d2175201cabece3e0490c26c2e3a:
   - '1722269586'
   - a0c7d5a0ec82d2175201cabece3e0490c26c2e3a
@@ -1132,6 +1164,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  ce63ff8c1c90453fa45b8b97eb03c02075c70469:
+  - '1734695728'
+  - ce63ff8c1c90453fa45b8b97eb03c02075c70469
+  - Object to provide TB to cut due to the Altro sync. procedure
+  - - async-v1-01-24
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1734695728'
   cf732d6c73c7ae0669045a469c36f77788d6e93f:
   - '1720782516'
   - cf732d6c73c7ae0669045a469c36f77788d6e93f

@@ -2,6 +2,9 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-01-branch](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-branch) | [async-v1-01-24](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-24) | Alberto Caliva | async-2023-pbpb-apass4 | 2024-12-20 12:55 |
+| [UNKNOWN REVISION](https://github.com/AliceO2Group/AliceO2/tree/UNKNOWN REVISION) | [async-v1-02-02](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-02) | UNKNOWN OPERATOR | NO LABEL | 2024-12-19 16:02 |
+| [UNKNOWN REVISION](https://github.com/AliceO2Group/AliceO2/tree/UNKNOWN REVISION) | [async-v1-02-01](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-01) | UNKNOWN OPERATOR | NO LABEL | 2024-12-19 11:29 |
 | [async-v1-01-12e](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-12e) | [async-v1-01-12f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-12f) | Alberto Caliva | async-2024-pp-apass1 | 2024-12-12 09:59 |
 | [async-v1-01-02e](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-02e) | [async-v1-01-02f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-02f) | Chiara Zampolli | async-2022-pp-apass7 | 2024-12-05 16:17 |
 | [async-v1-01-branch](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-branch) | [async-v1-01-23](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-23) | Chiara Zampolli | async-2023-pbpb-apass4 | 2024-11-20 18:22 |
