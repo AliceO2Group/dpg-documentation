@@ -2121,6 +2121,15 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  447f54dc63d91c9c1542b674544db948a08c8bed:
+  - '1734854849'
+  - 447f54dc63d91c9c1542b674544db948a08c8bed
+  - 'PWGHF: for prod. of muons from b/c with different acceptance at quark level and
+    w/ & w/o triggering on muons  (#1831)'
+  - - async-v1-01-02g
+  - - async-2022-pp-apass7
+  - - Alberto Caliva
+  - - '1734854849'
   45bf2be04de210a1dafb3f2c84e5addf43e8c450:
   - '1715849744'
   - 45bf2be04de210a1dafb3f2c84e5addf43e8c450
@@ -3733,6 +3742,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  e09b9ba093df508da3addbe39769ef51325c971a:
+  - '1734854849'
+  - e09b9ba093df508da3addbe39769ef51325c971a
+  - 'PWGHF: add semimuonic process with acceptance -4.3 to  -2.2 (#1804)'
+  - - async-v1-01-02g
+  - - async-2022-pp-apass7
+  - - Alberto Caliva
+  - - '1734854849'
   e11820a582ca2b957183fba2e97602387e2b95b3:
   - '1730534822'
   - e11820a582ca2b957183fba2e97602387e2b95b3

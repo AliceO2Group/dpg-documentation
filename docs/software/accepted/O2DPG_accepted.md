@@ -2,6 +2,8 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [PWGHF: add semimuonic process with acceptance -4.3 to  -2.2 (#1804)](https://github.com/AliceO2Group/O2DPG/commit/e09b9ba093df508da3addbe39769ef51325c971a) | [async-v1-01-02g](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02g) (async-2022-pp-apass7, 2024-12-22 09:07, Alberto Caliva) |
+| [PWGHF: for prod. of muons from b/c with different acceptance at quark level and w/ & w/o triggering on muons  (#1831)](https://github.com/AliceO2Group/O2DPG/commit/447f54dc63d91c9c1542b674544db948a08c8bed) | [async-v1-01-02g](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02g) (async-2022-pp-apass7, 2024-12-22 09:07, Alberto Caliva) |
 | [ccdb-run-dependent metadata should be int](https://github.com/AliceO2Group/O2DPG/commit/52135f58380b5554ce018f1d10849eda3b320eac) | [async-v1-01-12f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-12f) (async-2024-pp-apass1, 2024-12-12 09:59, Alberto Caliva) |
 | [remove lines which inhibit transport at large eta (#1797)](https://github.com/AliceO2Group/O2DPG/commit/f55a23a99a577f636ce9c6a9267d4b5f49782202) | [async-v1-01-02f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02f) (async-2022-pp-apass7, 2024-12-05 16:17, Chiara Zampolli) |
 | [Add General injection script for resonances](https://github.com/AliceO2Group/O2DPG/commit/db61ef154ace8a5303f88f5bb2ce1f5c5083ffc8) | [async-v1-01-02f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02f) (async-2022-pp-apass7, 2024-12-05 16:17, Chiara Zampolli) |
