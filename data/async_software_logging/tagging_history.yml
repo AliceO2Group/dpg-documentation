@@ -2353,6 +2353,12 @@ QualityControl:
   - async-v1-01-02f
   - - async-2022-pp-apass7
   - Chiara Zampolli
+  async-v1-01-02g:
+  - '1734854851'
+  - async-v1-01-02f
+  - async-v1-01-02g
+  - - async-2022-pp-apass7
+  - Alberto Caliva
   async-v1-01-03:
   - '1715681304'
   - UNKNOWN START
