@@ -1,15 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-21 19:42 
-
-
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
-| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13321) | Data Model change: bump McCollisions to 001 | 2024-08-05 10:42:35 | at least 2 | 9ad8facf43055c6674f1e7e7bea87a1e172dce3a |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
+# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-22 09:12 
 
 
 ### For label async-2023-pp-apass4
@@ -21,15 +10,6 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
-
-
-### For label async-2022-pp-apass7
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
-| NicoleBastid | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1804) | PWGHF: add semimuonic process with acceptance -4.3 to  -2.2 | 2024-11-26 08:41:54 | at least 2 | e09b9ba093df508da3addbe39769ef51325c971a |
-| NicoleBastid | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1831) | PWGHF: for prod. of muons from b/c with different acceptance at quark level and w/ & w/o triggering on muons  | 2024-12-12 14:46:29 | at least 2 | 447f54dc63d91c9c1542b674544db948a08c8bed |
 
 
 ### For label async-2024-ppRef-apass1
@@ -95,3 +75,10 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
+
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
