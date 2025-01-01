@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2024-12-31 13:23 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-01 13:20 
 
 
 ### For label async-2023-pp-apass4
@@ -22,7 +22,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13633) | Qatable | 2024-12-02 10:40:48 | at least 2 | feea3ade7df2a217615e356e74906569eac9a24c |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-06 08:06:19 | 1 | a11d7393da6dc1283f564e9d000b9f945b43d174 |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
@@ -45,7 +44,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13633) | Qatable | 2024-12-02 10:40:48 | at least 2 | feea3ade7df2a217615e356e74906569eac9a24c |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-06 08:06:19 | 1 | a11d7393da6dc1283f564e9d000b9f945b43d174 |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
