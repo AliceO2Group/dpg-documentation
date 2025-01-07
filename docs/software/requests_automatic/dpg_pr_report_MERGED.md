@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-07 13:25 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-07 21:22 
 
 
 ### For label async-2023-pp-apass4
@@ -21,7 +21,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-06 08:06:19 | 1 | a11d7393da6dc1283f564e9d000b9f945b43d174 |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
@@ -42,7 +41,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13773) | ITS: protect trackleting from exceeding maximum nROFs in weird situations | 2024-12-06 08:06:19 | 1 | a11d7393da6dc1283f564e9d000b9f945b43d174 |
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
@@ -74,4 +72,5 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1841) | Refined way to generate random seed | 2024-12-12 09:40:01 | at least 2 | 920b34175c8133355b3f3e8b9eed44e2edc5b21b |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
