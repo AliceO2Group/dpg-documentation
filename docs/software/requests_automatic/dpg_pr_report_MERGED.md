@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-01 13:20 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-07 12:11 
 
 
 ### For label async-2023-pp-apass4
@@ -16,7 +16,6 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
@@ -36,7 +35,6 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13727) | Fix another typo in AltroSyncSignal::timebin default value | 2024-11-24 18:02:07 | 1 | 567d25ac1880faac811dcbaa6b30246f28e2d176 |
