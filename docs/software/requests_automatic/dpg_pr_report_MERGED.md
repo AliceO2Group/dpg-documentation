@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-08 13:21 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-08 18:48 
 
 
 ### For label async-2023-pbpb-apass4
@@ -21,7 +21,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
@@ -46,6 +45,7 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
 
 
 ### For label async-2024-ppRef-apass1
@@ -58,13 +58,13 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
 | cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13777) | AOD: Missing default init | 2024-12-08 17:14:01 | 1 | 8157b0765edc8b9faf38a934c2edc69450b95876 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
 
 
 ### For label async-2023-pp-apass4
