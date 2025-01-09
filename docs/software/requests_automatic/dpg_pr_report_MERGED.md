@@ -1,12 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-09 09:17 
-
-
-### For label async-2023-pbpb-apass4
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-09 09:52 
 
 
 ### For label async-2024-PbPb-apass1
