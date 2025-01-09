@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-08 18:48 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-09 09:17 
 
 
 ### For label async-2023-pbpb-apass4
@@ -45,7 +45,6 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
-| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
 
 
 ### For label async-2024-ppRef-apass1
