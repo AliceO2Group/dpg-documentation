@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-09 09:52 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-13 14:39 
 
 
 ### For label async-2024-PbPb-apass1
@@ -8,13 +8,8 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13727) | Fix another typo in AltroSyncSignal::timebin default value | 2024-11-24 18:02:07 | 1 | 567d25ac1880faac811dcbaa6b30246f28e2d176 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13729) | Add AltroSyncSignal to TPC CDBTypeMap | 2024-11-25 15:30:39 | 1 | 83049afbb3b006fa19be960363f66b53485a3bec |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13786) | ITS tracking: Improve logging in case of OOM | 2024-12-10 09:15:41 | 1 | f4f8f438c5024c4f7da2be5ec5f177f71c94ae30 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13791) | ITS-tracking::Async: optionally discard whole TF instead of breaking | 2024-12-12 15:09:28 | 1 | 4f42cba127d6068bae685180fb0c6759cc53be01 |
 | mpuccio | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13792) | ITS tracking: Introduce configurable minimum pt per track length | 2024-12-12 15:10:32 | 1 | 58aec50a1a57c6f56809b2cfa6b3a179443a20e4 |
@@ -47,9 +42,7 @@
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| cima22 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13753) | GPU TPC: Decoding: Add option to apply timebin cut to CTF cluster decoding on GPUs | 2024-12-01 15:18:26 | at least 2 | dc760aaed875633b84ce0953ad9cb744892a747d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13789) | DCAFitterN: log-throttling for err.messages + user policy for bad CovMat | 2024-12-10 23:14:40 | 1 | c5cbdc49b86416c5689a7413f0308d282efbd3b7 |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |
@@ -67,3 +60,10 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1869) | O2DPG-MC: Possibility to pass additional external user settings | 2025-01-09 14:13:56 | 1 | dd1ded7c40ca188a33b9d498631d2b6167bd7aca |
