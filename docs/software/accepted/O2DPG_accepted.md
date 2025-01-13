@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [O2DPG-MC: Possibility to pass additional external user settings](https://github.com/AliceO2Group/O2DPG/commit/dd1ded7c40ca188a33b9d498631d2b6167bd7aca) | [async-v1-01-02h](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02h) (async-2022-pp-apass7, 2025-01-13 14:42, Alberto Caliva) |
 | [TPC: enable MC time gain usage](https://github.com/AliceO2Group/O2DPG/commit/0a5330179d3a939df7d3823483c73b143758cac9) | [async-v1-02-03](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-03) (NO LABEL, 2025-01-08 18:53, UNKNOWN OPERATOR) |
 | [PWGHF: add semimuonic process with acceptance -4.3 to  -2.2 (#1804)](https://github.com/AliceO2Group/O2DPG/commit/e09b9ba093df508da3addbe39769ef51325c971a) | [async-v1-01-02g](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02g) (async-2022-pp-apass7, 2024-12-22 09:07, Alberto Caliva) |
 | [PWGHF: for prod. of muons from b/c with different acceptance at quark level and w/ & w/o triggering on muons  (#1831)](https://github.com/AliceO2Group/O2DPG/commit/447f54dc63d91c9c1542b674544db948a08c8bed) | [async-v1-01-02g](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-02g) (async-2022-pp-apass7, 2024-12-22 09:07, Alberto Caliva) |

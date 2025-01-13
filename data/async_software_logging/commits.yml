@@ -3750,6 +3750,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  dd1ded7c40ca188a33b9d498631d2b6167bd7aca:
+  - '1736775762'
+  - dd1ded7c40ca188a33b9d498631d2b6167bd7aca
+  - 'O2DPG-MC: Possibility to pass additional external user settings'
+  - - async-v1-01-02h
+  - - async-2022-pp-apass7
+  - - Alberto Caliva
+  - - '1736775762'
   e09b9ba093df508da3addbe39769ef51325c971a:
   - '1734854849'
   - e09b9ba093df508da3addbe39769ef51325c971a
