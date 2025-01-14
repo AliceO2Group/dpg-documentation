@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-13 14:39 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-14 13:23 
 
 
 ### For label async-2024-PbPb-apass1
@@ -12,7 +12,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13791) | ITS-tracking::Async: optionally discard whole TF instead of breaking | 2024-12-12 15:09:28 | 1 | 4f42cba127d6068bae685180fb0c6759cc53be01 |
-| mpuccio | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13792) | ITS tracking: Introduce configurable minimum pt per track length | 2024-12-12 15:10:32 | 1 | 58aec50a1a57c6f56809b2cfa6b3a179443a20e4 |
 | miranov25 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13809) | O2-4592 - adding TOF LTIntegral to time series&skimmed data | 2024-12-17 10:28:37 | at least 2 | eae7e1da92a3e95414cb8d83c2a584f08c201dff |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
@@ -60,10 +59,3 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
-
-
-### For label async-2022-pp-apass7
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1869) | O2DPG-MC: Possibility to pass additional external user settings | 2025-01-09 14:13:56 | 1 | dd1ded7c40ca188a33b9d498631d2b6167bd7aca |
