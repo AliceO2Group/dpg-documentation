@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-14 13:23 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-15 13:20 
 
 
 ### For label async-2024-PbPb-apass1
@@ -9,7 +9,6 @@
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | mconcas | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13791) | ITS-tracking::Async: optionally discard whole TF instead of breaking | 2024-12-12 15:09:28 | 1 | 4f42cba127d6068bae685180fb0c6759cc53be01 |
 | miranov25 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13809) | O2-4592 - adding TOF LTIntegral to time series&skimmed data | 2024-12-17 10:28:37 | at least 2 | eae7e1da92a3e95414cb8d83c2a584f08c201dff |
@@ -41,7 +40,6 @@
 | davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13757) | Fixes to propagate updates of GPU params (D.Rohr) | 2024-12-01 22:36:00 | 1 | 73a96c308c3feac2884787b671d4b6f1421bf32b |
 | maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
 | noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |

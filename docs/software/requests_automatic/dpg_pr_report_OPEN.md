@@ -1,18 +1,18 @@
-# List PRs in state OPEN (from oldest to recent per package), last update: 2025-01-14 13:23 
+# List PRs in state OPEN (from oldest to recent per package), last update: 2025-01-15 13:20 
 
 
 ### For label async-2024-PbPb-apass1
 
 | Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13812) | report filenames for xrootd debug output in FileFetcher | 2025-01-01 10:24:42 | 1 | - |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13812) | report filenames for xrootd debug output in FileFetcher | 2025-01-15 00:33:10 | 1 | - |
 
 
 ### For label async-2024-ppRef-apass1
 
 | Author | Package | PR | PR title | Updated at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13812) | report filenames for xrootd debug output in FileFetcher | 2025-01-01 10:24:42 | 1 | - |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13812) | report filenames for xrootd debug output in FileFetcher | 2025-01-15 00:33:10 | 1 | - |
 
 
 ### For label async-2023-pbpb-apass4
