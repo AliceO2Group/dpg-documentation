@@ -1,4 +1,38 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-15 13:20 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-16 09:59 
+
+
+### For label async-2023-pp-apass4
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
+| lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
+| ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
+
+
+### For label async-2024-pp-apass1
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
+
+
+### For label async-2024-ppRef-apass1
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
+| davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
+| maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
+| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |
+| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
+| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
 
 
 ### For label async-2024-PbPb-apass1
@@ -30,30 +64,3 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
-
-
-### For label async-2024-ppRef-apass1
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13687) | Protect LT-int.calculation in TRD refit from bad TPC correction | 2024-11-13 21:35:31 | 1 | 4b9ede8b97d5941c353cd4769deb68409e0163be |
-| davidrohr | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13684) | GPU TPC: Reject clusters with too small radius during refit instead of giving them IFC mask errors | 2024-11-14 12:06:16 | 1 | dcb767f01f2fb1a526042375dcd4ab325c96743d |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13719) | Object to provide TB to cut due to the Altro sync. procedure | 2024-11-23 01:11:20 | 1 | ce63ff8c1c90453fa45b8b97eb03c02075c70469 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13734) | Fix in the parsing of ccdb-run-dependent options | 2024-11-26 00:16:15 | 1 | c7c9f5464919fe5890a96cfff985ce66ccabbc75 |
-| maciacco | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13785) | Bump trackextra table to the latest version | 2024-12-12 11:50:57 | at least 2 | deecd31316d6b1d2eee2e0ac51026446d7d1f803 |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13815) | Make tpc-time-series to accept track sources | 2024-12-19 11:29:00 | 1 | 6fa29aadbb766e0014f582b5ef4d8a957b25f3e9 |
-| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
-| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
-
-
-### For label async-2023-pp-apass4
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
-| lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
-| ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
