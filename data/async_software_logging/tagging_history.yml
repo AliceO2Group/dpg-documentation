@@ -741,6 +741,12 @@ AliceO2:
   - async-v1-01-02h
   - - async-2022-pp-apass7
   - Alberto Caliva
+  async-v1-01-02i:
+  - '1737148539'
+  - async-v1-01-02f
+  - async-v1-01-02i
+  - - async-2022-pp-apass7
+  - Alberto Caliva
   async-v1-01-03:
   - '1716489639'
   - UNKNOWN START
