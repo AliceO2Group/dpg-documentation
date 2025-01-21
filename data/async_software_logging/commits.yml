@@ -4,9 +4,13 @@ AliceO2:
   - 001ae07c3d1011c74480aef6b44b6ed07fd58cc1
   - Revert "fix in track propagation to TOF for MC (#13784)"
   - - async-v1-02-02
+    - async-v1-02-04
   - - NO LABEL
+    - async-2024-PbPb-apass1
   - - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1734620545'
+    - '1737475492'
   03cc6abe235478cb1b4d987d70b778f4362a9ba7:
   - '1737148539'
   - 03cc6abe235478cb1b4d987d70b778f4362a9ba7
@@ -516,6 +520,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  43223a4ec63044882b54165a48222a4233ae25b4:
+  - '1737475492'
+  - 43223a4ec63044882b54165a48222a4233ae25b4
+  - Check presence of hit files before adding to TChain
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   433dad6c3c2cfd9fdcbbf9401c690d7e5d79bfe6:
   - '1715850198'
   - 433dad6c3c2cfd9fdcbbf9401c690d7e5d79bfe6
@@ -556,6 +568,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Chiara Zampolli
   - - '1732123341'
+  518b10d464deefeaaa580a66ebef898c7089b4dc:
+  - '1737475492'
+  - 518b10d464deefeaaa580a66ebef898c7089b4dc
+  - 'DPL: fix small leak when receiving WS messages from the driver (#13871)'
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   54663de160e824b4a17f77a028a73966b4572e63:
   - '1715850198'
   - 54663de160e824b4a17f77a028a73966b4572e63
@@ -692,6 +712,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  75dbb6f451a5801f67b59996afccaea580d920b5:
+  - '1737475492'
+  - 75dbb6f451a5801f67b59996afccaea580d920b5
+  - Protection against null CTPClass::descriptor in CTP digitizer
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   78e868c40c6d870969ec0562d81c1599048addc2:
   - '1715850198'
   - 78e868c40c6d870969ec0562d81c1599048addc2
@@ -776,6 +804,14 @@ AliceO2:
     - Alberto Caliva
   - - '1734695728'
     - '1734703363'
+  7f23fa18e02520731a25e1bcacbcd352310c42b0:
+  - '1737475492'
+  - 7f23fa18e02520731a25e1bcacbcd352310c42b0
+  - Basic implementation of cocktail generation
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   81d66fb0518097a706c233c88cd0e989b205f4ce:
   - '1715850198'
   - 81d66fb0518097a706c233c88cd0e989b205f4ce
@@ -792,6 +828,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  8662a041262ea3f54ce34685d2ce5ad55c532c7d:
+  - '1737475492'
+  - 8662a041262ea3f54ce34685d2ce5ad55c532c7d
+  - Fix for subjob spawning with FIFOs
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   877eba6e317acc2675671c22fdd97126494ecd59:
   - '1717667967'
   - 877eba6e317acc2675671c22fdd97126494ecd59
@@ -880,6 +924,14 @@ AliceO2:
   - - '1724674066'
     - '1724674066'
     - '1724674066'
+  9424b418f0cf5cda388c7094d4766d57df995243:
+  - '1737475492'
+  - 9424b418f0cf5cda388c7094d4766d57df995243
+  - Make sure PrimaryGenerator is destructed
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   989671a4c4a1419244c96779edcf971dd7791a5e:
   - '1715850198'
   - 989671a4c4a1419244c96779edcf971dd7791a5e
@@ -904,6 +956,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Alberto Caliva
   - - '1734695728'
+  9ede2d59a03c7c159af187e15b3f30001e27879f:
+  - '1737475492'
+  - 9ede2d59a03c7c159af187e15b3f30001e27879f
+  - Fix the decay branch ratio of antihyperhelium4sigma
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   a0c7d5a0ec82d2175201cabece3e0490c26c2e3a:
   - '1722269586'
   - a0c7d5a0ec82d2175201cabece3e0490c26c2e3a
@@ -1168,6 +1228,22 @@ AliceO2:
     - '1724332826'
     - '1724332826'
     - '1724674066'
+  c4c70265c5bca03633db209eff9a1ae3ac6d1640:
+  - '1737475492'
+  - c4c70265c5bca03633db209eff9a1ae3ac6d1640
+  - 'o2sim: For consistency we take the eventcount from collcontext'
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
+  c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2:
+  - '1737475492'
+  - c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2
+  - Apply encoding to boxgen particles
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   c7c9f5464919fe5890a96cfff985ce66ccabbc75:
   - '1734703363'
   - c7c9f5464919fe5890a96cfff985ce66ccabbc75
@@ -1352,6 +1428,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  f70fb9b00c9a6e55a5ad57b73d39cb45b57e0f88:
+  - '1737475492'
+  - f70fb9b00c9a6e55a5ad57b73d39cb45b57e0f88
+  - 'Ctpdev: irframes (#13835)'
+  - - async-v1-02-04
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737475492'
   fba0d4fca744c4935c7257f1d794dc00561f1a6a:
   - '1720782516'
   - fba0d4fca744c4935c7257f1d794dc00561f1a6a
