@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-02-02](https://github.com/AliceO2Group/O2Physics/tree/async-v1-02-02) | [async-v1-02-04](https://github.com/AliceO2Group/O2Physics/tree/async-v1-02-04) | Alberto Caliva | async-2024-PbPb-apass1 | 2025-01-21 17:04 |
 | [async-v1-01-02h](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-02h) | [async-v1-01-02j](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-02j) | Alberto Caliva | async-2022-pp-apass7 | 2025-01-20 09:30 |
 | [async-v1-01-02f](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-02f) | [async-v1-01-02i](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-02i) | Alberto Caliva | async-2022-pp-apass7 | 2025-01-17 22:15 |
 | [async-v1-01-12f](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-12f) | [async-v1-01-12i](https://github.com/AliceO2Group/O2Physics/tree/async-v1-01-12i) | Alberto Caliva | async-2024-pp-apass1 | 2025-01-16 10:04 |
