@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-22 13:21 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-22 21:48 
 
 
 ### For label async-2024-PbPb-apass1
@@ -35,6 +35,26 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1858) | anchorMC: documentation | 2024-12-19 14:57:15 | 1 | 42084bc92f3735fc4917b1250cc48d26613496b5 |
+| motomioya | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1820) | Add files to simulate HFs to dimuons with trigger gap | 2024-12-19 14:58:50 | at least 2 | d1b9a1ff3c06b845de27ff06df1daed9997fa9f3 |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1859) | Fix injection gap math | 2024-12-20 14:13:35 | at least 2 | c23cfd2861a648e0a5fb4c0439aa885ff26ee727 |
+| ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1860) | update for generating a cocktail of X_1(3872) + Psi2S to Jpsi pi pi | 2024-12-27 09:40:09 | 1 | 198ebdeb738019cb92c7defb372b7250ac84b46c |
+| DanielSamitz | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1856) | PWGEM: LF Cocktail: add psi(2S) and upsilon | 2025-01-06 10:52:08 | 1 | a1839e72b4b53ec3ca8c3c772ec348ef87edef98 |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1862) | Minor updates of upcgen and graniitti generators and related scripts | 2025-01-06 10:52:42 | 1 | 8cb3cbc64d3ff689e719f26ce2923fc1df998026 |
+| jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1863) | Added evtpool to hybrid template generator | 2025-01-07 14:58:26 | 1 | 1a7fe1b58bf893aa917bea2c5912fbc3627a35d6 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1865) | Fix file linking for EMC digi task (in case of embedding) | 2025-01-07 15:57:58 | 1 | a79e2f9674848d37855037f4d00e867784f39191 |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
+| jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1866) | Improved hybrid template generator | 2025-01-08 16:42:02 | 1 | 86108d604fd7c97fad59515e0641b3991470832d |
+| mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1864) | Other Jpsi decays and trigger for various particles in dpmjet | 2025-01-08 16:42:22 | 1 | c9eea895440f9533d0f7df2c4ca42f74682d2875 |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1868) | Update default settings for Graniitti simulations | 2025-01-09 11:26:13 | 1 | c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1869) | O2DPG-MC: Possibility to pass additional external user settings | 2025-01-09 14:13:56 | 1 | dd1ded7c40ca188a33b9d498631d2b6167bd7aca |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1870) | Modify Lnn generator to include Li4 | 2025-01-10 09:11:21 | 1 | 9535629af19aac2a0a6095a0c24e1a24ce61c339 |
+| fgrosa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1871) | PWGHF: rename config of OmegaC->Omega in OmegaC NoDecay | 2025-01-10 19:17:28 | at least 2 | e40ee48852ec4a75082094b7968f5f49b6601836 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1875) | anchoredMC: Development for 2-tag strategy | 2025-01-14 18:08:08 | 1 | a77ed47a117a140e69c194d45c0ac339dd47facb |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1874) | Generalise coalescence generator in view of event pools | 2025-01-20 10:05:21 | 1 | 08066122494e3572cfdd6169ca8a6ad2a2c5d375 |
+| jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1878) | Number of JPsis per event as parameter | 2025-01-20 10:05:55 | 1 | 52f7c9afd8d3f9bdd0f9d94c2a66e0b9b1dcc6ed |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1879) | Add Omega_c decay table and G4 config to use external decayer | 2025-01-20 14:57:00 | at least 2 | 6c0023e26a2994f74220aeeb91259882253a5b24 |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1880) | Fix decay table to avoid contamination from granddaughters | 2025-01-20 20:36:57 | 1 | f503c23fd3eb7ff86d204173d922bdb8c9f4c44e |
 
 
 ### For label async-2023-pp-apass4
