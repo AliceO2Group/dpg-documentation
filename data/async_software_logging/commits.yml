@@ -1601,14 +1601,26 @@ O2DPG:
     - Alberto Caliva
   - - '1733411863'
     - '1733993969'
+  08066122494e3572cfdd6169ca8a6ad2a2c5d375:
+  - '1737579052'
+  - 08066122494e3572cfdd6169ca8a6ad2a2c5d375
+  - Generalise coalescence generator in view of event pools
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   0a5330179d3a939df7d3823483c73b143758cac9:
   - '1736358803'
   - 0a5330179d3a939df7d3823483c73b143758cac9
   - 'TPC: enable MC time gain usage'
   - - async-v1-02-03
+    - async-v1-02-05
   - - NO LABEL
+    - async-2024-PbPb-apass1
   - - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1736358803'
+    - '1737579052'
   0ba029f9a8df5a09a5dc3051358871c4683ad075:
   - '1715849744'
   - 0ba029f9a8df5a09a5dc3051358871c4683ad075
@@ -1669,6 +1681,22 @@ O2DPG:
   - - async-2023-pp-apass4
   - - Alberto Caliva
   - - '1730533915'
+  198ebdeb738019cb92c7defb372b7250ac84b46c:
+  - '1737579052'
+  - 198ebdeb738019cb92c7defb372b7250ac84b46c
+  - update for generating a cocktail of X3872 + Psi2S to Jpsi pi pi (#1860)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
+  1a7fe1b58bf893aa917bea2c5912fbc3627a35d6:
+  - '1737579052'
+  - 1a7fe1b58bf893aa917bea2c5912fbc3627a35d6
+  - Added evtpool to template generator
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   1af58ff3f15f1b000e101af40403a99494632562:
   - '1720782526'
   - 1af58ff3f15f1b000e101af40403a99494632562
@@ -2229,6 +2257,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  42084bc92f3735fc4917b1250cc48d26613496b5:
+  - '1737579052'
+  - 42084bc92f3735fc4917b1250cc48d26613496b5
+  - 'anchorMC: documentation'
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   447f54dc63d91c9c1542b674544db948a08c8bed:
   - '1734854849'
   - 447f54dc63d91c9c1542b674544db948a08c8bed
@@ -2366,6 +2402,14 @@ O2DPG:
   - - async-2024-pp-apass1
   - - Alberto Caliva
   - - '1733993969'
+  52f7c9afd8d3f9bdd0f9d94c2a66e0b9b1dcc6ed:
+  - '1737579052'
+  - 52f7c9afd8d3f9bdd0f9d94c2a66e0b9b1dcc6ed
+  - Adding number of JPsi per event as parameter
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   538c0b1c01352cb8f0640dfb74d7af13cee250f4:
   - '1718975658'
   - 538c0b1c01352cb8f0640dfb74d7af13cee250f4
@@ -2744,6 +2788,14 @@ O2DPG:
     - '1721469083'
     - '1730651200'
     - '1730988449'
+  6c0023e26a2994f74220aeeb91259882253a5b24:
+  - '1737579052'
+  - 6c0023e26a2994f74220aeeb91259882253a5b24
+  - Add Omega_c decay table and G4 config to use external decayer (#1879)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   6d4924eef63aaf6f4922b2fe2691fffbd0387fb7:
   - '1715849744'
   - 6d4924eef63aaf6f4922b2fe2691fffbd0387fb7
@@ -2932,6 +2984,14 @@ O2DPG:
     - '1724674076'
     - '1724674076'
     - '1724674076'
+  86108d604fd7c97fad59515e0641b3991470832d:
+  - '1737579052'
+  - 86108d604fd7c97fad59515e0641b3991470832d
+  - Improved hybrid template generator
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   8a53dfefad39919f0e4c59535b315762dc123ed6:
   - '1730651200'
   - 8a53dfefad39919f0e4c59535b315762dc123ed6
@@ -2948,6 +3008,14 @@ O2DPG:
   - - '1730651200'
     - '1730988449'
     - '1733993969'
+  8cb3cbc64d3ff689e719f26ce2923fc1df998026:
+  - '1737579052'
+  - 8cb3cbc64d3ff689e719f26ce2923fc1df998026
+  - Minor updates of upcgen and graniitti generators and related scripts
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   8e68f09c3823560997c4b2c8cf218d38bda8ba2a:
   - '1728391889'
   - 8e68f09c3823560997c4b2c8cf218d38bda8ba2a
@@ -3084,6 +3152,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  9535629af19aac2a0a6095a0c24e1a24ce61c339:
+  - '1737579052'
+  - 9535629af19aac2a0a6095a0c24e1a24ce61c339
+  - Modify Lnn generator to include Li4
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   96c75a633e49218bec316e06a91bd05c2ba7dbac:
   - '1719423478'
   - 96c75a633e49218bec316e06a91bd05c2ba7dbac
@@ -3265,6 +3341,14 @@ O2DPG:
     - '1724674076'
     - '1724674076'
     - '1724674076'
+  a1839e72b4b53ec3ca8c3c772ec348ef87edef98:
+  - '1737579052'
+  - a1839e72b4b53ec3ca8c3c772ec348ef87edef98
+  - add psi(2S) and upsilon
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   a764f86ba88952907fe79fcc852073b3d99dceed:
   - '1715849744'
   - a764f86ba88952907fe79fcc852073b3d99dceed
@@ -3293,6 +3377,22 @@ O2DPG:
     - '1719323950'
     - '1721469083'
     - '1721469083'
+  a77ed47a117a140e69c194d45c0ac339dd47facb:
+  - '1737579052'
+  - a77ed47a117a140e69c194d45c0ac339dd47facb
+  - 'anchoredMC: Development for 2-tag strategy'
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
+  a79e2f9674848d37855037f4d00e867784f39191:
+  - '1737579052'
+  - a79e2f9674848d37855037f4d00e867784f39191
+  - Fix file linking for EMC digi task (in case of embedding)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   a878e24f7fb6eeb5e73acd10175f6ab3b28ff5bf:
   - '1723040300'
   - a878e24f7fb6eeb5e73acd10175f6ab3b28ff5bf
@@ -3490,6 +3590,14 @@ O2DPG:
     - '1729245724'
     - '1730651200'
     - '1730988449'
+  c23cfd2861a648e0a5fb4c0439aa885ff26ee727:
+  - '1737579052'
+  - c23cfd2861a648e0a5fb4c0439aa885ff26ee727
+  - Fix injection gap math (#1859)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   c2b733fb8771acbf2867cb39259e851422fea6f6:
   - '1723040300'
   - c2b733fb8771acbf2867cb39259e851422fea6f6
@@ -3538,6 +3646,22 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9:
+  - '1737579052'
+  - c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9
+  - update default settings for Graniitti simulations
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
+  c9eea895440f9533d0f7df2c4ca42f74682d2875:
+  - '1737579052'
+  - c9eea895440f9533d0f7df2c4ca42f74682d2875
+  - Other Jpsi decays and trigger for various particles in dpmjet
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   c9f8bc00168c7461ec73326ecd7a2cbe5fe72de5:
   - '1715849744'
   - c9f8bc00168c7461ec73326ecd7a2cbe5fe72de5
@@ -3654,6 +3778,14 @@ O2DPG:
     - '1724674076'
     - '1724674076'
     - '1724674076'
+  d1b9a1ff3c06b845de27ff06df1daed9997fa9f3:
+  - '1737579052'
+  - d1b9a1ff3c06b845de27ff06df1daed9997fa9f3
+  - Add files to simulate HFs to dimuons with trigger gap (#1820)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   d3d9c7f82229cb561aff0bb83b4ec59dff781825:
   - '1723040300'
   - d3d9c7f82229cb561aff0bb83b4ec59dff781825
@@ -3855,9 +3987,13 @@ O2DPG:
   - dd1ded7c40ca188a33b9d498631d2b6167bd7aca
   - 'O2DPG-MC: Possibility to pass additional external user settings'
   - - async-v1-01-02h
+    - async-v1-02-05
   - - async-2022-pp-apass7
+    - async-2024-PbPb-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1736775762'
+    - '1737579052'
   e09b9ba093df508da3addbe39769ef51325c971a:
   - '1734854849'
   - e09b9ba093df508da3addbe39769ef51325c971a
@@ -3882,6 +4018,14 @@ O2DPG:
   - - '1730534822'
     - '1733411863'
     - '1733993969'
+  e40ee48852ec4a75082094b7968f5f49b6601836:
+  - '1737579052'
+  - e40ee48852ec4a75082094b7968f5f49b6601836
+  - 'PWGHF: rename config of OmegaC->Omega in OmegaC NoDecay (#1871)'
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   eab175696e7dde819c8ef783e7c4001debbcc552:
   - '1723181605'
   - eab175696e7dde819c8ef783e7c4001debbcc552
@@ -4042,6 +4186,14 @@ O2DPG:
   - - '1730534822'
     - '1733411863'
     - '1733993969'
+  f503c23fd3eb7ff86d204173d922bdb8c9f4c44e:
+  - '1737579052'
+  - f503c23fd3eb7ff86d204173d922bdb8c9f4c44e
+  - Fix decay table to avoid contamination from granddaughters (#1880)
+  - - async-v1-02-05
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737579052'
   f55a23a99a577f636ce9c6a9267d4b5f49782202:
   - '1733411863'
   - f55a23a99a577f636ce9c6a9267d4b5f49782202
