@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Change bad-data-interval parsing to account for more requirements](https://github.com/AliceO2Group/O2DPG/commit/e5fb7c33793cf61b72f7247b37140640d5af2cf2) | [async-v1-02-06](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-06) (async-2024-PbPb-apass1, 2025-01-23 19:15, Alberto Caliva) |
 | [Fix decay table to avoid contamination from granddaughters (#1880)](https://github.com/AliceO2Group/O2DPG/commit/f503c23fd3eb7ff86d204173d922bdb8c9f4c44e) | [async-v1-02-05](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-05) (async-2024-PbPb-apass1, 2025-01-22 21:50, Alberto Caliva) |
 | [PWGHF: rename config of OmegaC->Omega in OmegaC NoDecay (#1871)](https://github.com/AliceO2Group/O2DPG/commit/e40ee48852ec4a75082094b7968f5f49b6601836) | [async-v1-02-05](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-05) (async-2024-PbPb-apass1, 2025-01-22 21:50, Alberto Caliva) |
 | [Add files to simulate HFs to dimuons with trigger gap (#1820)](https://github.com/AliceO2Group/O2DPG/commit/d1b9a1ff3c06b845de27ff06df1daed9997fa9f3) | [async-v1-02-05](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-05) (async-2024-PbPb-apass1, 2025-01-22 21:50, Alberto Caliva) |

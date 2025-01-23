@@ -4026,6 +4026,14 @@ O2DPG:
   - - async-2024-PbPb-apass1
   - - Alberto Caliva
   - - '1737579052'
+  e5fb7c33793cf61b72f7247b37140640d5af2cf2:
+  - '1737656132'
+  - e5fb7c33793cf61b72f7247b37140640d5af2cf2
+  - Change bad-data-interval parsing to account for more requirements
+  - - async-v1-02-06
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1737656132'
   eab175696e7dde819c8ef783e7c4001debbcc552:
   - '1723181605'
   - eab175696e7dde819c8ef783e7c4001debbcc552
