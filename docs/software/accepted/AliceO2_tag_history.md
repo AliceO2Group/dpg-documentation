@@ -2,6 +2,7 @@
 
 | Started from | Created tag | Operator | Associated labels | Date |
 | --- | --- | --- | --- | --- |
+| [async-v1-02-02](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-02) | [async-v1-02-06](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-06) | Alberto Caliva | async-2024-PbPb-apass1 | 2025-01-23 19:15 |
 | [async-v1-02-02](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-02) | [async-v1-02-05](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-05) | Alberto Caliva | async-2024-PbPb-apass1 | 2025-01-22 21:50 |
 | [async-v1-02-02](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-02) | [async-v1-02-04](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-04) | Alberto Caliva | async-2024-PbPb-apass1 | 2025-01-21 17:04 |
 | [async-v1-01-02h](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-02h) | [async-v1-01-02j](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-02j) | Alberto Caliva | async-2022-pp-apass7 | 2025-01-20 09:30 |
