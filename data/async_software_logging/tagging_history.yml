@@ -2820,3 +2820,9 @@ QualityControl:
   - async-v1-02-05
   - - async-2024-PbPb-apass1
   - Alberto Caliva
+  async-v1-02-06:
+  - '1737656135'
+  - async-v1-02-02
+  - async-v1-02-06
+  - - async-2024-PbPb-apass1
+  - Alberto Caliva
