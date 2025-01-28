@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [DigitizationContext: Prevent a segfault in QED filling](https://github.com/AliceO2Group/AliceO2/commit/1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea) | [async-v1-02-07](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-07) (async-2024-PbPb-apass1, 2025-01-28 21:37, Alberto Caliva) |
 | [Ctpdev: irframes (#13835)](https://github.com/AliceO2Group/AliceO2/commit/f70fb9b00c9a6e55a5ad57b73d39cb45b57e0f88) | [async-v1-02-04](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-04) (async-2024-PbPb-apass1, 2025-01-21 17:04, Alberto Caliva) |
 | [Apply encoding to boxgen particles](https://github.com/AliceO2Group/AliceO2/commit/c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2) | [async-v1-02-04](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-04) (async-2024-PbPb-apass1, 2025-01-21 17:04, Alberto Caliva) |
 | [o2sim: For consistency we take the eventcount from collcontext](https://github.com/AliceO2Group/AliceO2/commit/c4c70265c5bca03633db209eff9a1ae3ac6d1640) | [async-v1-02-04](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-04) (async-2024-PbPb-apass1, 2025-01-21 17:04, Alberto Caliva) |

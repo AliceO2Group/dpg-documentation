@@ -187,6 +187,14 @@ AliceO2:
     - '1729245722'
     - '1730651198'
     - '1730988447'
+  1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea:
+  - '1738096676'
+  - 1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea
+  - 'DigitizationContext: Prevent a segfault in QED filling'
+  - - async-v1-02-07
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1738096676'
   175e6acf280bcc5d1eaedfea6f19c8bd20829447:
   - '1722269586'
   - 175e6acf280bcc5d1eaedfea6f19c8bd20829447
