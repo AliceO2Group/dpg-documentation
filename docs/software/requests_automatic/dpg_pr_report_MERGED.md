@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-28 13:23 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-28 21:31 
 
 
 ### For label async-2024-PbPb-apass1
@@ -15,6 +15,7 @@
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13842) | Check presence of hit files before adding to TChain | 2025-01-09 11:08:34 | 1 | 43223a4ec63044882b54165a48222a4233ae25b4 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13864) | Protection against null CTPClass::descriptor in CTP digitizer | 2025-01-14 13:56:22 | 1 | 75dbb6f451a5801f67b59996afccaea580d920b5 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13908) | DigitizationContext: Prevent a segfault in QED filling | 2025-01-28 18:16:01 | 1 | 1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
