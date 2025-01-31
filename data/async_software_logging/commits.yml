@@ -24,9 +24,13 @@ AliceO2:
   - 07818bf63363dd40607d16d4a0a3e7277da9f077
   - Add EP angle to McCollisions for debugging (#13287)
   - - async-v1-01-24
+    - async-v1-01-11c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1734695728'
+    - '1738334293'
   08d9479cb3a7e75c10789da8b01430bf6fcfce53:
   - '1716489639'
   - 08d9479cb3a7e75c10789da8b01430bf6fcfce53
@@ -335,6 +339,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  31e7cfec734590986b1c3596e21c99853fe8bece:
+  - '1738334293'
+  - 31e7cfec734590986b1c3596e21c99853fe8bece
+  - Add EP angle only if available from the generator (#13311)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   3301b3fccb29bd1dfc44492fa1f96a412390bd0e:
   - '1715850198'
   - 3301b3fccb29bd1dfc44492fa1f96a412390bd0e
@@ -528,6 +540,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  4179712a03b8575fbefcf2cc95e73d5ef32d3945:
+  - '1738334293'
+  - 4179712a03b8575fbefcf2cc95e73d5ef32d3945
+  - Pythia8 seeding improvements
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   43223a4ec63044882b54165a48222a4233ae25b4:
   - '1737475492'
   - 43223a4ec63044882b54165a48222a4233ae25b4
@@ -620,6 +640,22 @@ AliceO2:
     - '1724674066'
     - '1724674066'
     - '1724674066'
+  5f1e50c3edcaf2ff0dd053f70c1d3ad86982e1d2:
+  - '1738334293'
+  - 5f1e50c3edcaf2ff0dd053f70c1d3ad86982e1d2
+  - Fraction based randomisation for Hybrid Gen (#13745)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
+  611600b358eb3719fe6dde1fba47e930211c2661:
+  - '1738334293'
+  - 611600b358eb3719fe6dde1fba47e930211c2661
+  - Trigger implementation in hybrid generator (#13873)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   62859c83eb64adc8d3f611ab979eb9ec447096cf:
   - '1718898969'
   - 62859c83eb64adc8d3f611ab979eb9ec447096cf
@@ -652,6 +688,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  6321af7e1c7d840b49ab6f041afaaaefe3312516:
+  - '1738334293'
+  - 6321af7e1c7d840b49ab6f041afaaaefe3312516
+  - Ability to create configurable param from a given external struct
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   6b8ca303d7107dc76fcd6492dd3f8da612ae4a69:
   - '1732117472'
   - 6b8ca303d7107dc76fcd6492dd3f8da612ae4a69
@@ -817,9 +861,29 @@ AliceO2:
   - 7f23fa18e02520731a25e1bcacbcd352310c42b0
   - Basic implementation of cocktail generation
   - - async-v1-02-04
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737475492'
+    - '1738334293'
+  7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e:
+  - '1738334293'
+  - 7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e
+  - Fix for failing dataflow build (#13721)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
+  808730cdc1c15defd904bf7e5de176b4c6fa27f2:
+  - '1738334293'
+  - 808730cdc1c15defd904bf7e5de176b4c6fa27f2
+  - New event generator/wrapper facilitating event-pools (#13766)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   81d66fb0518097a706c233c88cd0e989b205f4ce:
   - '1715850198'
   - 81d66fb0518097a706c233c88cd0e989b205f4ce
@@ -916,6 +980,30 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  8dbd237ff4b28bb31267f97735706c3d3fdb3d72:
+  - '1738334293'
+  - 8dbd237ff4b28bb31267f97735706c3d3fdb3d72
+  - Prevent segfault in GeneratorFromFile
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
+  8ec256cf36357a2c943c3f9f02b79a15469f4f18:
+  - '1738334293'
+  - 8ec256cf36357a2c943c3f9f02b79a15469f4f18
+  - 'GenO2Kine: Event-pool developments'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
+  8ece2ec795a03e60ffb4a60b377f2351bc85a6d0:
+  - '1738334293'
+  - 8ece2ec795a03e60ffb4a60b377f2351bc85a6d0
+  - 'HybridGen/EventPool: small fixes, Add missing EventHeader propagation'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3:
   - '1724674066'
   - 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3
@@ -932,14 +1020,26 @@ AliceO2:
   - - '1724674066'
     - '1724674066'
     - '1724674066'
+  929bb79415f510ec2faaebc83df0df459d62507d:
+  - '1738334293'
+  - 929bb79415f510ec2faaebc83df0df459d62507d
+  - Fix GeneratorPythia8 construction
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   9424b418f0cf5cda388c7094d4766d57df995243:
   - '1737475492'
   - 9424b418f0cf5cda388c7094d4766d57df995243
   - Make sure PrimaryGenerator is destructed
   - - async-v1-02-04
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737475492'
+    - '1738334293'
   989671a4c4a1419244c96779edcf971dd7791a5e:
   - '1715850198'
   - 989671a4c4a1419244c96779edcf971dd7791a5e
@@ -1032,6 +1132,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Chiara Zampolli
   - - '1732117472'
+  a5163471d24301ce065cbdf292032bf44a20200f:
+  - '1738334293'
+  - a5163471d24301ce065cbdf292032bf44a20200f
+  - make function protected
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   a70c90fcfec848c7e8789350a5f313167f38f37d:
   - '1715850198'
   - a70c90fcfec848c7e8789350a5f313167f38f37d
@@ -1241,17 +1349,25 @@ AliceO2:
   - c4c70265c5bca03633db209eff9a1ae3ac6d1640
   - 'o2sim: For consistency we take the eventcount from collcontext'
   - - async-v1-02-04
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737475492'
+    - '1738334293'
   c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2:
   - '1737475492'
   - c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2
   - Apply encoding to boxgen particles
   - - async-v1-02-04
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737475492'
+    - '1738334293'
   c7c9f5464919fe5890a96cfff985ce66ccabbc75:
   - '1734703363'
   - c7c9f5464919fe5890a96cfff985ce66ccabbc75
@@ -1352,6 +1468,14 @@ AliceO2:
   - - '1724674066'
     - '1724674066'
     - '1724674066'
+  d6a50f03ea3abf6cf704d1a95d5c13b463972451:
+  - '1738334293'
+  - d6a50f03ea3abf6cf704d1a95d5c13b463972451
+  - Implementation of hybrid generator  (#13699)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   db59272402b55902036907fdaa7cc9ee9bb8cb52:
   - '1722152007'
   - db59272402b55902036907fdaa7cc9ee9bb8cb52
@@ -1404,6 +1528,14 @@ AliceO2:
     - '1718975658'
     - '1730651198'
     - '1730988447'
+  f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e:
+  - '1738334293'
+  - f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e
+  - 'HybridGenerator: Asyncronous + parallel event generation (#13788)'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334293'
   f6ee1807b16e0bf253c687da11d9d71c31788354:
   - '1720782516'
   - f6ee1807b16e0bf253c687da11d9d71c31788354

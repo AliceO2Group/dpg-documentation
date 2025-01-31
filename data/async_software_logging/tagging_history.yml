@@ -828,6 +828,12 @@ AliceO2:
     - async-2022-pp-apass7
     - async-2024-pp-cpass0
   - Chiara Zampolli
+  async-v1-01-11c:
+  - '1738334293'
+  - async-v1-01-11
+  - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-12:
   - '1721052932'
   - async-v1-01-branch
