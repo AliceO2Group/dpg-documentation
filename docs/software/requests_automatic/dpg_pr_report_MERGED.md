@@ -1,16 +1,25 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-31 15:36 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-31 18:56 
 
 
 ### For label async-2024-pp-apass1
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13148) | SIM: Adding experiment versions and dynamic library loading | 2024-05-28 12:55:21 | at least 2 | be5cdb91997e62878dc2b74ce75f8a3594a6ec95 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13206) | Prevent segfault in GeneratorFromFile | 2024-06-05 18:14:03 | 1 | 8dbd237ff4b28bb31267f97735706c3d3fdb3d72 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13281) | Pythia8 seeding improvements | 2024-07-10 14:17:22 | 1 | 4179712a03b8575fbefcf2cc95e73d5ef32d3945 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13289) | make function protected | 2024-07-10 23:05:28 | 1 | a5163471d24301ce065cbdf292032bf44a20200f |
 | ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
 | pzhristov | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13311) | Add EP angle only if available from the generator | 2024-07-19 14:48:24 | 1 | 31e7cfec734590986b1c3596e21c99853fe8bece |
+| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13345) | TPC: improving simulation of distortions in MC | 2024-08-08 11:02:05 | at least 2 | 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13430) | o2-sim: Ability to adjust default option values depending on Run5 or not | 2024-08-26 15:53:01 | 1 | a7150e2714f1bb782bd0d8fcb74b795890f1f02c |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13551) | ITS digi: Ability to process events before the first RO | 2024-10-01 14:49:01 | 1 | d9e8f0474b784a01ab70c51c5360f770b1a0fd3e |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13571) | Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine | 2024-10-31 09:06:33 | at least 2 | 8ec256cf36357a2c943c3f9f02b79a15469f4f18 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13645) | Allow to specify the starting orbit as a fractional value | 2024-11-01 08:53:16 | 1 | 2a20074bb7c9812420361168be79bd0f0cdf4b54 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13239) | Improvements for CollisionContext generation | 2024-11-07 20:44:30 | 1 | 71711a52b76dc181f1b62ac525054246da12d896 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13674) | Digicontext: Several improvements | 2024-11-11 10:55:21 | 1 | adc8cad268949741f71df3e43ab6cfd801a2a562 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13697) | Orbit-early treatment in CollisionContext tool | 2024-11-15 18:07:37 | 1 | 9fa6915dea9e5f948743b41d96b630a25e1db577 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13703) | CollisionContextTool: different QED printing | 2024-11-16 17:06:00 | 1 | bcec346566f77dd3b386dc399dcb8e4a8ff6a7ff |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13699) | Implementation of hybrid generator  | 2024-11-20 13:35:14 | at least 2 | d6a50f03ea3abf6cf704d1a95d5c13b463972451 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13722) | Fix GeneratorPythia8 construction | 2024-11-21 20:26:12 | 1 | 929bb79415f510ec2faaebc83df0df459d62507d |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13721) | Fix for failing dataflow build | 2024-11-22 07:44:06 | 1 | 7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e |
@@ -114,7 +123,6 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
@@ -125,7 +133,6 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| noferini | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13784) | fix in track propagation to TOF for MC | 2024-12-16 10:35:34 | 1 | 7e245782330f9e5bec8fb624a061edad04a7356d |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
