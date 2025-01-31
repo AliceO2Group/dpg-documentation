@@ -1749,18 +1749,30 @@ O2DPG:
   - - async-2024-PbPb-apass1
   - - Alberto Caliva
   - - '1737579052'
+  0921c71ac788947533ce8943a105e776ef5133f4:
+  - '1738334295'
+  - 0921c71ac788947533ce8943a105e776ef5133f4
+  - Increased cpu value to 8 when creating pool
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   0a5330179d3a939df7d3823483c73b143758cac9:
   - '1736358803'
   - 0a5330179d3a939df7d3823483c73b143758cac9
   - 'TPC: enable MC time gain usage'
   - - async-v1-02-03
     - async-v1-02-05
+    - async-v1-01-11c
   - - NO LABEL
     - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - UNKNOWN OPERATOR
+    - Alberto Caliva
     - Alberto Caliva
   - - '1736358803'
     - '1737579052'
+    - '1738334295'
   0ba029f9a8df5a09a5dc3051358871c4683ad075:
   - '1715849744'
   - 0ba029f9a8df5a09a5dc3051358871c4683ad075
@@ -1801,6 +1813,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  15049b0699c6c23c4573ff34200f4ef6987ff551:
+  - '1738334295'
+  - 15049b0699c6c23c4573ff34200f4ef6987ff551
+  - Basic implementation of event pooling in O2DPG workflow (#1760)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   1701ebeb5ab45778d4a910c4951fed0ba83a0172:
   - '1724855772'
   - 1701ebeb5ab45778d4a910c4951fed0ba83a0172
@@ -1834,9 +1854,13 @@ O2DPG:
   - 1a7fe1b58bf893aa917bea2c5912fbc3627a35d6
   - Added evtpool to template generator
   - - async-v1-02-05
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737579052'
+    - '1738334295'
   1af58ff3f15f1b000e101af40403a99494632562:
   - '1720782526'
   - 1af58ff3f15f1b000e101af40403a99494632562
@@ -1869,6 +1893,14 @@ O2DPG:
     - '1722007796'
     - '1730651200'
     - '1730988449'
+  1cb92673535774fc4e45132036b5652f15b6f2c7:
+  - '1738334295'
+  - 1cb92673535774fc4e45132036b5652f15b6f2c7
+  - 'EvtPool: Make stat file non-empty to enable MonaLisa upload'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6:
   - '1730988449'
   - 1d2c818e37f3393fdd77b2bcdc171cc8ea37f6a6
@@ -1901,6 +1933,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  1f7f0dddd22534c0fd576f35685a92e425e48658:
+  - '1738334295'
+  - 1f7f0dddd22534c0fd576f35685a92e425e48658
+  - 'WIP: Allow to generate events before timeframe start (#1768)'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   224e43dd6d5c34b739476fca4bc0c1f856209d7c:
   - '1715849744'
   - 224e43dd6d5c34b739476fca4bc0c1f856209d7c
@@ -2005,6 +2045,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  2b045c95b62cc39c05b3b4139f92dbda5058a226:
+  - '1738334295'
+  - 2b045c95b62cc39c05b3b4139f92dbda5058a226
+  - Improvements for run_span treatment
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   2c71e9be7a072052e3a36eb0d7abf946c21a49bc:
   - '1716995451'
   - 2c71e9be7a072052e3a36eb0d7abf946c21a49bc
@@ -2153,6 +2201,14 @@ O2DPG:
     - '1723181605'
     - '1730651200'
     - '1730988449'
+  324594a35489d6d86107b227cccbafbeb075e7dc:
+  - '1738334295'
+  - 324594a35489d6d86107b227cccbafbeb075e7dc
+  - no vertexing for evtpool (#1849)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   328c82607d5fa7e3410ddd9b4cb37f5737ac8adf:
   - '1719423478'
   - 328c82607d5fa7e3410ddd9b4cb37f5737ac8adf
@@ -2321,6 +2377,14 @@ O2DPG:
     - '1724332828'
     - '1730651200'
     - '1730988449'
+  370602dfdff8ba4b35b0213e46d7e4d6c0306a8d:
+  - '1738334295'
+  - 370602dfdff8ba4b35b0213e46d7e4d6c0306a8d
+  - Allow for fractional orbits_early
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   390ee70bf3619d008f25badbbaa35b1ff939f3dd:
   - '1730534822'
   - 390ee70bf3619d008f25badbbaa35b1ff939f3dd
@@ -2405,6 +2469,22 @@ O2DPG:
   - - async-2024-PbPb-apass1
   - - Alberto Caliva
   - - '1737579052'
+  424f879c933f3d0d01a66228eb6f9d4367570281:
+  - '1738334295'
+  - 424f879c933f3d0d01a66228eb6f9d4367570281
+  - Take away SHMSIZE for TPCCluster
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
+  43c9be8f0a03099db97cc2d07acb02d20c67dd08:
+  - '1738334295'
+  - 43c9be8f0a03099db97cc2d07acb02d20c67dd08
+  - 'EventPools: Timeout option and stat file (#1852)'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   447f54dc63d91c9c1542b674544db948a08c8bed:
   - '1734854849'
   - 447f54dc63d91c9c1542b674544db948a08c8bed
@@ -2494,6 +2574,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724332828'
+  4fb7da4883bc9add968816ca4336e870a9b3c116:
+  - '1738334295'
+  - 4fb7da4883bc9add968816ca4336e870a9b3c116
+  - protection against corrupt O2DPG repository during topology generation
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   5162e5998d147fbf21ac94857252275e0952f8ba:
   - '1715849744'
   - 5162e5998d147fbf21ac94857252275e0952f8ba
@@ -2728,6 +2816,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  5f6131abfb95a331646a5b23f84312b76364a2e0:
+  - '1738334295'
+  - 5f6131abfb95a331646a5b23f84312b76364a2e0
+  - Consistency fixes for SOR determination in unanchored MC (#1780)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   61e60a4ccd9ab0748d7b7be87ad947b9a1862338:
   - '1723181605'
   - 61e60a4ccd9ab0748d7b7be87ad947b9a1862338
@@ -2933,9 +3029,13 @@ O2DPG:
   - 6c0023e26a2994f74220aeeb91259882253a5b24
   - Add Omega_c decay table and G4 config to use external decayer (#1879)
   - - async-v1-02-05
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737579052'
+    - '1738334295'
   6d4924eef63aaf6f4922b2fe2691fffbd0387fb7:
   - '1715849744'
   - 6d4924eef63aaf6f4922b2fe2691fffbd0387fb7
@@ -2980,6 +3080,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  6d914ef50001288e8dfcbdebffb81c556627a624:
+  - '1738334295'
+  - 6d914ef50001288e8dfcbdebffb81c556627a624
+  - Enable orbits early / history effect by default
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8:
   - '1730651200'
   - 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8
@@ -3084,6 +3192,22 @@ O2DPG:
     - '1717667967'
     - '1730651200'
     - '1730988449'
+  73425a398a9b689141ee838abbe735548ffbb6da:
+  - '1738334295'
+  - 73425a398a9b689141ee838abbe735548ffbb6da
+  - Possibility to set the input specs for GLO QC dynamically, for K0s (#1834)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
+  74684c54b219ec7ddf9e6150f253f311e1b1d034:
+  - '1738334295'
+  - 74684c54b219ec7ddf9e6150f253f311e1b1d034
+  - Better support to treat events from HepMC event files (multi-timeframe case)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   763bc731607f5710a9d31b8dafa7608b3c9517f5:
   - '1715849744'
   - 763bc731607f5710a9d31b8dafa7608b3c9517f5
@@ -3104,6 +3228,22 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  7a88fae08d14b2c83b6167dee6ac0753190d4f29:
+  - '1738334295'
+  - 7a88fae08d14b2c83b6167dee6ac0753190d4f29
+  - Script for hybrid JSON template generation
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
+  7b88f337ff33f9ce8f12e312e3ef1141b3907cfa:
+  - '1738334295'
+  - 7b88f337ff33f9ce8f12e312e3ef1141b3907cfa
+  - Ability to treat run-holes in anchored MC
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   8279d4b6f43552b8e0849ec53aa29e0d84d84ccb:
   - '1723040300'
   - 8279d4b6f43552b8e0849ec53aa29e0d84d84ccb
@@ -3129,9 +3269,13 @@ O2DPG:
   - 86108d604fd7c97fad59515e0641b3991470832d
   - Improved hybrid template generator
   - - async-v1-02-05
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737579052'
+    - '1738334295'
   8a53dfefad39919f0e4c59535b315762dc123ed6:
   - '1730651200'
   - 8a53dfefad39919f0e4c59535b315762dc123ed6
@@ -3340,6 +3484,15 @@ O2DPG:
     - '1724399435'
     - '1730651200'
     - '1730988449'
+  9780b4622fdb82bc8e55d54249e77760dbaa989d:
+  - '1738334295'
+  - 9780b4622fdb82bc8e55d54249e77760dbaa989d
+  - Added possibility to define a general HEPMCOFFSET. Is usefull when simulating
+    different SPLITIDs of a run in separate jobs. (#1730)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   985c3e6586dc785ef1ea5dcf7841ab80d2bd4464:
   - '1715849744'
   - 985c3e6586dc785ef1ea5dcf7841ab80d2bd4464
@@ -3360,14 +3513,34 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  9946a60a86b9a6bea3ba9aedf933735e1e53ecb3:
+  - '1738334295'
+  - 9946a60a86b9a6bea3ba9aedf933735e1e53ecb3
+  - avoid that PRODSPLIT is overwritten
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   99e5525440b9c4782df2519943e891a3ffce6bed:
   - '1725625044'
   - 99e5525440b9c4782df2519943e891a3ffce6bed
   - Adding eta cuts to the trigger (#1700)
   - - async-v1-01-18
+    - async-v1-01-11c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Chiara Zampolli
+    - Alberto Caliva
   - - '1725625044'
+    - '1738334295'
+  9a36a509d5d30620ec81e5bf9c4590cb9a7c88fa:
+  - '1738334295'
+  - 9a36a509d5d30620ec81e5bf9c4590cb9a7c88fa
+  - 'AnchoredMC: Allow to overwrite number of orbits per TF'
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   9a5a25405614cde2838d50565beaf000b4853c5e:
   - '1723040300'
   - 9a5a25405614cde2838d50565beaf000b4853c5e
@@ -3396,6 +3569,14 @@ O2DPG:
     - '1724332828'
     - '1724332828'
     - '1724674076'
+  9a6dd3cad864de74916e537bc2f8940e1f890419:
+  - '1738334295'
+  - 9a6dd3cad864de74916e537bc2f8940e1f890419
+  - Update JSON template script for Hybrid generator (#1845)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   9ef1e817a9449c436e7887cbfab8878c3e22e259:
   - '1719589186'
   - 9ef1e817a9449c436e7887cbfab8878c3e22e259
@@ -3489,6 +3670,14 @@ O2DPG:
   - - async-2024-PbPb-apass1
   - - Alberto Caliva
   - - '1737579052'
+  a3ab0ee95dda61dbf986a2da992cf88d978fccbf:
+  - '1738334295'
+  - a3ab0ee95dda61dbf986a2da992cf88d978fccbf
+  - Add run type and beam type metadata for async and MC QC (#1838)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   a764f86ba88952907fe79fcc852073b3d99dceed:
   - '1715849744'
   - a764f86ba88952907fe79fcc852073b3d99dceed
@@ -3530,9 +3719,13 @@ O2DPG:
   - a79e2f9674848d37855037f4d00e867784f39191
   - Fix file linking for EMC digi task (in case of embedding)
   - - async-v1-02-05
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737579052'
+    - '1738334295'
   a878e24f7fb6eeb5e73acd10175f6ab3b28ff5bf:
   - '1723040300'
   - a878e24f7fb6eeb5e73acd10175f6ab3b28ff5bf
@@ -3645,6 +3838,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  b14261a45b8910fd912e68b655b78ea5e200d0d0:
+  - '1738334295'
+  - b14261a45b8910fd912e68b655b78ea5e200d0d0
+  - Added description and example
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   b9cb67a0845587b3d34bb6d320711dc0478c4022:
   - '1723181605'
   - b9cb67a0845587b3d34bb6d320711dc0478c4022
@@ -3786,6 +3987,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  c86839747cd1bbf7609e827dd5148212645338a1:
+  - '1738334295'
+  - c86839747cd1bbf7609e827dd5148212645338a1
+  - Removed comment
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9:
   - '1737579052'
   - c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9
@@ -4066,6 +4275,14 @@ O2DPG:
   - - async-2022-pp-apass7
   - - Chiara Zampolli
   - - '1733411863'
+  dbbf327cae5defdf3a3d9cfe05717aafdcc125e4:
+  - '1738334295'
+  - dbbf327cae5defdf3a3d9cfe05717aafdcc125e4
+  - Significant MC Workflow restructuring (#1790)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   dbd0e2e83519bc33f8f243663113e0dc56f9dff9:
   - '1723040300'
   - dbd0e2e83519bc33f8f243663113e0dc56f9dff9
@@ -4307,17 +4524,25 @@ O2DPG:
   - f0496b91827ea1c22d156524b8a7f6cb136a21b8
   - Script to run STARlight anchored productions (#1681)
   - - async-v1-01-18
+    - async-v1-01-11c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Chiara Zampolli
+    - Alberto Caliva
   - - '1725625044'
+    - '1738334295'
   f2566668d7d5b965fdc89850718959bff2208a3c:
   - '1725625044'
   - f2566668d7d5b965fdc89850718959bff2208a3c
   - Fix TPC timeseries for MC (#1740)
   - - async-v1-01-18
+    - async-v1-01-11c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Chiara Zampolli
+    - Alberto Caliva
   - - '1725625044'
+    - '1738334295'
   f26dfd23f877214d3d8052ad8d431a9f4100d453:
   - '1730534822'
   - f26dfd23f877214d3d8052ad8d431a9f4100d453
@@ -4334,14 +4559,26 @@ O2DPG:
   - - '1730534822'
     - '1733411863'
     - '1733993969'
+  f2a05a2d13f0d2e7e83caa6e71981edf4f2f7f76:
+  - '1738334295'
+  - f2a05a2d13f0d2e7e83caa6e71981edf4f2f7f76
+  - Use new AggregatedRunInfo to fetch SOR/EOX/FirstOrbit (#1767)
+  - - async-v1-01-11c
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738334295'
   f503c23fd3eb7ff86d204173d922bdb8c9f4c44e:
   - '1737579052'
   - f503c23fd3eb7ff86d204173d922bdb8c9f4c44e
   - Fix decay table to avoid contamination from granddaughters (#1880)
   - - async-v1-02-05
+    - async-v1-01-11c
   - - async-2024-PbPb-apass1
+    - async-2024-pp-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1737579052'
+    - '1738334295'
   f55a23a99a577f636ce9c6a9267d4b5f49782202:
   - '1733411863'
   - f55a23a99a577f636ce9c6a9267d4b5f49782202
@@ -4355,9 +4592,13 @@ O2DPG:
   - f79426f195d72ee2f3fe45227fb7150758f5dbcf
   - PWGUD Starlight interface (#1663)
   - - async-v1-01-18
+    - async-v1-01-11c
   - - async-2023-pbpb-apass4
+    - async-2024-pp-apass1
   - - Chiara Zampolli
+    - Alberto Caliva
   - - '1725625044'
+    - '1738334295'
   f919a5180f3216e88e48d8f91995af5f971df9e5:
   - '1723040300'
   - f919a5180f3216e88e48d8f91995af5f971df9e5
