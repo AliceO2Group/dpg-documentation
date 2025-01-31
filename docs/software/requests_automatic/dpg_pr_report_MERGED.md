@@ -1,10 +1,11 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-29 14:22 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-31 15:36 
 
 
 ### For label async-2024-pp-apass1
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13571) | Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine | 2024-10-31 09:06:33 | at least 2 | 8ec256cf36357a2c943c3f9f02b79a15469f4f18 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13699) | Implementation of hybrid generator  | 2024-11-20 13:35:14 | at least 2 | d6a50f03ea3abf6cf704d1a95d5c13b463972451 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13722) | Fix GeneratorPythia8 construction | 2024-11-21 20:26:12 | 1 | 929bb79415f510ec2faaebc83df0df459d62507d |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13721) | Fix for failing dataflow build | 2024-11-22 07:44:06 | 1 | 7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e |
@@ -18,15 +19,40 @@
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13873) | Trigger implementation in hybrid generator | 2025-01-23 10:57:15 | at least 2 | 611600b358eb3719fe6dde1fba47e930211c2661 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1654) | Better support to treat events from HepMC event files (multi-timefram… | 2024-06-03 16:02:36 | 1 | 74684c54b219ec7ddf9e6150f253f311e1b1d034 |
+| mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1663) | PWGUD Starlight interface | 2024-06-25 13:50:45 | at least 2 | f79426f195d72ee2f3fe45227fb7150758f5dbcf |
+| mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1681) | Script to run STARlight anchored productions | 2024-07-02 17:34:42 | at least 2 | f0496b91827ea1c22d156524b8a7f6cb136a21b8 |
+| mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1700) | Adding eta cuts to the trigger | 2024-08-08 16:34:19 | at least 2 | 99e5525440b9c4782df2519943e891a3ffce6bed |
+| matthias-kleiner | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1740) | Fix TPC timeseries for MC | 2024-09-02 16:42:06 | 1 | f2566668d7d5b965fdc89850718959bff2208a3c |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1730) | Added possibility to define a general HEPMCOFFSET. | 2024-09-20 13:28:01 | 1 | 9780b4622fdb82bc8e55d54249e77760dbaa989d |
+| chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1758) | Creating the tar from root files only if there is a JDL env var that … | 2024-10-03 14:59:58 | 1 | c219b9a5c9ee9194351a70660429e4c3cad2085c |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1767) | Use new AggregatedRunInfo to fetch SOR/EOX/FirstOrbit | 2024-10-16 13:53:50 | 1 | f2a05a2d13f0d2e7e83caa6e71981edf4f2f7f76 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1768) | Allow to generate events before timeframe start | 2024-10-16 15:50:00 | 1 | 1f7f0dddd22534c0fd576f35685a92e425e48658 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
+| jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1760) | Basic implementation of event pooling in O2DPG workflow | 2024-10-31 09:15:43 | at least 2 | 15049b0699c6c23c4573ff34200f4ef6987ff551 |
+| ehellbar | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1778) | protection against corrupt O2DPG repository during topology generation | 2024-10-31 09:32:09 | 1 | 4fb7da4883bc9add968816ca4336e870a9b3c116 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1779) | Allow for fractional orbits_early | 2024-11-01 14:53:55 | 1 | 370602dfdff8ba4b35b0213e46d7e4d6c0306a8d |
+| pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1769) | avoid that PRODSPLIT is overwritten | 2024-11-01 16:05:36 | 1 | 9946a60a86b9a6bea3ba9aedf933735e1e53ecb3 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1780) | Consistency fixes for SOR determination in unanchored MC | 2024-11-05 13:35:59 | at least 2 | 5f6131abfb95a331646a5b23f84312b76364a2e0 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1802) | Script for hybrid JSON template generation | 2024-11-20 13:40:23 | at least 2 | b14261a45b8910fd912e68b655b78ea5e200d0d0 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1817) | Replaced O2DPG_ROOT with O2DPG_MC_CONFIG_ROOT in remaining config files | 2024-11-28 18:57:00 | at least 2 | 4f254dc69f73712902cb0fcf9d2e3544af385cd6 |
+| chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1834) | Possibility to set the input specs for GLO QC dynamically, for K0s | 2024-12-05 15:19:28 | at least 2 | 73425a398a9b689141ee838abbe735548ffbb6da |
+| knopers8 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1838) | Add run type and beam type metadata for async and MC QC | 2024-12-07 17:53:09 | 1 | a3ab0ee95dda61dbf986a2da992cf88d978fccbf |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1845) | Update JSON template script for Hybrid generator | 2024-12-12 11:30:05 | 1 | 9a6dd3cad864de74916e537bc2f8940e1f890419 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1849) | no vertexing for evtpool | 2024-12-12 18:58:53 | 1 | 324594a35489d6d86107b227cccbafbeb075e7dc |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1852) | EventPools: Timeout option and stat file | 2024-12-16 15:34:55 | 1 | 43c9be8f0a03099db97cc2d07acb02d20c67dd08 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1854) | Ability to treat holes in run + Smaller fixes | 2024-12-17 23:08:03 | at least 2 | 7b88f337ff33f9ce8f12e312e3ef1141b3907cfa |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1855) | Improvements for AnchoredMC: better "hole" treatment + overwritable orbitsPerTF | 2024-12-19 10:15:17 | at least 2 | 9a36a509d5d30620ec81e5bf9c4590cb9a7c88fa |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1857) | Enable orbits early / history effect by default | 2024-12-19 10:15:30 | 1 | 6d914ef50001288e8dfcbdebffb81c556627a624 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1846) | Increased cpu value to 8 for pool creation in workflow generator | 2024-12-19 10:16:44 | at least 2 | 0921c71ac788947533ce8943a105e776ef5133f4 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1863) | Added evtpool to hybrid template generator | 2025-01-07 14:58:26 | 1 | 1a7fe1b58bf893aa917bea2c5912fbc3627a35d6 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1865) | Fix file linking for EMC digi task (in case of embedding) | 2025-01-07 15:57:58 | 1 | a79e2f9674848d37855037f4d00e867784f39191 |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1866) | Improved hybrid template generator | 2025-01-08 16:42:02 | 1 | 86108d604fd7c97fad59515e0641b3991470832d |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1879) | Add Omega_c decay table and G4 config to use external decayer | 2025-01-20 14:57:00 | at least 2 | 6c0023e26a2994f74220aeeb91259882253a5b24 |
+| mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1880) | Fix decay table to avoid contamination from granddaughters | 2025-01-20 20:36:57 | 1 | f503c23fd3eb7ff86d204173d922bdb8c9f4c44e |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1876) | Included trigger in template generator + trigger example | 2025-01-28 16:24:30 | at least 2 | c9b657d8e836c7740b694ff66fc1bad76869c9a4 |
 
 
@@ -49,12 +75,7 @@
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
-| ekryshen | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1814) | Automatic isLowFlux setting in event selection QA config | 2024-11-25 21:30:11 | 1 | 043a97b3bfaf820e422e4e9b80bc0709a82310bf |
-| IsakovAD | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1819) | ITS: Added Moving Window objects | 2024-12-02 14:39:23 | at least 2 | 31457603fc3c2b811150ac6113b415211f8f8dc9 |
-| JianLIUhep | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1825) | reduce ITS MV cycle | 2024-12-03 08:40:28 | 1 | f4ad96ea1e3ff97020a5e90a392372693b7bd2c9 |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
-| chiarazampolli | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1826) | Possibility to apply TF selection in async reco | 2024-12-03 14:12:38 | 1 | 1a4704e391e13e1ad5d141cfc28d912d99beb964 |
-| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1827) | ITS tracking: update PbPb params for apass1 | 2024-12-03 14:29:33 | 1 | 6e7e34a3c99349bb71105002f24a3c5d555a15c9 |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1840) | MCH: add Clusters task in async | 2024-12-07 17:51:10 | 1 | 5569d4f6246ebdb22b15cd98eaed6b8ba001ed8d |
 | knopers8 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1838) | Add run type and beam type metadata for async and MC QC | 2024-12-07 17:53:09 | 1 | a3ab0ee95dda61dbf986a2da992cf88d978fccbf |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
