@@ -2692,6 +2692,12 @@ QualityControl:
   - async-v1-01-11c
   - - async-2024-pp-apass1
   - Alberto Caliva
+  async-v1-01-11d:
+  - '1738346443'
+  - async-v1-01-11
+  - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-12:
   - '1721052952'
   - async-v1-01-branch
