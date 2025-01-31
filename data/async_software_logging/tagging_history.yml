@@ -2732,6 +2732,12 @@ QualityControl:
   - - async-2024-pp-apass1
     - async-2024-pp-cpass0
   - Chiara Zampolli
+  async-v1-01-12ab:
+  - '1738346924'
+  - async-v1-01-12a
+  - async-v1-01-12ab
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-12b:
   - '1727430071'
   - async-v1-01-12a
