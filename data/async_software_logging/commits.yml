@@ -243,6 +243,14 @@ AliceO2:
   - - async-2022-pp-apass7
   - - Alberto Caliva
   - - '1737148539'
+  2a20074bb7c9812420361168be79bd0f0cdf4b54:
+  - '1738346437'
+  - 2a20074bb7c9812420361168be79bd0f0cdf4b54
+  - Allow to specify the starting orbit as a fractional value
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   2ca79e08739836675ef4ab76cdc332d3f84c4aa6:
   - '1717667967'
   - 2ca79e08739836675ef4ab76cdc332d3f84c4aa6
@@ -732,6 +740,14 @@ AliceO2:
     - '1724674066'
     - '1724674066'
     - '1724674066'
+  71711a52b76dc181f1b62ac525054246da12d896:
+  - '1738346437'
+  - 71711a52b76dc181f1b62ac525054246da12d896
+  - Improvements for CollisionContextTool
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   725befe6c463d17b02a4bbeb198164dd42c91098:
   - '1717667967'
   - 725befe6c463d17b02a4bbeb198164dd42c91098
@@ -1072,6 +1088,14 @@ AliceO2:
   - - async-2024-PbPb-apass1
   - - Alberto Caliva
   - - '1737475492'
+  9fa6915dea9e5f948743b41d96b630a25e1db577:
+  - '1738346437'
+  - 9fa6915dea9e5f948743b41d96b630a25e1db577
+  - Orbit-early treatment in CollisionContext tool
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   a0c7d5a0ec82d2175201cabece3e0490c26c2e3a:
   - '1722269586'
   - a0c7d5a0ec82d2175201cabece3e0490c26c2e3a
@@ -1156,6 +1180,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  a7150e2714f1bb782bd0d8fcb74b795890f1f02c:
+  - '1738346437'
+  - a7150e2714f1bb782bd0d8fcb74b795890f1f02c
+  - 'o2-sim: Ability to adjust default option values depending on Run5 or not'
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   a82ab47069e7b37e67b657f39dd764a26afd8cee:
   - '1717667967'
   - a82ab47069e7b37e67b657f39dd764a26afd8cee
@@ -1188,6 +1220,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  adc8cad268949741f71df3e43ab6cfd801a2a562:
+  - '1738346437'
+  - adc8cad268949741f71df3e43ab6cfd801a2a562
+  - 'Digicontext: Several improvements'
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   b518797699ab5f113be52093a5a5209358a43ff3:
   - '1716489639'
   - b518797699ab5f113be52093a5a5209358a43ff3
@@ -1316,6 +1356,14 @@ AliceO2:
     - '1718975658'
     - '1730651198'
     - '1730988447'
+  bcec346566f77dd3b386dc399dcb8e4a8ff6a7ff:
+  - '1738346437'
+  - bcec346566f77dd3b386dc399dcb8e4a8ff6a7ff
+  - 'CollisionContextTool: different QED printing'
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   bde774e452a5ddd0d93d4ca268b45310006cf8ba:
   - '1723040299'
   - bde774e452a5ddd0d93d4ca268b45310006cf8ba
@@ -1344,6 +1392,14 @@ AliceO2:
     - '1724332826'
     - '1724332826'
     - '1724674066'
+  be5cdb91997e62878dc2b74ce75f8a3594a6ec95:
+  - '1738346437'
+  - be5cdb91997e62878dc2b74ce75f8a3594a6ec95
+  - 'SIM: Adding experiment versions and dynamic library loading (#13148)'
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   c4c70265c5bca03633db209eff9a1ae3ac6d1640:
   - '1737475492'
   - c4c70265c5bca03633db209eff9a1ae3ac6d1640
@@ -1476,6 +1532,14 @@ AliceO2:
   - - async-2024-pp-apass1
   - - Alberto Caliva
   - - '1738334293'
+  d9e8f0474b784a01ab70c51c5360f770b1a0fd3e:
+  - '1738346437'
+  - d9e8f0474b784a01ab70c51c5360f770b1a0fd3e
+  - 'ITS digi: Ability to process events before the first RO'
+  - - async-v1-01-11d
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738346437'
   db59272402b55902036907fdaa7cc9ee9bb8cb52:
   - '1722152007'
   - db59272402b55902036907fdaa7cc9ee9bb8cb52
