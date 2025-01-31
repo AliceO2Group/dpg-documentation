@@ -5,6 +5,11 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13206) | Prevent segfault in GeneratorFromFile | 2024-06-05 18:14:03 | 1 | 8dbd237ff4b28bb31267f97735706c3d3fdb3d72 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13281) | Pythia8 seeding improvements | 2024-07-10 14:17:22 | 1 | 4179712a03b8575fbefcf2cc95e73d5ef32d3945 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13289) | make function protected | 2024-07-10 23:05:28 | 1 | a5163471d24301ce065cbdf292032bf44a20200f |
+| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
+| pzhristov | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13311) | Add EP angle only if available from the generator | 2024-07-19 14:48:24 | 1 | 31e7cfec734590986b1c3596e21c99853fe8bece |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13571) | Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine | 2024-10-31 09:06:33 | at least 2 | 8ec256cf36357a2c943c3f9f02b79a15469f4f18 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13699) | Implementation of hybrid generator  | 2024-11-20 13:35:14 | at least 2 | d6a50f03ea3abf6cf704d1a95d5c13b463972451 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13722) | Fix GeneratorPythia8 construction | 2024-11-21 20:26:12 | 1 | 929bb79415f510ec2faaebc83df0df459d62507d |
