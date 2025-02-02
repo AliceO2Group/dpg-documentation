@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-01-31 18:56 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-02 17:30 
 
 
 ### For label async-2024-pp-apass1
@@ -14,6 +14,14 @@
 | matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13345) | TPC: improving simulation of distortions in MC | 2024-08-08 11:02:05 | at least 2 | 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13430) | o2-sim: Ability to adjust default option values depending on Run5 or not | 2024-08-26 15:53:01 | 1 | a7150e2714f1bb782bd0d8fcb74b795890f1f02c |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13551) | ITS digi: Ability to process events before the first RO | 2024-10-01 14:49:01 | 1 | d9e8f0474b784a01ab70c51c5360f770b1a0fd3e |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13555) | AggregatedRunInfo struct proposal | 2024-10-03 14:50:20 | 1 | dbfe3c61771ae1d53da9db6e0c56208a34c42e47 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13560) | Revert "AggregatedRunInfo struct proposal" | 2024-10-03 15:08:29 | 1 | f15bb280744cfd097e46aa1fb43a57905f85f483 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13564) | Fix compilation issue in AggregatedRunInfo | 2024-10-07 14:03:21 | at least 2 | 8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13580) | Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit | 2024-10-10 13:56:53 | 1 | 9a6e661aa7715d33c17b5a9c98d295bd0043e3ff |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13584) | Ship GRPECS as part of AggregatedRunInfo; cleanup | 2024-10-11 08:41:13 | at least 2 | 1ff58c417622029b5789d1cc696117cb8a78782a |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13586) | AggregatedRunInfo can be requested via GRPGeomHelper + related fixes | 2024-10-12 21:17:50 | at least 2 | b4ffc319d4a46d457769fe69bc1694ac87442b86 |
+| ekryshen | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13590) | Custom orbit shifts for runs <=LHC22m | 2024-10-15 18:20:59 | 1 | 415a7b54fb85b5b324f9eb4ec3727b4c5e513588 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13604) | calculate run 1st orbit only when not available from CCDB | 2024-10-19 23:51:43 | 1 | 3d639ddaae0cd073f94265319a17eb5d8db06db7 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13571) | Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine | 2024-10-31 09:06:33 | at least 2 | 8ec256cf36357a2c943c3f9f02b79a15469f4f18 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13645) | Allow to specify the starting orbit as a fractional value | 2024-11-01 08:53:16 | 1 | 2a20074bb7c9812420361168be79bd0f0cdf4b54 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13239) | Improvements for CollisionContext generation | 2024-11-07 20:44:30 | 1 | 71711a52b76dc181f1b62ac525054246da12d896 |
@@ -78,11 +86,7 @@
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13827) | o2sim: For consistency we take the eventcount from collcontext | 2024-12-20 23:02:28 | 1 | c4c70265c5bca03633db209eff9a1ae3ac6d1640 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13824) | Fix for subjob spawning with FIFOs | 2024-12-20 23:02:59 | 1 | 8662a041262ea3f54ce34685d2ce5ad55c532c7d |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
-| wang-yuanzhe | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13826) | Fix the decay branch ratio of antihyperhelium4sigma | 2025-01-06 16:05:12 | 1 | 9ede2d59a03c7c159af187e15b3f30001e27879f |
-| lietava | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13835) | Ctpdev: irframes | 2025-01-06 23:46:06 | at least 2 | f70fb9b00c9a6e55a5ad57b73d39cb45b57e0f88 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13842) | Check presence of hit files before adding to TChain | 2025-01-09 11:08:34 | 1 | 43223a4ec63044882b54165a48222a4233ae25b4 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13864) | Protection against null CTPClass::descriptor in CTP digitizer | 2025-01-14 13:56:22 | 1 | 75dbb6f451a5801f67b59996afccaea580d920b5 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13908) | DigitizationContext: Prevent a segfault in QED filling | 2025-01-28 18:16:01 | 1 | 1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea |
 | ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
