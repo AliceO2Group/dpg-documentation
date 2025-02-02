@@ -71,6 +71,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Alberto Caliva
   - - '1728392862'
+  0b6360d348099e9cb00a172c2067ef30f41e84b1:
+  - '1738514067'
+  - 0b6360d348099e9cb00a172c2067ef30f41e84b1
+  - Factor out AggregatedRunInfo creation to use it in GRPGeomHelper
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   0d384ae051ece7c261db6342f7d309e5d6ebea29:
   - '1724674066'
   - 0d384ae051ece7c261db6342f7d309e5d6ebea29
@@ -235,6 +243,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  1ff58c417622029b5789d1cc696117cb8a78782a:
+  - '1738514067'
+  - 1ff58c417622029b5789d1cc696117cb8a78782a
+  - Update AggregatedRunInfo.h
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   28491e9f38cc5df4a823dbfccf897f637a4841fe:
   - '1737148539'
   - 28491e9f38cc5df4a823dbfccf897f637a4841fe
@@ -500,6 +516,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  3d639ddaae0cd073f94265319a17eb5d8db06db7:
+  - '1738514067'
+  - 3d639ddaae0cd073f94265319a17eb5d8db06db7
+  - calculate run 1st orbit only when not available from CCDB
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   403e2e74e110db4e5ae2fad68b72bee0a2f09246:
   - '1724674066'
   - 403e2e74e110db4e5ae2fad68b72bee0a2f09246
@@ -548,6 +572,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  415a7b54fb85b5b324f9eb4ec3727b4c5e513588:
+  - '1738514067'
+  - 415a7b54fb85b5b324f9eb4ec3727b4c5e513588
+  - Custom orbit shifts for runs <=LHC22m
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   4179712a03b8575fbefcf2cc95e73d5ef32d3945:
   - '1738334293'
   - 4179712a03b8575fbefcf2cc95e73d5ef32d3945
@@ -720,6 +752,14 @@ AliceO2:
   - - async-2023-pbpb-apass4
   - - Chiara Zampolli
   - - '1732117472'
+  6fb976bb3a81e6c693688eed7bbc2fbd04108d11:
+  - '1738514067'
+  - 6fb976bb3a81e6c693688eed7bbc2fbd04108d11
+  - Fix compilation issue in AggregatedRunInfo
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   710d1c80fe70f6c689b85d07a2153b47a2eb99aa:
   - '1722152007'
   - 710d1c80fe70f6c689b85d07a2153b47a2eb99aa
@@ -996,6 +1036,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4:
+  - '1738514067'
+  - 8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4
+  - Please consider the following formatting changes
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   8dbd237ff4b28bb31267f97735706c3d3fdb3d72:
   - '1738334293'
   - 8dbd237ff4b28bb31267f97735706c3d3fdb3d72
@@ -1072,6 +1120,14 @@ AliceO2:
   - - '1715850198'
     - '1721469081'
     - '1721469081'
+  9a6e661aa7715d33c17b5a9c98d295bd0043e3ff:
+  - '1738514067'
+  - 9a6e661aa7715d33c17b5a9c98d295bd0043e3ff
+  - 'Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit'
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   9ad8facf43055c6674f1e7e7bea87a1e172dce3a:
   - '1734695728'
   - 9ad8facf43055c6674f1e7e7bea87a1e172dce3a
@@ -1560,6 +1616,22 @@ AliceO2:
     - '1724674066'
     - '1724674066'
     - '1724674066'
+  dbfe3c61771ae1d53da9db6e0c56208a34c42e47:
+  - '1738514067'
+  - dbfe3c61771ae1d53da9db6e0c56208a34c42e47
+  - AggregatedRunInfo struct proposal
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
+  e9240044a933a019c45557fe633e58ba2667a858:
+  - '1738514067'
+  - e9240044a933a019c45557fe633e58ba2667a858
+  - Ship GRPECS as part of AggregatedRunInfo; cleanup
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   e95263359963f96ce97c35f0e9fbc6c8276983a4:
   - '1716489639'
   - e95263359963f96ce97c35f0e9fbc6c8276983a4
@@ -1592,6 +1664,14 @@ AliceO2:
     - '1718975658'
     - '1730651198'
     - '1730988447'
+  f15bb280744cfd097e46aa1fb43a57905f85f483:
+  - '1738514067'
+  - f15bb280744cfd097e46aa1fb43a57905f85f483
+  - Revert "AggregatedRunInfo struct proposal"
+  - - async-v1-01-11e
+  - - async-2024-pp-apass1
+  - - Alberto Caliva
+  - - '1738514067'
   f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e:
   - '1738334293'
   - f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e
