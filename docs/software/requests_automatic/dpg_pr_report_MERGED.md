@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-02 17:30 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-03 14:06 
 
 
 ### For label async-2024-pp-apass1
@@ -121,6 +121,7 @@
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1879) | Add Omega_c decay table and G4 config to use external decayer | 2025-01-20 14:57:00 | at least 2 | 6c0023e26a2994f74220aeeb91259882253a5b24 |
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1880) | Fix decay table to avoid contamination from granddaughters | 2025-01-20 20:36:57 | 1 | f503c23fd3eb7ff86d204173d922bdb8c9f4c44e |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1883) | Change bad-data-interval parsing to account for more requirements | 2025-01-23 18:47:11 | 1 | e5fb7c33793cf61b72f7247b37140640d5af2cf2 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1890) | Two improvements for the MC anchoring service | 2025-01-30 17:27:58 | 1 | 228739a9e37db4e33cc6446c1f13472b65a5e5b9 |
 
 
 ### For label async-2023-pp-apass4
