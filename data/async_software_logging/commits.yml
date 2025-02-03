@@ -2105,6 +2105,14 @@ O2DPG:
     - '1717751807'
     - '1721469083'
     - '1721469083'
+  228739a9e37db4e33cc6446c1f13472b65a5e5b9:
+  - '1738588074'
+  - 228739a9e37db4e33cc6446c1f13472b65a5e5b9
+  - Two improvements for the MC anchoring service
+  - - async-v1-02-08
+  - - async-2024-PbPb-apass1
+  - - Alberto Caliva
+  - - '1738588074'
   248db37df98d20f927e2e283219b6cb897fcaf3e:
   - '1718898969'
   - 248db37df98d20f927e2e283219b6cb897fcaf3e

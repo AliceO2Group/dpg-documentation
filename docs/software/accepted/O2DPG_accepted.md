@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Two improvements for the MC anchoring service](https://github.com/AliceO2Group/O2DPG/commit/228739a9e37db4e33cc6446c1f13472b65a5e5b9) | [async-v1-02-08](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-08) (async-2024-PbPb-apass1, 2025-02-03 14:07, Alberto Caliva) |
 | [Use new AggregatedRunInfo to fetch SOR/EOX/FirstOrbit (#1767)](https://github.com/AliceO2Group/O2DPG/commit/f2a05a2d13f0d2e7e83caa6e71981edf4f2f7f76) | [async-v1-01-11c](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-11c) (async-2024-pp-apass1, 2025-01-31 15:38, Alberto Caliva) |
 | [Significant MC Workflow restructuring (#1790)](https://github.com/AliceO2Group/O2DPG/commit/dbbf327cae5defdf3a3d9cfe05717aafdcc125e4) | [async-v1-01-11c](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-11c) (async-2024-pp-apass1, 2025-01-31 15:38, Alberto Caliva) |
 | [Removed comment](https://github.com/AliceO2Group/O2DPG/commit/c86839747cd1bbf7609e827dd5148212645338a1) | [async-v1-01-11c](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-11c) (async-2024-pp-apass1, 2025-01-31 15:38, Alberto Caliva) |
