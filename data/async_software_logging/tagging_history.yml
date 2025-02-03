@@ -2631,6 +2631,12 @@ O2Physics:
   - async-v1-02-07
   - - async-2024-PbPb-apass1
   - Alberto Caliva
+  async-v1-02-08:
+  - '1738588078'
+  - async-v1-02-02
+  - async-v1-02-08
+  - - async-2024-PbPb-apass1
+  - Alberto Caliva
 QualityControl:
   async-20221209.1-alidist-master:
   - '1670419227'
