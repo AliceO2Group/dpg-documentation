@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-04 13:24 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-04 17:17 
 
 
 ### For label async-2024-pp-apass1
@@ -88,8 +88,6 @@
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13908) | DigitizationContext: Prevent a segfault in QED filling | 2025-01-28 18:16:01 | 1 | 1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea |
-| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
-| cpuggion84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1771) | Added parameters for PbPb | 2024-10-28 12:51:37 | at least 2 | 6d96fa8ff5b0da0d9f1ae64b32ceb4773c23a5a8 |
 | ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
@@ -122,6 +120,7 @@
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1880) | Fix decay table to avoid contamination from granddaughters | 2025-01-20 20:36:57 | 1 | f503c23fd3eb7ff86d204173d922bdb8c9f4c44e |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1883) | Change bad-data-interval parsing to account for more requirements | 2025-01-23 18:47:11 | 1 | e5fb7c33793cf61b72f7247b37140640d5af2cf2 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1890) | Two improvements for the MC anchoring service | 2025-01-30 17:27:58 | 1 | 228739a9e37db4e33cc6446c1f13472b65a5e5b9 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1893) | Fix unit problem determining orbit for exclusion | 2025-02-04 16:39:28 | 1 | 25f5757423e1533de374850800055f221f3112c4 |
 
 
 ### For label async-2023-pp-apass4
@@ -138,6 +137,5 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| ercolessi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1759) | TOF: Add moving window in TOF asynch jsons | 2024-10-08 16:33:48 | 1 | 8a53dfefad39919f0e4c59535b315762dc123ed6 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
