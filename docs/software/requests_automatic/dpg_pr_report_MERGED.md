@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-05 13:21 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-11 13:24 
 
 
 ### For label async-2024-pp-apass1
@@ -84,11 +84,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13817) | Make sure PrimaryGenerator is destructed | 2024-12-19 16:21:27 | 1 | 9424b418f0cf5cda388c7094d4766d57df995243 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13827) | o2sim: For consistency we take the eventcount from collcontext | 2024-12-20 23:02:28 | 1 | c4c70265c5bca03633db209eff9a1ae3ac6d1640 |
-| jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13824) | Fix for subjob spawning with FIFOs | 2024-12-20 23:02:59 | 1 | 8662a041262ea3f54ce34685d2ce5ad55c532c7d |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13908) | DigitizationContext: Prevent a segfault in QED filling | 2025-01-28 18:16:01 | 1 | 1640a6274e0b4eb1ecf25d0a418cc3aae0a849ea |
-| ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
@@ -130,7 +127,6 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
 | lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
-| ffionda | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1797) | remove lines which inhibit transport at large eta | 2024-11-13 09:07:38 | at least 2 | f55a23a99a577f636ce9c6a9267d4b5f49782202 |
 
 
 ### For label async-2024-ppRef-apass1
