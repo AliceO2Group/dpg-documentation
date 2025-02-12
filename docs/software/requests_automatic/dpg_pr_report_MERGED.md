@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 13:21 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 18:55 
 
 
 ### For label async-2024-pp-apass1
@@ -14,6 +14,7 @@
 | matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13345) | TPC: improving simulation of distortions in MC | 2024-08-08 11:02:05 | at least 2 | 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13430) | o2-sim: Ability to adjust default option values depending on Run5 or not | 2024-08-26 15:53:01 | 1 | a7150e2714f1bb782bd0d8fcb74b795890f1f02c |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13551) | ITS digi: Ability to process events before the first RO | 2024-10-01 14:49:01 | 1 | d9e8f0474b784a01ab70c51c5360f770b1a0fd3e |
+| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13547) | TPC: Optimising scaling of distortions in MC | 2024-10-02 17:45:54 | 1 | 0a1fe0eb75e68b3f823550f854c785a2e752a1cb |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13555) | AggregatedRunInfo struct proposal | 2024-10-03 14:50:20 | 1 | dbfe3c61771ae1d53da9db6e0c56208a34c42e47 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13560) | Revert "AggregatedRunInfo struct proposal" | 2024-10-03 15:08:29 | 1 | f15bb280744cfd097e46aa1fb43a57905f85f483 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13564) | Fix compilation issue in AggregatedRunInfo | 2024-10-07 14:03:21 | at least 2 | 8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4 |
@@ -28,16 +29,15 @@
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13674) | Digicontext: Several improvements | 2024-11-11 10:55:21 | 1 | adc8cad268949741f71df3e43ab6cfd801a2a562 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13697) | Orbit-early treatment in CollisionContext tool | 2024-11-15 18:07:37 | 1 | 9fa6915dea9e5f948743b41d96b630a25e1db577 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13703) | CollisionContextTool: different QED printing | 2024-11-16 17:06:00 | 1 | bcec346566f77dd3b386dc399dcb8e4a8ff6a7ff |
+| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13700) | TPC: adding MC ccdb objects for simulation and reconstruction | 2024-11-20 13:32:18 | 1 | 2de9c5cc217f4c693be87a4ad444bb8dc8616ac6 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13699) | Implementation of hybrid generator  | 2024-11-20 13:35:14 | at least 2 | d6a50f03ea3abf6cf704d1a95d5c13b463972451 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13722) | Fix GeneratorPythia8 construction | 2024-11-21 20:26:12 | 1 | 929bb79415f510ec2faaebc83df0df459d62507d |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13721) | Fix for failing dataflow build | 2024-11-22 07:44:06 | 1 | 7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13733) | Ability to create configurable param from a given external struct | 2024-11-26 08:40:54 | 1 | 6321af7e1c7d840b49ab6f041afaaaefe3312516 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13745) | Fraction based randomisation for Hybrid Gen | 2024-12-05 19:03:02 | 1 | 5f1e50c3edcaf2ff0dd053f70c1d3ad86982e1d2 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13766) | New event generator/wrapper facilitating event-pools | 2024-12-05 19:05:02 | 1 | 808730cdc1c15defd904bf7e5de176b4c6fa27f2 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13788) | HybridGenerator: Asyncronous + parallel event generation | 2024-12-12 12:59:02 | 1 | f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13873) | Trigger implementation in hybrid generator | 2025-01-23 10:57:15 | at least 2 | 611600b358eb3719fe6dde1fba47e930211c2661 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1654) | Better support to treat events from HepMC event files (multi-timefram… | 2024-06-03 16:02:36 | 1 | 74684c54b219ec7ddf9e6150f253f311e1b1d034 |
 | mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1663) | PWGUD Starlight interface | 2024-06-25 13:50:45 | at least 2 | f79426f195d72ee2f3fe45227fb7150758f5dbcf |
 | mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1681) | Script to run STARlight anchored productions | 2024-07-02 17:34:42 | at least 2 | f0496b91827ea1c22d156524b8a7f6cb136a21b8 |
@@ -73,6 +73,32 @@
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1879) | Add Omega_c decay table and G4 config to use external decayer | 2025-01-20 14:57:00 | at least 2 | 6c0023e26a2994f74220aeeb91259882253a5b24 |
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1880) | Fix decay table to avoid contamination from granddaughters | 2025-01-20 20:36:57 | 1 | f503c23fd3eb7ff86d204173d922bdb8c9f4c44e |
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1876) | Included trigger in template generator + trigger example | 2025-01-28 16:24:30 | at least 2 | c9b657d8e836c7740b694ff66fc1bad76869c9a4 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1900) | Improvements in generator vertexing | 2025-02-11 15:08:35 | 1 | 734062620bce450897ba470b17fd79ace814949b |
+
+
+### For label async-2023-pbpb-apass4
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13700) | TPC: adding MC ccdb objects for simulation and reconstruction | 2024-11-20 13:32:18 | 1 | 2de9c5cc217f4c693be87a4ad444bb8dc8616ac6 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
+
+
+### For label async-2023-pp-apass4
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
+| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
+| lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
+
+
+### For label async-2022-pp-apass7
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 
 
 ### For label async-2024-PbPb-apass1
@@ -81,6 +107,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
@@ -112,15 +139,6 @@
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1883) | Change bad-data-interval parsing to account for more requirements | 2025-01-23 18:47:11 | 1 | e5fb7c33793cf61b72f7247b37140640d5af2cf2 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1890) | Two improvements for the MC anchoring service | 2025-01-30 17:27:58 | 1 | 228739a9e37db4e33cc6446c1f13472b65a5e5b9 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1893) | Fix unit problem determining orbit for exclusion | 2025-02-04 16:39:28 | 1 | 25f5757423e1533de374850800055f221f3112c4 |
-
-
-### For label async-2023-pp-apass4
-
-| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
-| --- | --- | --- | --- | --- | --- | --- |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1776) | More resilient logic in determining MC events from AO2D file | 2024-10-29 14:04:48 | 1 | e11820a582ca2b957183fba2e97602387e2b95b3 |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1777) | Yet more resilience in o2dpg_determine_eventstat | 2024-10-29 16:31:10 | 1 | f26dfd23f877214d3d8052ad8d431a9f4100d453 |
-| lucamicheletti93 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1787) | [PWGDQ] Adding Upsilon Injected Generator | 2024-11-08 15:50:18 | at least 2 | 06628bc13a865049991ab005cdc7745909433f57 |
 
 
 ### For label async-2024-ppRef-apass1
