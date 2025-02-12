@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 18:55 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 19:02 
 
 
 ### For label async-2024-pp-apass1
@@ -18,6 +18,7 @@
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13555) | AggregatedRunInfo struct proposal | 2024-10-03 14:50:20 | 1 | dbfe3c61771ae1d53da9db6e0c56208a34c42e47 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13560) | Revert "AggregatedRunInfo struct proposal" | 2024-10-03 15:08:29 | 1 | f15bb280744cfd097e46aa1fb43a57905f85f483 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13564) | Fix compilation issue in AggregatedRunInfo | 2024-10-07 14:03:21 | at least 2 | 8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4 |
+| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13562) | TPC digi: Cut digits arriving before timeframe/readout start | 2024-10-09 17:28:11 | 1 | 81baf9197272761a3228c7cd7ea53f8bb8dc9bdd |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13580) | Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit | 2024-10-10 13:56:53 | 1 | 9a6e661aa7715d33c17b5a9c98d295bd0043e3ff |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13584) | Ship GRPECS as part of AggregatedRunInfo; cleanup | 2024-10-11 08:41:13 | at least 2 | 1ff58c417622029b5789d1cc696117cb8a78782a |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13586) | AggregatedRunInfo can be requested via GRPGeomHelper + related fixes | 2024-10-12 21:17:50 | at least 2 | b4ffc319d4a46d457769fe69bc1694ac87442b86 |
@@ -35,7 +36,6 @@
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13745) | Fraction based randomisation for Hybrid Gen | 2024-12-05 19:03:02 | 1 | 5f1e50c3edcaf2ff0dd053f70c1d3ad86982e1d2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
-| jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13873) | Trigger implementation in hybrid generator | 2025-01-23 10:57:15 | at least 2 | 611600b358eb3719fe6dde1fba47e930211c2661 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1654) | Better support to treat events from HepMC event files (multi-timefram… | 2024-06-03 16:02:36 | 1 | 74684c54b219ec7ddf9e6150f253f311e1b1d034 |
