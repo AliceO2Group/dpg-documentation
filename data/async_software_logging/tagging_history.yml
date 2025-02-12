@@ -2431,6 +2431,12 @@ O2Physics:
   - async-v1-01-11e
   - - async-2024-pp-apass1
   - Alberto Caliva
+  async-v1-01-11f:
+  - '1739383431'
+  - async-v1-01-11e
+  - async-v1-01-11f
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-12:
   - '1721052961'
   - async-v1-01-branch
@@ -2661,6 +2667,12 @@ O2Physics:
   - async-v1-02-08
   - - async-2024-PbPb-apass1
   - Alberto Caliva
+  async-v1-02-09:
+  - '1734600349'
+  - UNKNOWN REVISION
+  - async-v1-02-09
+  - - NO LABEL
+  - UNKNOWN OPERATOR
 QualityControl:
   async-20221209.1-alidist-master:
   - '1670419227'
