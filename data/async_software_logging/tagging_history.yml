@@ -892,6 +892,12 @@ AliceO2:
   - async-v1-01-12ae
   - - async-2024-pp-apass1
   - Alberto Caliva
+  async-v1-01-12af:
+  - '1739384048'
+  - async-v1-01-12ad
+  - async-v1-01-12af
+  - - async-2024-pp-apass1
+  - Alberto Caliva
   async-v1-01-12b:
   - '1727430067'
   - async-v1-01-12a
