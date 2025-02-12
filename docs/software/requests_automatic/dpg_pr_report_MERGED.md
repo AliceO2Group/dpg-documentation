@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-11 13:24 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 13:21 
 
 
 ### For label async-2024-pp-apass1
@@ -35,9 +35,6 @@
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13745) | Fraction based randomisation for Hybrid Gen | 2024-12-05 19:03:02 | 1 | 5f1e50c3edcaf2ff0dd053f70c1d3ad86982e1d2 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13766) | New event generator/wrapper facilitating event-pools | 2024-12-05 19:05:02 | 1 | 808730cdc1c15defd904bf7e5de176b4c6fa27f2 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13788) | HybridGenerator: Asyncronous + parallel event generation | 2024-12-12 12:59:02 | 1 | f4d9b9c78979da7d28c0c12c574607ee8dc8fd7e |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13801) | HybridGen/EventPool: small fixes, Add missing EventHeader propagation | 2024-12-16 08:50:06 | 1 | 8ece2ec795a03e60ffb4a60b377f2351bc85a6d0 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13817) | Make sure PrimaryGenerator is destructed | 2024-12-19 16:21:27 | 1 | 9424b418f0cf5cda388c7094d4766d57df995243 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13827) | o2sim: For consistency we take the eventcount from collcontext | 2024-12-20 23:02:28 | 1 | c4c70265c5bca03633db209eff9a1ae3ac6d1640 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13873) | Trigger implementation in hybrid generator | 2025-01-23 10:57:15 | at least 2 | 611600b358eb3719fe6dde1fba47e930211c2661 |
@@ -82,8 +79,6 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13817) | Make sure PrimaryGenerator is destructed | 2024-12-19 16:21:27 | 1 | 9424b418f0cf5cda388c7094d4766d57df995243 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13827) | o2sim: For consistency we take the eventcount from collcontext | 2024-12-20 23:02:28 | 1 | c4c70265c5bca03633db209eff9a1ae3ac6d1640 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13828) | Apply encoding to boxgen particles | 2025-01-06 14:36:07 | 1 | c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2 |
 | jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13838) | Basic implementation of cocktail generation | 2025-01-13 13:32:27 | 1 | 7f23fa18e02520731a25e1bcacbcd352310c42b0 |
 | BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
@@ -91,7 +86,6 @@
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1840) | MCH: add Clusters task in async | 2024-12-07 17:51:10 | 1 | 5569d4f6246ebdb22b15cd98eaed6b8ba001ed8d |
 | knopers8 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1838) | Add run type and beam type metadata for async and MC QC | 2024-12-07 17:53:09 | 1 | a3ab0ee95dda61dbf986a2da992cf88d978fccbf |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
 | mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
@@ -133,5 +127,4 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1828) | Activate rejection of TPC clusters entering to IFC | 2024-12-07 17:53:31 | 1 | 08462e50687da6b4358fcda699dc29c0b999850a |
 | wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1867) | TPC: enable MC time gain usage | 2025-01-08 16:41:06 | 1 | 0a5330179d3a939df7d3823483c73b143758cac9 |
