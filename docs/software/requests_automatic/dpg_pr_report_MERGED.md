@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-12 19:06 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-13 09:18 
 
 
 ### For label async-2024-pp-apass1
@@ -99,6 +99,7 @@
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
+| jaimenorman | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1888) | fix to keep parton information | 2025-01-29 11:49:55 | 1 | f6f881bebbb80eb246de2c063c7bc640887f4757 |
 
 
 ### For label async-2024-PbPb-apass1
