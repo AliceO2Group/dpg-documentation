@@ -2242,9 +2242,13 @@ O2DPG:
   - 25f5757423e1533de374850800055f221f3112c4
   - Fix unit problem determining orbit for exclusion
   - - async-v1-02-09
+    - async-v1-02-10
   - - NO LABEL
+    - async-2024-PbPb-apass1
   - - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1738685917'
+    - '1739803887'
   26e3f65974a1600ad664ebda6f7215692073cfba:
   - '1720782526'
   - 26e3f65974a1600ad664ebda6f7215692073cfba
