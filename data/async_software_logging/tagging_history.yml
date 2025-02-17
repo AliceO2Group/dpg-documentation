@@ -3156,3 +3156,9 @@ QualityControl:
   - async-v1-02-09
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-v1-02-10:
+  - '1739803889'
+  - async-v1-02-02
+  - async-v1-02-10
+  - - async-2024-PbPb-apass1
+  - Alberto Caliva
