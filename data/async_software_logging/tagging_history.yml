@@ -1100,6 +1100,12 @@ AliceO2:
   - async-v1-02-09
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-v1-02-10:
+  - '1739803885'
+  - async-v1-02-02
+  - async-v1-02-10
+  - - async-2024-PbPb-apass1
+  - Alberto Caliva
 O2DPG:
   async-2022-apass4-pp-mc.1:
   - '1702312795'

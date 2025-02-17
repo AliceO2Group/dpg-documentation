@@ -1605,9 +1605,13 @@ AliceO2:
   - cf85a4c5384344ac867b5b560197e5afeff65b7e
   - 'PrimaryGen: More consistent vertex configuration'
   - - async-v1-01-11f
+    - async-v1-02-10
   - - async-2024-pp-apass1
+    - async-2024-PbPb-apass1
   - - Alberto Caliva
+    - Alberto Caliva
   - - '1739383423'
+    - '1739803885'
   d4172698cb6c3bc1fc065495f31a160e5809303f:
   - '1715850198'
   - d4172698cb6c3bc1fc065495f31a160e5809303f
