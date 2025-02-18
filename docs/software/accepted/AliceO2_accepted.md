@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Fix fake/correct status for barrel tracks](https://github.com/AliceO2Group/AliceO2/commit/dff469f9af9f2a8665b7680015402ba4b5e1637b) | [async-v1-01-28](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-28) (async-2023-pbpb-apass4, 2025-02-18 10:35, Alberto Caliva) |
 | [aod-merger treats Zombie files like missing ones](https://github.com/AliceO2Group/AliceO2/commit/de69487869f849697e7f0cac1cfd36750ccb9f17) | [async-v1-01-11f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva) |
 | [PrimaryGen: More consistent vertex configuration](https://github.com/AliceO2Group/AliceO2/commit/cf85a4c5384344ac867b5b560197e5afeff65b7e) | [async-v1-01-11f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva)<br>[async-v1-02-10](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-10) (async-2024-PbPb-apass1, 2025-02-17 15:51, Alberto Caliva) |
 | [TPC digi: Cut digits arriving before timeframe/readout start](https://github.com/AliceO2Group/AliceO2/commit/81baf9197272761a3228c7cd7ea53f8bb8dc9bdd) | [async-v1-01-11f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva) |

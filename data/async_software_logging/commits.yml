@@ -1696,6 +1696,14 @@ AliceO2:
   - - async-2024-pp-apass1
   - - Alberto Caliva
   - - '1739383423'
+  dff469f9af9f2a8665b7680015402ba4b5e1637b:
+  - '1739871340'
+  - dff469f9af9f2a8665b7680015402ba4b5e1637b
+  - Fix fake/correct status for barrel tracks
+  - - async-v1-01-28
+  - - async-2023-pbpb-apass4
+  - - Alberto Caliva
+  - - '1739871340'
   e9240044a933a019c45557fe633e58ba2667a858:
   - '1738514067'
   - e9240044a933a019c45557fe633e58ba2667a858
