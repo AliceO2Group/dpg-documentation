@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-18 13:25 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-19 13:20 
 
 
 ### For label async-2024-PbPb-apass1
@@ -8,7 +8,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13975) | Fix mother and daughter indices in generator cocktails | 2025-02-17 20:31:28 | 1 | 2b55eb10a379af76813946ec40846b8c951a4493 |
-| BongHwi | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1803) | [PWGLF] Add a2(1230) exotic resonance candidate | 2024-11-15 18:19:32 | 1 | a8e801aae61b055cd959c6695224cab8ac830c98 |
 | shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1840) | MCH: add Clusters task in async | 2024-12-07 17:51:10 | 1 | 5569d4f6246ebdb22b15cd98eaed6b8ba001ed8d |
@@ -48,9 +47,7 @@
 | f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13148) | SIM: Adding experiment versions and dynamic library loading | 2024-05-28 12:55:21 | at least 2 | be5cdb91997e62878dc2b74ce75f8a3594a6ec95 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13206) | Prevent segfault in GeneratorFromFile | 2024-06-05 18:14:03 | 1 | 8dbd237ff4b28bb31267f97735706c3d3fdb3d72 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13281) | Pythia8 seeding improvements | 2024-07-10 14:17:22 | 1 | 4179712a03b8575fbefcf2cc95e73d5ef32d3945 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13289) | make function protected | 2024-07-10 23:05:28 | 1 | a5163471d24301ce065cbdf292032bf44a20200f |
 | ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
-| pzhristov | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13311) | Add EP angle only if available from the generator | 2024-07-19 14:48:24 | 1 | 31e7cfec734590986b1c3596e21c99853fe8bece |
 | matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13345) | TPC: improving simulation of distortions in MC | 2024-08-08 11:02:05 | at least 2 | 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13430) | o2-sim: Ability to adjust default option values depending on Run5 or not | 2024-08-26 15:53:01 | 1 | a7150e2714f1bb782bd0d8fcb74b795890f1f02c |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13551) | ITS digi: Ability to process events before the first RO | 2024-10-01 14:49:01 | 1 | d9e8f0474b784a01ab70c51c5360f770b1a0fd3e |
@@ -64,7 +61,6 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13586) | AggregatedRunInfo can be requested via GRPGeomHelper + related fixes | 2024-10-12 21:17:50 | at least 2 | b4ffc319d4a46d457769fe69bc1694ac87442b86 |
 | ekryshen | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13590) | Custom orbit shifts for runs <=LHC22m | 2024-10-15 18:20:59 | 1 | 415a7b54fb85b5b324f9eb4ec3727b4c5e513588 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13604) | calculate run 1st orbit only when not available from CCDB | 2024-10-19 23:51:43 | 1 | 3d639ddaae0cd073f94265319a17eb5d8db06db7 |
-| jackal1-66 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13571) | Added alien path compatibility, Phi rotation and event pool randomisation to GenO2Kine | 2024-10-31 09:06:33 | at least 2 | 8ec256cf36357a2c943c3f9f02b79a15469f4f18 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13645) | Allow to specify the starting orbit as a fractional value | 2024-11-01 08:53:16 | 1 | 2a20074bb7c9812420361168be79bd0f0cdf4b54 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13239) | Improvements for CollisionContext generation | 2024-11-07 20:44:30 | 1 | 71711a52b76dc181f1b62ac525054246da12d896 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13674) | Digicontext: Several improvements | 2024-11-11 10:55:21 | 1 | adc8cad268949741f71df3e43ab6cfd801a2a562 |
