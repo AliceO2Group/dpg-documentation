@@ -1052,6 +1052,12 @@ AliceO2:
   - async-v1-01-28
   - - async-2023-pbpb-apass4
   - Alberto Caliva
+  async-v1-01-29:
+  - '1740066807'
+  - async-v1-01-27
+  - async-v1-01-29
+  - - async-2023-pbpb-apass4
+  - Alberto Caliva
   async-v1-02-01:
   - '1734604140'
   - UNKNOWN REVISION
