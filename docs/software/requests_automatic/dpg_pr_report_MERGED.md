@@ -1,4 +1,36 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-19 13:20 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-25 13:25 
+
+
+### For label async-2024-PbPb-apass2
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13884) | Recover adjustOverriddenEOV call from the CCDBPopulator | 2025-01-21 22:09:43 | 1 | 4215700f524befcd3b32546722fd955c44061a2d |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13874) | Fix GPUTPCGeometry LinearY2PadC and LinearPad2YC, define biased ones in GPUTPCCompressionTrackModel | 2025-01-22 20:02:20 | 1 | 7b2c0211c203a299025626daf9c19386dc164db7 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13900) | Push CTF/SELIRFRAMES/0 even if run was not matched | 2025-01-26 20:27:10 | 1 | d26f229e99ae557143abc674d5a76516b9b8d009 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13909) | Fix fake/correct status for barrel tracks | 2025-01-29 09:24:27 | 1 | dff469f9af9f2a8665b7680015402ba4b5e1637b |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13912) | Move XRD debug settings to copy shell command | 2025-01-29 17:56:00 | 1 | 7d4b3dc05325fef68bb47cebe6287627197efc38 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13946) | Fix int8/uint8 type in LinPad2Y for GPUTPCCompressionTrackModel | 2025-02-06 17:19:44 | 1 | 98febeceb294512cf0908995d5627e1c26efdbd6 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13970) | PVfinder can accept AB tracks | 2025-02-17 10:44:58 | 1 | 337a7fc83944e0601b801cf6f55787ba53cef201 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13968) | Modify CA async opts, possible set from config.param | 2025-02-17 21:11:31 | 1 | 539933960ddc70b03b00e254e4250c1c21e70cc6 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13987) | Fix for PV contributor being AB track | 2025-02-20 16:15:11 | 1 | 5e43c1751bd7e81101cfd8e23275493cbdeabb77 |
+| davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1916) | Add backward-compatibility | 2025-02-22 13:56:17 | 1 | 833ce9102032a650ac16a70907923aecc0b92cdb |
+
+
+### For label async-2023-PbPb-apass5
+
+| Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
+| --- | --- | --- | --- | --- | --- | --- |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13884) | Recover adjustOverriddenEOV call from the CCDBPopulator | 2025-01-21 22:09:43 | 1 | 4215700f524befcd3b32546722fd955c44061a2d |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13874) | Fix GPUTPCGeometry LinearY2PadC and LinearPad2YC, define biased ones in GPUTPCCompressionTrackModel | 2025-01-22 20:02:20 | 1 | 7b2c0211c203a299025626daf9c19386dc164db7 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13900) | Push CTF/SELIRFRAMES/0 even if run was not matched | 2025-01-26 20:27:10 | 1 | d26f229e99ae557143abc674d5a76516b9b8d009 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13909) | Fix fake/correct status for barrel tracks | 2025-01-29 09:24:27 | 1 | dff469f9af9f2a8665b7680015402ba4b5e1637b |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13912) | Move XRD debug settings to copy shell command | 2025-01-29 17:56:00 | 1 | 7d4b3dc05325fef68bb47cebe6287627197efc38 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13946) | Fix int8/uint8 type in LinPad2Y for GPUTPCCompressionTrackModel | 2025-02-06 17:19:44 | 1 | 98febeceb294512cf0908995d5627e1c26efdbd6 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13970) | PVfinder can accept AB tracks | 2025-02-17 10:44:58 | 1 | 337a7fc83944e0601b801cf6f55787ba53cef201 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13968) | Modify CA async opts, possible set from config.param | 2025-02-17 21:11:31 | 1 | 539933960ddc70b03b00e254e4250c1c21e70cc6 |
+| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13987) | Fix for PV contributor being AB track | 2025-02-20 16:15:11 | 1 | 5e43c1751bd7e81101cfd8e23275493cbdeabb77 |
+| davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1916) | Add backward-compatibility | 2025-02-22 13:56:17 | 1 | 833ce9102032a650ac16a70907923aecc0b92cdb |
 
 
 ### For label async-2024-PbPb-apass1
@@ -8,12 +40,10 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13975) | Fix mother and daughter indices in generator cocktails | 2025-02-17 20:31:28 | 1 | 2b55eb10a379af76813946ec40846b8c951a4493 |
-| shahor02 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1815) | ccdb-run-dependent metadata should be int | 2024-11-25 15:27:24 | 1 | 52135f58380b5554ce018f1d10849eda3b320eac |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1840) | MCH: add Clusters task in async | 2024-12-07 17:51:10 | 1 | 5569d4f6246ebdb22b15cd98eaed6b8ba001ed8d |
 | knopers8 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1838) | Add run type and beam type metadata for async and MC QC | 2024-12-07 17:53:09 | 1 | a3ab0ee95dda61dbf986a2da992cf88d978fccbf |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
-| mconcas | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1848) | ITS::tracking: stop fatalising job, drop TF instead | 2024-12-13 10:22:14 | 1 | d7f2510e17c5de77e408b40e36a0c95d591e1a0a |
 | aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1858) | anchorMC: documentation | 2024-12-19 14:57:15 | 1 | 42084bc92f3735fc4917b1250cc48d26613496b5 |
 | motomioya | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1820) | Add files to simulate HFs to dimuons with trigger gap | 2024-12-19 14:58:50 | at least 2 | d1b9a1ff3c06b845de27ff06df1daed9997fa9f3 |
@@ -27,7 +57,6 @@
 | jackal1-66 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1866) | Improved hybrid template generator | 2025-01-08 16:42:02 | 1 | 86108d604fd7c97fad59515e0641b3991470832d |
 | mbroz84 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1864) | Other Jpsi decays and trigger for various particles in dpmjet | 2025-01-08 16:42:22 | 1 | c9eea895440f9533d0f7df2c4ca42f74682d2875 |
 | pbuehler | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1868) | Update default settings for Graniitti simulations | 2025-01-09 11:26:13 | 1 | c9321ccfc70e1ebb0e4b40b87934f6ebfcfb07d9 |
-| sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1869) | O2DPG-MC: Possibility to pass additional external user settings | 2025-01-09 14:13:56 | 1 | dd1ded7c40ca188a33b9d498631d2b6167bd7aca |
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1870) | Modify Lnn generator to include Li4 | 2025-01-10 09:11:21 | 1 | 9535629af19aac2a0a6095a0c24e1a24ce61c339 |
 | fgrosa | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1871) | PWGHF: rename config of OmegaC->Omega in OmegaC NoDecay | 2025-01-10 19:17:28 | at least 2 | e40ee48852ec4a75082094b7968f5f49b6601836 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1875) | anchoredMC: Development for 2-tag strategy | 2025-01-14 18:08:08 | 1 | a77ed47a117a140e69c194d45c0ac339dd47facb |
@@ -44,28 +73,8 @@
 
 | Author | Package | PR | PR title | Merged at | #original commits | Merge commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| f3sch | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13148) | SIM: Adding experiment versions and dynamic library loading | 2024-05-28 12:55:21 | at least 2 | be5cdb91997e62878dc2b74ce75f8a3594a6ec95 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13206) | Prevent segfault in GeneratorFromFile | 2024-06-05 18:14:03 | 1 | 8dbd237ff4b28bb31267f97735706c3d3fdb3d72 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13281) | Pythia8 seeding improvements | 2024-07-10 14:17:22 | 1 | 4179712a03b8575fbefcf2cc95e73d5ef32d3945 |
-| ddobrigk | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13287) | Add EP angle to McCollisions for debugging | 2024-07-11 10:21:31 | at least 2 | 07818bf63363dd40607d16d4a0a3e7277da9f077 |
-| matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13345) | TPC: improving simulation of distortions in MC | 2024-08-08 11:02:05 | at least 2 | 91dd4df3c7a3a8b8f7e723b0325d18fa053aedc3 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13430) | o2-sim: Ability to adjust default option values depending on Run5 or not | 2024-08-26 15:53:01 | 1 | a7150e2714f1bb782bd0d8fcb74b795890f1f02c |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13551) | ITS digi: Ability to process events before the first RO | 2024-10-01 14:49:01 | 1 | d9e8f0474b784a01ab70c51c5360f770b1a0fd3e |
 | matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13547) | TPC: Optimising scaling of distortions in MC | 2024-10-02 17:45:54 | 1 | 0a1fe0eb75e68b3f823550f854c785a2e752a1cb |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13555) | AggregatedRunInfo struct proposal | 2024-10-03 14:50:20 | 1 | dbfe3c61771ae1d53da9db6e0c56208a34c42e47 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13560) | Revert "AggregatedRunInfo struct proposal" | 2024-10-03 15:08:29 | 1 | f15bb280744cfd097e46aa1fb43a57905f85f483 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13564) | Fix compilation issue in AggregatedRunInfo | 2024-10-07 14:03:21 | at least 2 | 8a21520efe3449e7d83cf4e3e7bfc1e8e6c8eae4 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13562) | TPC digi: Cut digits arriving before timeframe/readout start | 2024-10-09 17:28:11 | 1 | 81baf9197272761a3228c7cd7ea53f8bb8dc9bdd |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13580) | Improve AggregatedRunInfo: prioritize use of CTP/Calib/FirstRunOrbit | 2024-10-10 13:56:53 | 1 | 9a6e661aa7715d33c17b5a9c98d295bd0043e3ff |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13584) | Ship GRPECS as part of AggregatedRunInfo; cleanup | 2024-10-11 08:41:13 | at least 2 | 1ff58c417622029b5789d1cc696117cb8a78782a |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13586) | AggregatedRunInfo can be requested via GRPGeomHelper + related fixes | 2024-10-12 21:17:50 | at least 2 | b4ffc319d4a46d457769fe69bc1694ac87442b86 |
-| ekryshen | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13590) | Custom orbit shifts for runs <=LHC22m | 2024-10-15 18:20:59 | 1 | 415a7b54fb85b5b324f9eb4ec3727b4c5e513588 |
-| shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13604) | calculate run 1st orbit only when not available from CCDB | 2024-10-19 23:51:43 | 1 | 3d639ddaae0cd073f94265319a17eb5d8db06db7 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13645) | Allow to specify the starting orbit as a fractional value | 2024-11-01 08:53:16 | 1 | 2a20074bb7c9812420361168be79bd0f0cdf4b54 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13239) | Improvements for CollisionContext generation | 2024-11-07 20:44:30 | 1 | 71711a52b76dc181f1b62ac525054246da12d896 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13674) | Digicontext: Several improvements | 2024-11-11 10:55:21 | 1 | adc8cad268949741f71df3e43ab6cfd801a2a562 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13697) | Orbit-early treatment in CollisionContext tool | 2024-11-15 18:07:37 | 1 | 9fa6915dea9e5f948743b41d96b630a25e1db577 |
-| sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13703) | CollisionContextTool: different QED printing | 2024-11-16 17:06:00 | 1 | bcec346566f77dd3b386dc399dcb8e4a8ff6a7ff |
 | matthias-kleiner | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13700) | TPC: adding MC ccdb objects for simulation and reconstruction | 2024-11-20 13:32:18 | 1 | 2de9c5cc217f4c693be87a4ad444bb8dc8616ac6 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
