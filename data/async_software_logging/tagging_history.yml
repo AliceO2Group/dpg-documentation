@@ -2251,6 +2251,12 @@ O2Physics:
   - async-20221212.1-alidist-master
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4:
+  - '1740391980'
+  - UNKNOWN REVISION
+  - async-2023-pp-lowB-apass4
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-20230408.1:
   - '1680937189'
   - UNKNOWN START
@@ -2357,6 +2363,12 @@ O2Physics:
   - '1707320330'
   - UNKNOWN START
   - async-20240207.1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-pp2023-apass4-01:
+  - '1741088902'
+  - UNKNOWN REVISION
+  - async-pp2023-apass4-01
   - - NO LABEL
   - UNKNOWN OPERATOR
   async-v1-01-01:
@@ -2798,6 +2810,12 @@ O2Physics:
   - async-v1-02-02
   - async-v1-02-10
   - - async-2024-PbPb-apass1
+  - Alberto Caliva
+  async-v1-03-01:
+  - '1741094427'
+  - async-pp2023-apass4-01
+  - async-v1-03-01
+  - - async-2023-pp-apass4
   - Alberto Caliva
 QualityControl:
   async-20221209.1-alidist-master:
