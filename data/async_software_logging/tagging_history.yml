@@ -2812,6 +2812,18 @@ QualityControl:
   - async-20221212.1-alidist-master
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4:
+  - '1740392009'
+  - UNKNOWN REVISION
+  - async-2023-pp-lowB-apass4
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-pp2023-apass4-01:
+  - '1741088975'
+  - UNKNOWN REVISION
+  - async-pp2023-apass4-01
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-v1-01-01:
   - '1714727541'
   - UNKNOWN START
@@ -3251,4 +3263,10 @@ QualityControl:
   - async-v1-02-02
   - async-v1-02-10
   - - async-2024-PbPb-apass1
+  - Alberto Caliva
+  async-v1-03-01:
+  - '1741094425'
+  - async-pp2023-apass4-01
+  - async-v1-03-01
+  - - async-2023-pp-apass4
   - Alberto Caliva
