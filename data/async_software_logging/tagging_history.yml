@@ -59,6 +59,12 @@ AliceO2:
   - async-20221212.1-alidist-master
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4:
+  - '1740391965'
+  - UNKNOWN REVISION
+  - async-2023-pp-lowB-apass4
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-20230215.1:
   - '1676447865'
   - UNKNOWN START
@@ -678,6 +684,12 @@ AliceO2:
   - async-9d6ad9e180c0502f08df04b03af186ec30a79098-alidist-master
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-pp2023-apass4-01:
+  - '1741094258'
+  - UNKNOWN REVISION
+  - async-pp2023-apass4-01
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-v1-01-01:
   - '1714769241'
   - UNKNOWN START
@@ -1117,6 +1129,12 @@ AliceO2:
   - async-v1-02-02
   - async-v1-02-10
   - - async-2024-PbPb-apass1
+  - Alberto Caliva
+  async-v1-03-01:
+  - '1741094420'
+  - async-pp2023-apass4-01
+  - async-v1-03-01
+  - - async-2023-pp-apass4
   - Alberto Caliva
 O2DPG:
   async-2022-apass4-pp-mc.1:
