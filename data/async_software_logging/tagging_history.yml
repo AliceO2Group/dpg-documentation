@@ -3306,3 +3306,9 @@ QualityControl:
   - async-v1-03-01
   - - async-2023-pp-apass4
   - Alberto Caliva
+  async-v1-03-02:
+  - '1741163074'
+  - async-pp2023-apass4-01
+  - async-v1-03-02
+  - - async-2023-pp-apass4
+  - Alberto Caliva
