@@ -1,4 +1,4 @@
-# List PRs in state MERGED (from oldest to recent per package), last update: 2025-02-25 13:25 
+# List PRs in state MERGED (from oldest to recent per package), last update: 2025-03-05 13:22 
 
 
 ### For label async-2024-PbPb-apass2
@@ -10,11 +10,18 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13900) | Push CTF/SELIRFRAMES/0 even if run was not matched | 2025-01-26 20:27:10 | 1 | d26f229e99ae557143abc674d5a76516b9b8d009 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13909) | Fix fake/correct status for barrel tracks | 2025-01-29 09:24:27 | 1 | dff469f9af9f2a8665b7680015402ba4b5e1637b |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13912) | Move XRD debug settings to copy shell command | 2025-01-29 17:56:00 | 1 | 7d4b3dc05325fef68bb47cebe6287627197efc38 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13927) | MCH: cosmetic changes to detector mapping | 2025-02-04 01:45:54 | 1 | 2b593a24c48ecadacaf4376cdd1c411e0ebc5ecd |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13946) | Fix int8/uint8 type in LinPad2Y for GPUTPCCompressionTrackModel | 2025-02-06 17:19:44 | 1 | 98febeceb294512cf0908995d5627e1c26efdbd6 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13970) | PVfinder can accept AB tracks | 2025-02-17 10:44:58 | 1 | 337a7fc83944e0601b801cf6f55787ba53cef201 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13968) | Modify CA async opts, possible set from config.param | 2025-02-17 21:11:31 | 1 | 539933960ddc70b03b00e254e4250c1c21e70cc6 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13987) | Fix for PV contributor being AB track | 2025-02-20 16:15:11 | 1 | 5e43c1751bd7e81101cfd8e23275493cbdeabb77 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13996) | MCH: fixes to the ST1 pads mapping | 2025-02-25 23:39:46 | 1 | 13082a5398911cedb19bb084faa9f02699c99ca7 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13938) | MCH: fixes to the ST2 pads mapping | 2025-02-25 23:40:18 | 1 | 930d71c7dfe23e31690f098355559cf53163529a |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13924) | MCH: introduce digit modifier in filtering workflow | 2025-02-25 23:41:13 | at least 2 | 7f30b03c0e393cfe48e0dd2fd399d9cf66437d58 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13921) | MCH: fix for the DE600 electronics mapping | 2025-02-25 23:41:31 | 1 | ac4411206217e01c803c0f4877f4c644fd408f95 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/14006) | MCH: enable mapping fixes in ASYNC mode | 2025-02-28 16:28:30 | 1 | 5cecce865b06547ec792c39bf0222d6476bb0798 |
 | davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1916) | Add backward-compatibility | 2025-02-22 13:56:17 | 1 | 833ce9102032a650ac16a70907923aecc0b92cdb |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1926) | PC: Add possibility to set cluster mask for dE/dx | 2025-03-05 08:57:34 | 1 | c362f76ddcd001964c80487f497570ef39422407 |
 
 
 ### For label async-2023-PbPb-apass5
@@ -26,11 +33,18 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13900) | Push CTF/SELIRFRAMES/0 even if run was not matched | 2025-01-26 20:27:10 | 1 | d26f229e99ae557143abc674d5a76516b9b8d009 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13909) | Fix fake/correct status for barrel tracks | 2025-01-29 09:24:27 | 1 | dff469f9af9f2a8665b7680015402ba4b5e1637b |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13912) | Move XRD debug settings to copy shell command | 2025-01-29 17:56:00 | 1 | 7d4b3dc05325fef68bb47cebe6287627197efc38 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13927) | MCH: cosmetic changes to detector mapping | 2025-02-04 01:45:54 | 1 | 2b593a24c48ecadacaf4376cdd1c411e0ebc5ecd |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13946) | Fix int8/uint8 type in LinPad2Y for GPUTPCCompressionTrackModel | 2025-02-06 17:19:44 | 1 | 98febeceb294512cf0908995d5627e1c26efdbd6 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13970) | PVfinder can accept AB tracks | 2025-02-17 10:44:58 | 1 | 337a7fc83944e0601b801cf6f55787ba53cef201 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13968) | Modify CA async opts, possible set from config.param | 2025-02-17 21:11:31 | 1 | 539933960ddc70b03b00e254e4250c1c21e70cc6 |
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13987) | Fix for PV contributor being AB track | 2025-02-20 16:15:11 | 1 | 5e43c1751bd7e81101cfd8e23275493cbdeabb77 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13996) | MCH: fixes to the ST1 pads mapping | 2025-02-25 23:39:46 | 1 | 13082a5398911cedb19bb084faa9f02699c99ca7 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13938) | MCH: fixes to the ST2 pads mapping | 2025-02-25 23:40:18 | 1 | 930d71c7dfe23e31690f098355559cf53163529a |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13924) | MCH: introduce digit modifier in filtering workflow | 2025-02-25 23:41:13 | at least 2 | 7f30b03c0e393cfe48e0dd2fd399d9cf66437d58 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13921) | MCH: fix for the DE600 electronics mapping | 2025-02-25 23:41:31 | 1 | ac4411206217e01c803c0f4877f4c644fd408f95 |
+| aferrero2707 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/14006) | MCH: enable mapping fixes in ASYNC mode | 2025-02-28 16:28:30 | 1 | 5cecce865b06547ec792c39bf0222d6476bb0798 |
 | davidrohr | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1916) | Add backward-compatibility | 2025-02-22 13:56:17 | 1 | 833ce9102032a650ac16a70907923aecc0b92cdb |
+| wiechula | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1926) | PC: Add possibility to set cluster mask for dE/dx | 2025-03-05 08:57:34 | 1 | c362f76ddcd001964c80487f497570ef39422407 |
 
 
 ### For label async-2024-PbPb-apass1
@@ -40,11 +54,8 @@
 | shahor02 | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13942) | aod-merger treats Zombie files like missing ones | 2025-02-05 17:50:23 | 1 | de69487869f849697e7f0cac1cfd36750ccb9f17 |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13955) | PrimaryGen: More consistent vertex configuration | 2025-02-11 15:08:15 | 1 | cf85a4c5384344ac867b5b560197e5afeff65b7e |
 | sawenzel | AliceO2 | [PR](https://github.com/AliceO2Group/AliceO2/pull/13975) | Fix mother and daughter indices in generator cocktails | 2025-02-17 20:31:28 | 1 | 2b55eb10a379af76813946ec40846b8c951a4493 |
-| aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1824) | MUON: added MW objects to MCH and MUON tracks tasks | 2024-12-03 11:14:53 | 1 | 032309900689dfa585debc2a5bfa85c498b3055e |
-| aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1840) | MCH: add Clusters task in async | 2024-12-07 17:51:10 | 1 | 5569d4f6246ebdb22b15cd98eaed6b8ba001ed8d |
 | knopers8 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1838) | Add run type and beam type metadata for async and MC QC | 2024-12-07 17:53:09 | 1 | a3ab0ee95dda61dbf986a2da992cf88d978fccbf |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1790) | Significant MC Workflow restructuring | 2024-12-12 10:06:57 | at least 2 | dbbf327cae5defdf3a3d9cfe05717aafdcc125e4 |
-| aferrero2707 | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1847) | MCH: add ClustersPerDualSampa plot to moving windows | 2024-12-16 16:08:25 | 1 | be98ad850cb6266b534fac8982766735ac8ddd32 |
 | sawenzel | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1858) | anchorMC: documentation | 2024-12-19 14:57:15 | 1 | 42084bc92f3735fc4917b1250cc48d26613496b5 |
 | motomioya | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1820) | Add files to simulate HFs to dimuons with trigger gap | 2024-12-19 14:58:50 | at least 2 | d1b9a1ff3c06b845de27ff06df1daed9997fa9f3 |
 | mpuccio | O2DPG | [PR](https://github.com/AliceO2Group/O2DPG/pull/1859) | Fix injection gap math | 2024-12-20 14:13:35 | at least 2 | c23cfd2861a648e0a5fb4c0439aa885ff26ee727 |
