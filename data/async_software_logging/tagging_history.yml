@@ -690,6 +690,12 @@ AliceO2:
   - async-pp2023-apass4-01
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-pp2023-apass4-02:
+  - '1741162903'
+  - UNKNOWN REVISION
+  - async-pp2023-apass4-02
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-v1-01-01:
   - '1714769241'
   - UNKNOWN START
@@ -1134,6 +1140,12 @@ AliceO2:
   - '1741094420'
   - async-pp2023-apass4-01
   - async-v1-03-01
+  - - async-2023-pp-apass4
+  - Alberto Caliva
+  async-v1-03-02:
+  - '1741163070'
+  - async-pp2023-apass4-02
+  - async-v1-03-02
   - - async-2023-pp-apass4
   - Alberto Caliva
 O2DPG:
