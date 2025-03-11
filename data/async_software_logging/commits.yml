@@ -1844,6 +1844,14 @@ AliceO2:
     - '1722152007'
     - '1730651198'
     - '1730988447'
+  fc1fd7b0174cb3821c8c9616474e696f0cd30dde:
+  - '1741724911'
+  - fc1fd7b0174cb3821c8c9616474e696f0cd30dde
+  - Fix scaling ITS CA tracker params for low Bfield
+  - - async-2023-pp-lowB-apass4-v1
+  - - async-2023-pp-apass4
+  - - Alberto Caliva
+  - - '1741724911'
   fe41d60879d1f212f50a6d314efe6a40b7064f06:
   - '1715850198'
   - fe41d60879d1f212f50a6d314efe6a40b7064f06

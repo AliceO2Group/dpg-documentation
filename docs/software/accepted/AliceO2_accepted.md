@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [Fix scaling ITS CA tracker params for low Bfield](https://github.com/AliceO2Group/AliceO2/commit/fc1fd7b0174cb3821c8c9616474e696f0cd30dde) | [async-2023-pp-lowB-apass4-v1](https://github.com/AliceO2Group/AliceO2/tree/async-2023-pp-lowB-apass4-v1) (async-2023-pp-apass4, 2025-03-11 21:28, Alberto Caliva) |
 | [Fix fake/correct status for barrel tracks](https://github.com/AliceO2Group/AliceO2/commit/dff469f9af9f2a8665b7680015402ba4b5e1637b) | [async-v1-01-28](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-28) (async-2023-pbpb-apass4, 2025-02-18 10:35, Alberto Caliva) |
 | [aod-merger treats Zombie files like missing ones](https://github.com/AliceO2Group/AliceO2/commit/de69487869f849697e7f0cac1cfd36750ccb9f17) | [async-v1-01-11f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva) |
 | [PrimaryGen: More consistent vertex configuration](https://github.com/AliceO2Group/AliceO2/commit/cf85a4c5384344ac867b5b560197e5afeff65b7e) | [async-v1-01-11f](https://github.com/AliceO2Group/AliceO2/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva)<br>[async-v1-02-10](https://github.com/AliceO2Group/AliceO2/tree/async-v1-02-10) (async-2024-PbPb-apass1, 2025-02-17 15:51, Alberto Caliva) |

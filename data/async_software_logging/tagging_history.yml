@@ -65,6 +65,12 @@ AliceO2:
   - async-2023-pp-lowB-apass4
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4-v1:
+  - '1741724911'
+  - async-2023-pp-lowB-apass4
+  - async-2023-pp-lowB-apass4-v1
+  - - async-2023-pp-apass4
+  - Alberto Caliva
   async-20230215.1:
   - '1676447865'
   - UNKNOWN START
