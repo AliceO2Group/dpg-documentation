@@ -2872,6 +2872,12 @@ QualityControl:
   - async-2023-pp-lowB-apass4
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4-v1:
+  - '1741724916'
+  - async-2023-pp-lowB-apass4
+  - async-2023-pp-lowB-apass4-v1
+  - - async-2023-pp-apass4
+  - Alberto Caliva
   async-pp2023-apass4-01:
   - '1741088975'
   - UNKNOWN REVISION
