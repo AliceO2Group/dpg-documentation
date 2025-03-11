@@ -1154,6 +1154,12 @@ AliceO2:
   - async-v1-03-02
   - - async-2023-pp-apass4
   - Alberto Caliva
+  async-v1-03-03:
+  - '1741731535'
+  - async-2023-pp-lowB-apass4
+  - async-v1-03-03
+  - - async-2023-pp-apass4
+  - Alberto Caliva
 O2DPG:
   async-2022-apass4-pp-mc.1:
   - '1702312795'
