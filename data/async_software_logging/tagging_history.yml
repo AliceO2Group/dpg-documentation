@@ -1215,6 +1215,12 @@ O2DPG:
   - async-2023-pp-lowB-apass4
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-lowB-apass4-v1:
+  - '1741724913'
+  - async-2023-pp-lowB-apass4
+  - async-2023-pp-lowB-apass4-v1
+  - - async-2023-pp-apass4
+  - Alberto Caliva
   async-20230216.1:
   - '1676555344'
   - UNKNOWN START
