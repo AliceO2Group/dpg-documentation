@@ -3332,6 +3332,14 @@ O2DPG:
     - '1721469083'
     - '1730651200'
     - '1730988449'
+  6b464adad932edd3071c9da6299f589162ae5d81:
+  - '1745939485'
+  - 6b464adad932edd3071c9da6299f589162ae5d81
+  - 'workflow-multiplicities 4gpu pbpb: increase aod producer multiplicity'
+  - - async-2023-PbPb-apass5-v5
+  - - async-2023-pbpb-apass5
+  - - Alberto Caliva
+  - - '1745939485'
   6c0023e26a2994f74220aeeb91259882253a5b24:
   - '1737579052'
   - 6c0023e26a2994f74220aeeb91259882253a5b24

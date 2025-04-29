@@ -2,6 +2,7 @@
 
 | Commit subject | Tags first seen / associated labels |
 | --- | --- |
+| [workflow-multiplicities 4gpu pbpb: increase aod producer multiplicity](https://github.com/AliceO2Group/O2DPG/commit/6b464adad932edd3071c9da6299f589162ae5d81) | [async-2023-PbPb-apass5-v5](https://github.com/AliceO2Group/O2DPG/tree/async-2023-PbPb-apass5-v5) (async-2023-pbpb-apass5, 2025-04-29 17:11, Alberto Caliva) |
 | [Improvements in generator vertexing](https://github.com/AliceO2Group/O2DPG/commit/734062620bce450897ba470b17fd79ace814949b) | [async-v1-01-11f](https://github.com/AliceO2Group/O2DPG/tree/async-v1-01-11f) (async-2024-pp-apass1, 2025-02-12 19:03, Alberto Caliva) |
 | [Fix unit problem determining orbit for exclusion](https://github.com/AliceO2Group/O2DPG/commit/25f5757423e1533de374850800055f221f3112c4) | [async-v1-02-09](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-09) (NO LABEL, 2025-02-04 17:18, UNKNOWN OPERATOR)<br>[async-v1-02-10](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-10) (async-2024-PbPb-apass1, 2025-02-17 15:51, Alberto Caliva) |
 | [Two improvements for the MC anchoring service](https://github.com/AliceO2Group/O2DPG/commit/228739a9e37db4e33cc6446c1f13472b65a5e5b9) | [async-v1-02-08](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-08) (async-2024-PbPb-apass1, 2025-02-03 14:07, Alberto Caliva)<br>[async-v1-02-09](https://github.com/AliceO2Group/O2DPG/tree/async-v1-02-09) (NO LABEL, 2025-02-04 17:18, UNKNOWN OPERATOR) |
