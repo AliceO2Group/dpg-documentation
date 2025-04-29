@@ -2974,6 +2974,36 @@ QualityControl:
   - async-20221212.1-alidist-master
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-PbPb-apass5-v1:
+  - '1744011446'
+  - UNKNOWN REVISION
+  - async-2023-PbPb-apass5-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2023-PbPb-apass5-v2:
+  - '1745565752'
+  - UNKNOWN REVISION
+  - async-2023-PbPb-apass5-v2
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2023-PbPb-apass5-v4:
+  - '1745606298'
+  - UNKNOWN REVISION
+  - async-2023-PbPb-apass5-v4
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2023-PbPb-apass5-v5:
+  - '1745939488'
+  - async-2023-PbPb-apass5-v4
+  - async-2023-PbPb-apass5-v5
+  - - async-2023-pbpb-apass5
+  - Alberto Caliva
+  async-2023-pbpb-apass5-2024-pbpb-apass2-v1:
+  - '1741947660'
+  - UNKNOWN REVISION
+  - async-2023-pbpb-apass5-2024-pbpb-apass2-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-2023-pp-lowB-apass4:
   - '1740392009'
   - UNKNOWN REVISION
@@ -2986,6 +3016,12 @@ QualityControl:
   - async-2023-pp-lowB-apass4-v1
   - - async-2023-pp-apass4
   - Alberto Caliva
+  async-2023-pp-lowB-apass5-v1:
+  - '1743069723'
+  - UNKNOWN REVISION
+  - async-2023-pp-lowB-apass5-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-pp2023-apass4-01:
   - '1741088975'
   - UNKNOWN REVISION
