@@ -3106,6 +3106,12 @@ QualityControl:
   - async-2023-pbpb-apass5-2024-pbpb-apass2-v1
   - - NO LABEL
   - UNKNOWN OPERATOR
+  async-2023-pp-apass4-HFenriched-v1:
+  - '1746770814'
+  - UNKNOWN REVISION
+  - async-2023-pp-apass4-HFenriched-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
   async-2023-pp-lowB-apass4:
   - '1740392009'
   - UNKNOWN REVISION
@@ -3122,6 +3128,30 @@ QualityControl:
   - '1743069723'
   - UNKNOWN REVISION
   - async-2023-pp-lowB-apass5-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2024-ppRef-apass1:
+  - '1748959234'
+  - UNKNOWN REVISION
+  - async-2024-ppRef-apass1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2024-ppRef-apass1-v1:
+  - '1748961868'
+  - UNKNOWN REVISION
+  - async-2024-ppRef-apass1-v1
+  - - NO LABEL
+  - UNKNOWN OPERATOR
+  async-2024-ppRef-apass1-v2:
+  - '1749320562'
+  - async-2024-ppRef-apass1-v1
+  - async-2024-ppRef-apass1-v2
+  - - async-2024-ppRef-apass1
+  - Alberto Caliva
+  async-2025-pp-apass1-v1:
+  - '1746368595'
+  - UNKNOWN REVISION
+  - async-2025-pp-apass1-v1
   - - NO LABEL
   - UNKNOWN OPERATOR
   async-pp2023-apass4-01:
