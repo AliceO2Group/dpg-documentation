@@ -5,12 +5,16 @@ AliceO2:
   - Revert "fix in track propagation to TOF for MC (#13784)"
   - - async-v1-02-02
     - async-v1-02-04
+    - async-2024-ppRef-apass1-v2
   - - NO LABEL
     - async-2024-PbPb-apass1
+    - async-2024-ppRef-apass1
   - - UNKNOWN OPERATOR
+    - Alberto Caliva
     - Alberto Caliva
   - - '1734620545'
     - '1737475492'
+    - '1749320557'
   03cc6abe235478cb1b4d987d70b778f4362a9ba7:
   - '1737148539'
   - 03cc6abe235478cb1b4d987d70b778f4362a9ba7
@@ -213,12 +217,16 @@ AliceO2:
   - 'DigitizationContext: Prevent a segfault in QED filling'
   - - async-v1-02-07
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1738096676'
     - '1738685916'
+    - '1749320557'
   175e6acf280bcc5d1eaedfea6f19c8bd20829447:
   - '1722269586'
   - 175e6acf280bcc5d1eaedfea6f19c8bd20829447
@@ -610,12 +618,16 @@ AliceO2:
   - Check presence of hit files before adding to TChain
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   433dad6c3c2cfd9fdcbbf9401c690d7e5d79bfe6:
   - '1715850198'
   - 433dad6c3c2cfd9fdcbbf9401c690d7e5d79bfe6
@@ -662,12 +674,16 @@ AliceO2:
   - 'DPL: fix small leak when receiving WS messages from the driver (#13871)'
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   54663de160e824b4a17f77a028a73966b4572e63:
   - '1715850198'
   - 54663de160e824b4a17f77a028a73966b4572e63
@@ -760,6 +776,14 @@ AliceO2:
   - - async-2024-pp-apass1
   - - Alberto Caliva
   - - '1738334293'
+  689970d53e9172450ec9ee1b0c14e125df741e8a:
+  - '1749320557'
+  - 689970d53e9172450ec9ee1b0c14e125df741e8a
+  - '[EMCAL-539] Fix in trigger simulation to not accept every event as MB'
+  - - async-2024-ppRef-apass1-v2
+  - - async-2024-ppRef-apass1
+  - - Alberto Caliva
+  - - '1749320557'
   6b8ca303d7107dc76fcd6492dd3f8da612ae4a69:
   - '1732117472'
   - 6b8ca303d7107dc76fcd6492dd3f8da612ae4a69
@@ -850,12 +874,16 @@ AliceO2:
   - Protection against null CTPClass::descriptor in CTP digitizer
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   78e868c40c6d870969ec0562d81c1599048addc2:
   - '1715850198'
   - 78e868c40c6d870969ec0562d81c1599048addc2
@@ -947,15 +975,19 @@ AliceO2:
   - - async-v1-02-04
     - async-v1-01-11c
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - async-2024-pp-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738334293'
     - '1738685916'
+    - '1749320557'
   7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e:
   - '1738334293'
   - 7f54d8fcd98d3bf73b4d325477b8701c4fe6b99e
@@ -1002,12 +1034,16 @@ AliceO2:
   - Fix for subjob spawning with FIFOs
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   877eba6e317acc2675671c22fdd97126494ecd59:
   - '1717667967'
   - 877eba6e317acc2675671c22fdd97126494ecd59
@@ -1143,15 +1179,19 @@ AliceO2:
   - - async-v1-02-04
     - async-v1-01-11c
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - async-2024-pp-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738334293'
     - '1738685916'
+    - '1749320557'
   989671a4c4a1419244c96779edcf971dd7791a5e:
   - '1715850198'
   - 989671a4c4a1419244c96779edcf971dd7791a5e
@@ -1190,12 +1230,16 @@ AliceO2:
   - Fix the decay branch ratio of antihyperhelium4sigma
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   9fa6915dea9e5f948743b41d96b630a25e1db577:
   - '1738346437'
   - 9fa6915dea9e5f948743b41d96b630a25e1db577
@@ -1515,15 +1559,19 @@ AliceO2:
   - - async-v1-02-04
     - async-v1-01-11c
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - async-2024-pp-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738334293'
     - '1738685916'
+    - '1749320557'
   c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2:
   - '1737475492'
   - c68ddc8a0e4e313bdbd21c79b214e6f4c1ef9ad2
@@ -1531,15 +1579,19 @@ AliceO2:
   - - async-v1-02-04
     - async-v1-01-11c
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - async-2024-pp-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738334293'
     - '1738685916'
+    - '1749320557'
   c7c9f5464919fe5890a96cfff985ce66ccabbc75:
   - '1734703363'
   - c7c9f5464919fe5890a96cfff985ce66ccabbc75
@@ -1614,12 +1666,20 @@ AliceO2:
   - 'PrimaryGen: More consistent vertex configuration'
   - - async-v1-01-11f
     - async-v1-02-10
+    - async-2024-ppRef-apass1
+    - async-2024-ppRef-apass1-v2
   - - async-2024-pp-apass1
     - async-2024-PbPb-apass1
+    - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
+    - Alberto Caliva
+    - UNKNOWN OPERATOR
     - Alberto Caliva
   - - '1739383423'
     - '1739803885'
+    - '1748959212'
+    - '1749320557'
   d4172698cb6c3bc1fc065495f31a160e5809303f:
   - '1715850198'
   - d4172698cb6c3bc1fc065495f31a160e5809303f
@@ -1806,12 +1866,16 @@ AliceO2:
   - 'Ctpdev: irframes (#13835)'
   - - async-v1-02-04
     - async-v1-02-09
+    - async-2024-ppRef-apass1-v2
   - - async-2024-PbPb-apass1
     - NO LABEL
+    - async-2024-ppRef-apass1
   - - Alberto Caliva
     - UNKNOWN OPERATOR
+    - Alberto Caliva
   - - '1737475492'
     - '1738685916'
+    - '1749320557'
   fba0d4fca744c4935c7257f1d794dc00561f1a6a:
   - '1720782516'
   - fba0d4fca744c4935c7257f1d794dc00561f1a6a
